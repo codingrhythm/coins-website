@@ -1,0 +1,258 @@
+{
+  "en": [
+    {
+      "icon": "zap",
+      "title": "Fast & Easy Expense Tracking",
+      "description": "Log expenses or income in seconds. Just enter an amount—no complicated setup. Built-in calculator makes it easy to add up receipts on the fly."
+    },
+    {
+      "icon": "layout-dashboard",
+      "title": "Beautiful Home Screen Widgets",
+      "description": "Stay on top of your finances at a glance with stunning widgets right on your home screen. See your budget progress and recent spending without opening the app."
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "Beautiful Budget Reports",
+      "description": "See your spending at a glance with clear, insightful charts. Set monthly budgets and get alerts before overspending."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Smart Transaction Suggestions",
+      "description": "Coins remembers your frequent transactions so you can add new ones with just two taps."
+    },
+    {
+      "icon": "smartphone",
+      "title": "iOS Shortcuts Integration",
+      "description": "Automate your money tracking! Use the Shortcuts app to add expenses or income hands-free—perfect for quick logging with Siri or custom workflows."
+    },
+    {
+      "icon": "shield-check",
+      "title": "iCloud Sync & Privacy",
+      "description": "Access your data seamlessly across iPhone and iPad. Your data stays on your device and your iCloud—always private, always secure. Add a PIN for extra protection."
+    }
+  ],
+  "de": [
+    {
+      "icon": "zap",
+      "title": "Schnelles & Einfaches Ausgaben-Tracking",
+      "description": "Erfasse Ausgaben oder Einnahmen in Sekunden. Einfach einen Betrag eingeben – ganz ohne komplizierte Einrichtung. Integrierter Taschenrechner macht es einfach, Belege unterwegs zusammenzurechnen."
+    },
+    {
+      "icon": "layout-dashboard",
+      "title": "Wunderschöne Homescreen-Widgets",
+      "description": "Behalte deine Finanzen mit eleganten Widgets direkt auf deinem Homescreen im Blick. Sieh deinen Budgetfortschritt und aktuelle Ausgaben, ohne die App zu öffnen."
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "Schöne Budgetberichte",
+      "description": "Sieh deine Ausgaben auf einen Blick mit klaren, aussagekräftigen Diagrammen. Lege Monatsbudgets fest und erhalte Warnungen, bevor du zu viel ausgibst."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Intelligente Transaktionsvorschläge",
+      "description": "Coins merkt sich deine häufigen Transaktionen, sodass du neue mit nur zwei Fingertipps hinzufügen kannst."
+    },
+    {
+      "icon": "smartphone",
+      "title": "Integration mit iOS-Kurzbefehlen",
+      "description": "Automatisiere dein Finanz-Tracking! Nutze die Kurzbefehle-App, um Ausgaben oder Einnahmen freihändig hinzuzufügen – perfekt für schnelles Erfassen mit Siri oder individuellen Workflows."
+    },
+    {
+      "icon": "shield-check",
+      "title": "iCloud-Synchronisierung & Datenschutz",
+      "description": "Greife nahtlos auf deine Daten über iPhone und iPad zu. Deine Daten bleiben auf deinem Gerät und in deiner iCloud—immer privat, immer sicher. Für zusätzlichen Schutz kannst du eine PIN hinzufügen."
+    }
+  ],
+  "fr": [
+    {
+      "icon": "zap",
+      "title": "Suivi rapide et facile des dépenses",
+      "description": "Enregistrez vos dépenses ou revenus en quelques secondes. Il suffit de saisir un montant — aucune configuration compliquée. Calculatrice intégrée pour additionner facilement vos reçus à la volée."
+    },
+    {
+      "icon": "layout-dashboard",
+      "title": "Magnifiques widgets d'écran d'accueil",
+      "description": "Gardez un œil sur vos finances avec de superbes widgets directement sur votre écran d'accueil. Voyez votre progression budgétaire et vos dépenses récentes sans ouvrir l'application."
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "Magnifiques rapports de budget",
+      "description": "Visualisez vos dépenses d'un coup d'œil avec des graphiques clairs et informatifs. Définissez des budgets mensuels et recevez des alertes avant de dépasser."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Suggestions intelligentes de transactions",
+      "description": "Coins se souvient de vos transactions fréquentes pour que vous puissiez en ajouter de nouvelles en seulement deux touches."
+    },
+    {
+      "icon": "smartphone",
+      "title": "Intégration avec les Raccourcis iOS",
+      "description": "Automatisez votre suivi financier ! Utilisez l'application Raccourcis pour ajouter des dépenses ou revenus en mode mains libres — parfait pour un enregistrement rapide avec Siri ou des flux de travail personnalisés."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Synchronisation iCloud & Confidentialité",
+      "description": "Accédez à vos données de manière transparente sur iPhone et iPad. Vos données restent sur votre appareil et votre iCloud—toujours privé, toujours sécurisé. Ajoutez un code PIN pour une protection supplémentaire."
+    }
+  ],
+  "es": [
+    {
+      "icon": "zap",
+      "title": "Seguimiento Rápido y Fácil de Gastos",
+      "description": "Registra gastos o ingresos en segundos. Solo ingresa una cantidad—sin configuración complicada. Calculadora integrada que facilita sumar recibos al instante."
+    },
+    {
+      "icon": "layout-dashboard",
+      "title": "Hermosos Widgets de Pantalla de Inicio",
+      "description": "Mantén el control de tus finanzas de un vistazo con hermosos widgets en tu pantalla de inicio. Ve el progreso de tu presupuesto y gastos recientes sin abrir la app."
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "Hermosos Reportes de Presupuesto",
+      "description": "Ve tus gastos de un vistazo con gráficos claros y perspicaces. Establece presupuestos mensuales y recibe alertas antes de gastar de más."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Sugerencias Inteligentes de Transacciones",
+      "description": "Coins recuerda tus transacciones frecuentes para que puedas agregar nuevas con solo dos toques."
+    },
+    {
+      "icon": "smartphone",
+      "title": "Integración con Atajos de iOS",
+      "description": "¡Automatiza el seguimiento de tu dinero! Usa la aplicación Atajos para agregar gastos o ingresos sin usar las manos—perfecto para registro rápido con Siri o flujos de trabajo personalizados."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Sincronización iCloud & Privacidad",
+      "description": "Accede a tus datos sin problemas en iPhone y iPad. Tus datos permanecen en tu dispositivo y tu iCloud—siempre privado, siempre seguro. Agrega un PIN para protección extra."
+    }
+  ],
+  "it": [
+    {
+      "icon": "zap",
+      "title": "Tracciamento Spese Veloce e Facile",
+      "description": "Registra spese o entrate in pochi secondi. Basta inserire un importo—nessuna configurazione complicata. Calcolatrice integrata che rende facile sommare gli scontrini al volo."
+    },
+    {
+      "icon": "layout-dashboard",
+      "title": "Splendidi Widget per la Schermata Iniziale",
+      "description": "Tieni sotto controllo le tue finanze a colpo d'occhio con splendidi widget direttamente sulla schermata iniziale. Visualizza i progressi del budget e le spese recenti senza aprire l'app."
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "Bellissimi Report di Budget",
+      "description": "Visualizza le tue spese a colpo d'occhio con grafici chiari e perspicaci. Imposta budget mensili e ricevi avvisi prima di spendere troppo."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Suggerimenti Intelligenti per le Transazioni",
+      "description": "Coins ricorda le tue transazioni frequenti così puoi aggiungerne di nuove con solo due tocchi."
+    },
+    {
+      "icon": "smartphone",
+      "title": "Integrazione con Scorciatoie iOS",
+      "description": "Automatizza il tracciamento del denaro! Usa l'app Scorciatoie per aggiungere spese o entrate a mani libere—perfetto per registrazioni rapide con Siri o flussi di lavoro personalizzati."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Sincronizzazione iCloud & Privacy",
+      "description": "Accedi ai tuoi dati senza problemi su iPhone e iPad. I tuoi dati rimangono sul tuo dispositivo e sul tuo iCloud—sempre privato, sempre sicuro. Aggiungi un PIN per una protezione extra."
+    }
+  ],
+  "ja": [
+    {
+      "icon": "zap",
+      "title": "かんたん支出・収入入力",
+      "description": "数秒で記録完了。金額を入力するだけ、複雑な設定は不要です。内蔵の電卓で、レシートの計算も簡単にできます。"
+    },
+    {
+      "icon": "layout-dashboard",
+      "title": "美しいホーム画面ウィジェット",
+      "description": "ホーム画面から予算の進捗と最近の支出を一目で確認。アプリを開く必要はありません。"
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "美しい予算レポート",
+      "description": "見やすいチャートで支出を一目で把握。月ごとの予算を設定し、使いすぎる前に通知。"
+    },
+    {
+      "icon": "lightbulb",
+      "title": "スマートな入力候補",
+      "description": "よく使う取引を記憶し、ワンタップで素早く追加できます。"
+    },
+    {
+      "icon": "smartphone",
+      "title": "iOSショートカット対応",
+      "description": "自動化でさらに便利！Siri やワークフローを使って、アプリを開かずに収支を追加。"
+    },
+    {
+      "icon": "shield-check",
+      "title": "iCloud同期とプライバシー",
+      "description": "iPhone と iPad でデータをシームレスに共有。データは端末と iCloud のみ保存され、常に安全です。PIN・Face ID・Touch ID に対応。"
+    }
+  ],
+  "zh-Hans": [
+    {
+      "icon": "zap",
+      "title": "极简操作",
+      "description": "只需输入一个数字就能完成记账，所有操作都在一个界面完成。内置计算器，轻松计算收据总额。"
+    },
+    {
+      "icon": "layout-dashboard",
+      "title": "精美的主屏幕小组件",
+      "description": "无需打开应用，就能在主屏幕一眼查看预算进度和最近支出。"
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "智能报表",
+      "description": "用精美图表清晰展示收支情况。设置月预算，接近超支时即时提醒。"
+    },
+    {
+      "icon": "lightbulb",
+      "title": "智能推荐",
+      "description": "可记会记住你的常用支出，只需轻轻一点即可快速记录。"
+    },
+    {
+      "icon": "smartphone",
+      "title": "快捷指令集成",
+      "description": "支持 iOS 快捷指令与 Siri，无需打开应用即可添加收支，轻松实现自动化记账。"
+    },
+    {
+      "icon": "shield-check",
+      "title": "iCloud 云同步与隐私",
+      "description": "在 iPhone 与 iPad 间实时同步数据，随时随地掌握账本。所有数据仅存储在你的设备与 iCloud 中，始终保持私密与安全。支持密码、Touch ID 或 Face ID 加密。"
+    }
+  ],
+  "zh-Hant": [
+    {
+      "icon": "zap",
+      "title": "簡單快速記帳",
+      "description": "只需輸入數字即可完成記帳，所有操作在一個介面完成。內建計算機，輕鬆計算收據總額。"
+    },
+    {
+      "icon": "layout-dashboard",
+      "title": "精美的主畫面小工具",
+      "description": "無需開啟應用程式，就能在主畫面一眼查看預算進度和最近支出。"
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "智能報表",
+      "description": "用精美圖表清晰展示收支情況。設定月預算，接近超支時即時提醒。"
+    },
+    {
+      "icon": "lightbulb",
+      "title": "智能推薦",
+      "description": "Coins 會記住你的常用支出，只需輕輕一點即可快速記錄。"
+    },
+    {
+      "icon": "smartphone",
+      "title": "捷徑整合",
+      "description": "支援 iOS 捷徑與 Siri，無需開啟應用程式即可新增收支，輕鬆實現自動化記帳。"
+    },
+    {
+      "icon": "shield-check",
+      "title": "iCloud 雲端同步與隱私",
+      "description": "在 iPhone 與 iPad 間即時同步資料，隨時隨地掌握帳本。所有資料僅儲存在你的裝置與 iCloud 中，始終保持私密與安全。支援密碼、Touch ID 或 Face ID 加密。"
+    }
+  ]
+}

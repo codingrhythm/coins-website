@@ -1,0 +1,362 @@
+{
+  "en": {
+    "meta": {
+      "title": "Coins - Simple Expense Tracker",
+      "description": "Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iOS."
+    },
+    "nav": {
+      "features": "Features",
+      "reviews": "Reviews",
+      "download": "Download"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "Simple, Smart Expense Tracking",
+      "description": "Track your expenses in just 30 seconds a day",
+      "cta": "Download on the App Store",
+      "scroll": "Scroll to explore"
+    },
+    "features": {
+      "heading": "Everything You Need"
+    },
+    "reviews": {
+      "heading": "What People Say"
+    },
+    "footer": {
+      "privacy": "Privacy Policy",
+      "copyright": "© 2026 Coins. All rights reserved."
+    },
+    "transactions": {
+      "coffee": "Coffee", "pizza": "Pizza", "burger": "Burger", "ramen": "Ramen", "bento": "Bento",
+      "salad": "Salad", "dessert": "Dessert", "drinks": "Drinks", "snacks": "Snacks",
+      "metro": "Metro", "taxi": "Taxi", "uber": "Uber", "gas": "Gas", "parking": "Parking",
+      "flight": "Flight", "bikeShare": "Bike Share", "groceries": "Groceries", "clothing": "Clothing",
+      "sneakers": "Sneakers", "cosmetics": "Cosmetics", "backpack": "Backpack", "phoneCase": "Phone Case",
+      "headphones": "Headphones", "movie": "Movie", "games": "Games", "concert": "Concert",
+      "artSupplies": "Art Supplies", "event": "Event", "activities": "Activities", "gym": "Gym",
+      "doctor": "Doctor", "pharmacy": "Pharmacy", "yoga": "Yoga", "haircut": "Haircut",
+      "books": "Books", "notebook": "Notebook", "stationery": "Stationery", "software": "Software",
+      "course": "Course", "electricity": "Electricity", "internet": "Internet", "phoneBill": "Phone Bill",
+      "rent": "Rent", "water": "Water", "dogFood": "Dog Food", "catToys": "Cat Toys", "vet": "Vet",
+      "salary": "Salary", "bonus": "Bonus", "freelance": "Freelance", "gift": "Gift",
+      "investment": "Investment", "prize": "Prize", "contract": "Contract", "commission": "Commission",
+      "gifts": "Gifts", "flowers": "Flowers", "laundry": "Laundry", "repairs": "Repairs",
+      "plants": "Plants", "candles": "Candles"
+    }
+  },
+  "de": {
+    "meta": {
+      "title": "Coins - Einfacher Ausgaben-Tracker",
+      "description": "Erfassen Sie Ihre Ausgaben in nur 30 Sekunden am Tag. Schön, einfach und intelligent."
+    },
+    "nav": {
+      "features": "Funktionen",
+      "reviews": "Bewertungen",
+      "download": "Herunterladen"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "Einfaches, Smartes Ausgaben-Tracking",
+      "description": "Erfassen Sie Ihre Ausgaben in nur 30 Sekunden am Tag",
+      "cta": "Im App Store laden",
+      "scroll": "Zum Erkunden scrollen"
+    },
+    "features": {
+      "heading": "Alles, Was Sie Brauchen"
+    },
+    "reviews": {
+      "heading": "Was Nutzer Sagen"
+    },
+    "footer": {
+      "privacy": "Datenschutzrichtlinie",
+      "copyright": "© 2026 Coins. Alle Rechte vorbehalten."
+    },
+    "transactions": {
+      "coffee": "Kaffee", "pizza": "Pizza", "burger": "Burger", "ramen": "Ramen", "bento": "Bento",
+      "salad": "Salat", "dessert": "Dessert", "drinks": "Getränke", "snacks": "Snacks",
+      "metro": "U-Bahn", "taxi": "Taxi", "uber": "Uber", "gas": "Benzin", "parking": "Parkplatz",
+      "flight": "Flug", "bikeShare": "Leihrad", "groceries": "Lebensmittel", "clothing": "Kleidung",
+      "sneakers": "Turnschuhe", "cosmetics": "Kosmetik", "backpack": "Rucksack", "phoneCase": "Handyhülle",
+      "headphones": "Kopfhörer", "movie": "Kino", "games": "Spiele", "concert": "Konzert",
+      "artSupplies": "Kunstbedarf", "event": "Veranstaltung", "activities": "Aktivitäten", "gym": "Fitnessstudio",
+      "doctor": "Arzt", "pharmacy": "Apotheke", "yoga": "Yoga", "haircut": "Haarschnitt",
+      "books": "Bücher", "notebook": "Notizbuch", "stationery": "Schreibwaren", "software": "Software",
+      "course": "Kurs", "electricity": "Strom", "internet": "Internet", "phoneBill": "Telefonrechnung",
+      "rent": "Miete", "water": "Wasser", "dogFood": "Hundefutter", "catToys": "Katzenspielzeug", "vet": "Tierarzt",
+      "salary": "Gehalt", "bonus": "Bonus", "freelance": "Freiberuflich", "gift": "Geschenk",
+      "investment": "Investition", "prize": "Preis", "contract": "Vertrag", "commission": "Provision",
+      "gifts": "Geschenke", "flowers": "Blumen", "laundry": "Wäscherei", "repairs": "Reparaturen",
+      "plants": "Pflanzen", "candles": "Kerzen"
+    }
+  },
+  "fr": {
+    "meta": {
+      "title": "Coins - Tracker de Dépenses Simple",
+      "description": "Suivez vos dépenses en seulement 30 secondes par jour. Beau, simple et intelligent."
+    },
+    "nav": {
+      "features": "Fonctionnalités",
+      "reviews": "Avis",
+      "download": "Télécharger"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "Suivi des Dépenses Simple et Intelligent",
+      "description": "Suivez vos dépenses en seulement 30 secondes par jour",
+      "cta": "Télécharger sur l'App Store",
+      "scroll": "Faites défiler pour explorer"
+    },
+    "features": {
+      "heading": "Tout Ce Dont Vous Avez Besoin"
+    },
+    "reviews": {
+      "heading": "Ce Que Les Gens Disent"
+    },
+    "footer": {
+      "privacy": "Politique de Confidentialité",
+      "copyright": "© 2026 Coins. Tous droits réservés."
+    },
+    "transactions": {
+      "coffee": "Café", "pizza": "Pizza", "burger": "Burger", "ramen": "Ramen", "bento": "Bento",
+      "salad": "Salade", "dessert": "Dessert", "drinks": "Boissons", "snacks": "Snacks",
+      "metro": "Métro", "taxi": "Taxi", "uber": "Uber", "gas": "Essence", "parking": "Parking",
+      "flight": "Vol", "bikeShare": "Vélo Partagé", "groceries": "Courses", "clothing": "Vêtements",
+      "sneakers": "Baskets", "cosmetics": "Cosmétiques", "backpack": "Sac à Dos", "phoneCase": "Coque Téléphone",
+      "headphones": "Écouteurs", "movie": "Cinéma", "games": "Jeux", "concert": "Concert",
+      "artSupplies": "Fournitures d'Art", "event": "Événement", "activities": "Activités", "gym": "Salle de Sport",
+      "doctor": "Médecin", "pharmacy": "Pharmacie", "yoga": "Yoga", "haircut": "Coiffure",
+      "books": "Livres", "notebook": "Carnet", "stationery": "Papeterie", "software": "Logiciel",
+      "course": "Cours", "electricity": "Électricité", "internet": "Internet", "phoneBill": "Facture Téléphone",
+      "rent": "Loyer", "water": "Eau", "dogFood": "Nourriture Chien", "catToys": "Jouets Chat", "vet": "Vétérinaire",
+      "salary": "Salaire", "bonus": "Prime", "freelance": "Freelance", "gift": "Cadeau",
+      "investment": "Investissement", "prize": "Prix", "contract": "Contrat", "commission": "Commission",
+      "gifts": "Cadeaux", "flowers": "Fleurs", "laundry": "Blanchisserie", "repairs": "Réparations",
+      "plants": "Plantes", "candles": "Bougies"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Coins - Rastreador de Gastos Simple",
+      "description": "Rastrea tus gastos en solo 30 segundos al día. Hermoso, simple e inteligente."
+    },
+    "nav": {
+      "features": "Características",
+      "reviews": "Reseñas",
+      "download": "Descargar"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "Seguimiento de Gastos Simple e Inteligente",
+      "description": "Rastrea tus gastos en solo 30 segundos al día",
+      "cta": "Descargar en App Store",
+      "scroll": "Desplázate para explorar"
+    },
+    "features": {
+      "heading": "Todo Lo Que Necesitas"
+    },
+    "reviews": {
+      "heading": "Lo Que Dice La Gente"
+    },
+    "footer": {
+      "privacy": "Política de Privacidad",
+      "copyright": "© 2026 Coins. Todos los derechos reservados."
+    },
+    "transactions": {
+      "coffee": "Café", "pizza": "Pizza", "burger": "Hamburguesa", "ramen": "Ramen", "bento": "Bento",
+      "salad": "Ensalada", "dessert": "Postre", "drinks": "Bebidas", "snacks": "Snacks",
+      "metro": "Metro", "taxi": "Taxi", "uber": "Uber", "gas": "Gasolina", "parking": "Estacionamiento",
+      "flight": "Vuelo", "bikeShare": "Bici Compartida", "groceries": "Supermercado", "clothing": "Ropa",
+      "sneakers": "Zapatillas", "cosmetics": "Cosméticos", "backpack": "Mochila", "phoneCase": "Funda Móvil",
+      "headphones": "Auriculares", "movie": "Cine", "games": "Juegos", "concert": "Concierto",
+      "artSupplies": "Material de Arte", "event": "Evento", "activities": "Actividades", "gym": "Gimnasio",
+      "doctor": "Médico", "pharmacy": "Farmacia", "yoga": "Yoga", "haircut": "Peluquería",
+      "books": "Libros", "notebook": "Cuaderno", "stationery": "Papelería", "software": "Software",
+      "course": "Curso", "electricity": "Electricidad", "internet": "Internet", "phoneBill": "Factura Teléfono",
+      "rent": "Alquiler", "water": "Agua", "dogFood": "Comida Perro", "catToys": "Juguetes Gato", "vet": "Veterinario",
+      "salary": "Salario", "bonus": "Bonificación", "freelance": "Freelance", "gift": "Regalo",
+      "investment": "Inversión", "prize": "Premio", "contract": "Contrato", "commission": "Comisión",
+      "gifts": "Regalos", "flowers": "Flores", "laundry": "Lavandería", "repairs": "Reparaciones",
+      "plants": "Plantas", "candles": "Velas"
+    }
+  },
+  "it": {
+    "meta": {
+      "title": "Coins - Tracker di Spese Semplice",
+      "description": "Traccia le tue spese in soli 30 secondi al giorno. Bello, semplice e intelligente."
+    },
+    "nav": {
+      "features": "Caratteristiche",
+      "reviews": "Recensioni",
+      "download": "Scarica"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "Tracciamento Spese Semplice e Intelligente",
+      "description": "Traccia le tue spese in soli 30 secondi al giorno",
+      "cta": "Scarica su App Store",
+      "scroll": "Scorri per esplorare"
+    },
+    "features": {
+      "heading": "Tutto Ciò Di Cui Hai Bisogno"
+    },
+    "reviews": {
+      "heading": "Cosa Dice La Gente"
+    },
+    "footer": {
+      "privacy": "Informativa sulla Privacy",
+      "copyright": "© 2026 Coins. Tutti i diritti riservati."
+    },
+    "transactions": {
+      "coffee": "Caffè", "pizza": "Pizza", "burger": "Hamburger", "ramen": "Ramen", "bento": "Bento",
+      "salad": "Insalata", "dessert": "Dolce", "drinks": "Bevande", "snacks": "Snack",
+      "metro": "Metro", "taxi": "Taxi", "uber": "Uber", "gas": "Benzina", "parking": "Parcheggio",
+      "flight": "Volo", "bikeShare": "Bici Condivisa", "groceries": "Spesa", "clothing": "Abbigliamento",
+      "sneakers": "Scarpe da Ginnastica", "cosmetics": "Cosmetici", "backpack": "Zaino", "phoneCase": "Custodia Telefono",
+      "headphones": "Cuffie", "movie": "Cinema", "games": "Giochi", "concert": "Concerto",
+      "artSupplies": "Materiale Artistico", "event": "Evento", "activities": "Attività", "gym": "Palestra",
+      "doctor": "Dottore", "pharmacy": "Farmacia", "yoga": "Yoga", "haircut": "Taglio Capelli",
+      "books": "Libri", "notebook": "Quaderno", "stationery": "Cartoleria", "software": "Software",
+      "course": "Corso", "electricity": "Elettricità", "internet": "Internet", "phoneBill": "Bolletta Telefono",
+      "rent": "Affitto", "water": "Acqua", "dogFood": "Cibo Cane", "catToys": "Giocattoli Gatto", "vet": "Veterinario",
+      "salary": "Stipendio", "bonus": "Bonus", "freelance": "Freelance", "gift": "Regalo",
+      "investment": "Investimento", "prize": "Premio", "contract": "Contratto", "commission": "Commissione",
+      "gifts": "Regali", "flowers": "Fiori", "laundry": "Lavanderia", "repairs": "Riparazioni",
+      "plants": "Piante", "candles": "Candele"
+    }
+  },
+  "ja": {
+    "meta": {
+      "title": "Coins - シンプルな家計簿アプリ",
+      "description": "1日たった30秒で支出を記録。美しく、シンプルで、スマートな家計管理。"
+    },
+    "nav": {
+      "features": "機能",
+      "reviews": "レビュー",
+      "download": "ダウンロード"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "シンプルでスマートな家計管理",
+      "description": "1日たった30秒で支出を記録",
+      "cta": "App Storeでダウンロード",
+      "scroll": "スクロールして探索"
+    },
+    "features": {
+      "heading": "必要な機能がすべて揃っています"
+    },
+    "reviews": {
+      "heading": "ユーザーの声"
+    },
+    "footer": {
+      "privacy": "プライバシーポリシー",
+      "copyright": "© 2026 Coins. All rights reserved."
+    },
+    "transactions": {
+      "coffee": "コーヒー", "pizza": "ピザ", "burger": "ハンバーガー", "ramen": "ラーメン", "bento": "弁当",
+      "salad": "サラダ", "dessert": "デザート", "drinks": "飲み物", "snacks": "スナック",
+      "metro": "地下鉄", "taxi": "タクシー", "uber": "ウーバー", "gas": "ガソリン", "parking": "駐車場",
+      "flight": "フライト", "bikeShare": "シェアサイクル", "groceries": "食料品", "clothing": "衣類",
+      "sneakers": "スニーカー", "cosmetics": "化粧品", "backpack": "リュック", "phoneCase": "スマホケース",
+      "headphones": "ヘッドホン", "movie": "映画", "games": "ゲーム", "concert": "コンサート",
+      "artSupplies": "画材", "event": "イベント", "activities": "アクティビティ", "gym": "ジム",
+      "doctor": "医者", "pharmacy": "薬局", "yoga": "ヨガ", "haircut": "散髪",
+      "books": "本", "notebook": "ノート", "stationery": "文房具", "software": "ソフトウェア",
+      "course": "コース", "electricity": "電気", "internet": "インターネット", "phoneBill": "電話代",
+      "rent": "家賃", "water": "水道", "dogFood": "ドッグフード", "catToys": "猫のおもちゃ", "vet": "獣医",
+      "salary": "給料", "bonus": "ボーナス", "freelance": "フリーランス", "gift": "ギフト",
+      "investment": "投資", "prize": "賞金", "contract": "契約", "commission": "手数料",
+      "gifts": "贈り物", "flowers": "花", "laundry": "洗濯", "repairs": "修理",
+      "plants": "植物", "candles": "キャンドル"
+    }
+  },
+  "zh-Hans": {
+    "meta": {
+      "title": "可记 - 简单记账应用",
+      "description": "每天只需30秒记账。简洁、美观、智能的记账应用。"
+    },
+    "nav": {
+      "features": "功能",
+      "reviews": "评价",
+      "download": "下载"
+    },
+    "hero": {
+      "title": "可记",
+      "subtitle": "简单智能的记账应用",
+      "description": "每天只需30秒记账",
+      "cta": "在 App Store 下载",
+      "scroll": "向下滚动探索"
+    },
+    "features": {
+      "heading": "您需要的一切功能"
+    },
+    "reviews": {
+      "heading": "用户评价"
+    },
+    "footer": {
+      "privacy": "隐私政策",
+      "copyright": "© 2026 可记。保留所有权利。"
+    },
+    "transactions": {
+      "coffee": "咖啡", "pizza": "披萨", "burger": "汉堡", "ramen": "拉面", "bento": "便当",
+      "salad": "沙拉", "dessert": "甜点", "drinks": "饮料", "snacks": "零食",
+      "metro": "地铁", "taxi": "出租车", "uber": "优步", "gas": "汽油", "parking": "停车",
+      "flight": "机票", "bikeShare": "共享单车", "groceries": "杂货", "clothing": "服装",
+      "sneakers": "运动鞋", "cosmetics": "化妆品", "backpack": "背包", "phoneCase": "手机壳",
+      "headphones": "耳机", "movie": "电影", "games": "游戏", "concert": "音乐会",
+      "artSupplies": "美术用品", "event": "活动", "activities": "活动", "gym": "健身房",
+      "doctor": "医生", "pharmacy": "药房", "yoga": "瑜伽", "haircut": "理发",
+      "books": "书籍", "notebook": "笔记本", "stationery": "文具", "software": "软件",
+      "course": "课程", "electricity": "电费", "internet": "网费", "phoneBill": "话费",
+      "rent": "租金", "water": "水费", "dogFood": "狗粮", "catToys": "猫玩具", "vet": "兽医",
+      "salary": "工资", "bonus": "奖金", "freelance": "自由职业", "gift": "礼物",
+      "investment": "投资", "prize": "奖金", "contract": "合同", "commission": "佣金",
+      "gifts": "礼品", "flowers": "鲜花", "laundry": "洗衣", "repairs": "维修",
+      "plants": "植物", "candles": "蜡烛"
+    }
+  },
+  "zh-Hant": {
+    "meta": {
+      "title": "Coins - 簡單記帳應用",
+      "description": "每天只需30秒記帳。簡潔、美觀、智能的記帳應用。"
+    },
+    "nav": {
+      "features": "功能",
+      "reviews": "評價",
+      "download": "下載"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "簡單智能的記帳應用",
+      "description": "每天只需30秒記帳",
+      "cta": "在 App Store 下載",
+      "scroll": "向下捲動探索"
+    },
+    "features": {
+      "heading": "您需要的一切功能"
+    },
+    "reviews": {
+      "heading": "用戶評價"
+    },
+    "footer": {
+      "privacy": "隱私政策",
+      "copyright": "© 2026 Coins。保留所有權利。"
+    },
+    "transactions": {
+      "coffee": "咖啡", "pizza": "披薩", "burger": "漢堡", "ramen": "拉麵", "bento": "便當",
+      "salad": "沙拉", "dessert": "甜點", "drinks": "飲料", "snacks": "零食",
+      "metro": "地鐵", "taxi": "計程車", "uber": "優步", "gas": "汽油", "parking": "停車",
+      "flight": "機票", "bikeShare": "共享單車", "groceries": "雜貨", "clothing": "服裝",
+      "sneakers": "運動鞋", "cosmetics": "化妝品", "backpack": "背包", "phoneCase": "手機殼",
+      "headphones": "耳機", "movie": "電影", "games": "遊戲", "concert": "音樂會",
+      "artSupplies": "美術用品", "event": "活動", "activities": "活動", "gym": "健身房",
+      "doctor": "醫生", "pharmacy": "藥房", "yoga": "瑜珈", "haircut": "理髮",
+      "books": "書籍", "notebook": "筆記本", "stationery": "文具", "software": "軟體",
+      "course": "課程", "electricity": "電費", "internet": "網費", "phoneBill": "話費",
+      "rent": "租金", "water": "水費", "dogFood": "狗糧", "catToys": "貓玩具", "vet": "獸醫",
+      "salary": "薪資", "bonus": "獎金", "freelance": "自由職業", "gift": "禮物",
+      "investment": "投資", "prize": "獎金", "contract": "合約", "commission": "佣金",
+      "gifts": "禮品", "flowers": "鮮花", "laundry": "洗衣", "repairs": "維修",
+      "plants": "植物", "candles": "蠟燭"
+    }
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "originalLanguage": "en",
+      "author": "ALK2015",
+      "date": "2025-09-09",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "A hidden treasure",
+          "text": "I've been using this app for over ten years, and it continues to impress me. Simple, intuitive, and incredibly powerful—everything you need for personal budgeting in one place."
+        },
+        "de": {
+          "title": "Ein versteckter Schatz",
+          "text": "Ich benutze diese App seit über zehn Jahren und sie beeindruckt mich immer noch. Einfach, intuitiv und unglaublich leistungsstark – alles, was Sie für Ihr persönliches Budget brauchen, an einem Ort."
+        },
+        "fr": {
+          "title": "Un trésor caché",
+          "text": "J'utilise cette application depuis plus de dix ans et elle continue de m'impressionner. Simple, intuitive et incroyablement puissante, tout ce dont vous avez besoin pour votre budget personnel en un seul endroit."
+        },
+        "es": {
+          "title": "Un tesoro escondido",
+          "text": "He estado usando esta aplicación durante más de diez años y sigue impresionándome. Simple, intuitiva e increíblemente potente: todo lo que necesitas para tu presupuesto personal en un solo lugar."
+        },
+        "it": {
+          "title": "Un tesoro nascosto",
+          "text": "Uso quest'app da oltre dieci anni e continua a impressionarmi. Semplice, intuitiva e incredibilmente potente: tutto ciò di cui hai bisogno per il tuo budget personale in un unico posto."
+        },
+        "ja": {
+          "title": "隠れた宝物",
+          "text": "10年以上このアプリを使用していますが、今でも感動しています。シンプルで直感的、そして信じられないほど強力。個人の予算管理に必要なすべてが1か所に揃っています。"
+        },
+        "zh-Hans": {
+          "title": "隐藏的宝藏",
+          "text": "我已经使用这个应用超过十年了，它仍然让我印象深刻。简单、直观且功能强大——个人预算管理所需的一切都在一个地方。"
+        },
+        "zh-Hant": {
+          "title": "隱藏的寶藏",
+          "text": "我已經使用這個應用超過十年了，它仍然讓我印象深刻。簡單、直觀且功能強大——個人預算管理所需的一切都在一個地方。"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "originalLanguage": "en",
+      "author": "kiliancam",
+      "date": "2026-01-12",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "Amazing",
+          "text": "No bs, just simple, straight forward spending tracking."
+        },
+        "de": {
+          "title": "Erstaunlich",
+          "text": "Kein Schnickschnack, nur einfache, unkomplizierte Ausgabenverfolgung."
+        },
+        "fr": {
+          "title": "Incroyable",
+          "text": "Pas de chichis, juste un suivi des dépenses simple et direct."
+        },
+        "es": {
+          "title": "Increíble",
+          "text": "Sin tonterías, solo seguimiento de gastos simple y directo."
+        },
+        "it": {
+          "title": "Fantastico",
+          "text": "Niente fronzoli, solo un semplice e diretto tracciamento delle spese."
+        },
+        "ja": {
+          "title": "素晴らしい",
+          "text": "余計なものはなく、シンプルで分かりやすい支出追跡。"
+        },
+        "zh-Hans": {
+          "title": "太棒了",
+          "text": "没有废话，只有简单直接的支出跟踪。"
+        },
+        "zh-Hant": {
+          "title": "太棒了",
+          "text": "沒有廢話，只有簡單直接的支出跟蹤。"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "originalLanguage": "zh-Hans",
+      "author": "cherrybomb233",
+      "date": "2025-09-30",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "Excellent app",
+          "text": "Been using it for eleven years. Simple bookkeeping, clean interface, everything at a glance."
+        },
+        "de": {
+          "title": "Ausgezeichnete App",
+          "text": "Verwende sie seit elf Jahren. Einfache Buchführung, übersichtliche Oberfläche, alles auf einen Blick."
+        },
+        "fr": {
+          "title": "Excellente application",
+          "text": "Je l'utilise depuis onze ans. Comptabilité simple, interface épurée, tout d'un coup d'œil."
+        },
+        "es": {
+          "title": "Excelente aplicación",
+          "text": "La uso desde hace once años. Contabilidad simple, interfaz limpia, todo de un vistazo."
+        },
+        "it": {
+          "title": "App eccellente",
+          "text": "La uso da undici anni. Contabilità semplice, interfaccia pulita, tutto a colpo d'occhio."
+        },
+        "ja": {
+          "title": "優れたアプリ",
+          "text": "11年間使用しています。シンプルな簿記、クリーンなインターフェース、すべてが一目でわかります。"
+        },
+        "zh-Hans": {
+          "title": "非常不错的应用",
+          "text": "用了十一年了，简单记账 界面清爽 一目了然～"
+        },
+        "zh-Hant": {
+          "title": "非常不錯的應用",
+          "text": "用了十一年了，簡單記賬 界面清爽 一目了然～"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "originalLanguage": "en",
+      "author": "CodingRhythm",
+      "date": "2025-09-27",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "The best expense tracker ever!",
+          "text": "The latest update introduced iOS 26 support. The app now looks amazing! This is the only reason I'm using my iPhone nowadays."
+        },
+        "de": {
+          "title": "Der beste Ausgabentracker aller Zeiten!",
+          "text": "Das neueste Update brachte iOS 26-Unterstützung. Die App sieht jetzt fantastisch aus! Das ist der einzige Grund, warum ich heutzutage mein iPhone benutze."
+        },
+        "fr": {
+          "title": "Le meilleur suivi des dépenses de tous les temps !",
+          "text": "La dernière mise à jour a introduit la prise en charge d'iOS 26. L'application est maintenant superbe ! C'est la seule raison pour laquelle j'utilise mon iPhone de nos jours."
+        },
+        "es": {
+          "title": "¡El mejor rastreador de gastos de la historia!",
+          "text": "La última actualización introdujo soporte para iOS 26. ¡La aplicación ahora se ve increíble! Esta es la única razón por la que uso mi iPhone hoy en día."
+        },
+        "it": {
+          "title": "Il miglior tracker di spese di sempre!",
+          "text": "L'ultimo aggiornamento ha introdotto il supporto per iOS 26. L'app ora sembra fantastica! Questo è l'unico motivo per cui uso il mio iPhone al giorno d'oggi."
+        },
+        "ja": {
+          "title": "史上最高の支出トラッカー！",
+          "text": "最新のアップデートでiOS 26のサポートが追加されました。アプリが素晴らしく見えます！これが最近iPhoneを使っている唯一の理由です。"
+        },
+        "zh-Hans": {
+          "title": "有史以来最好的支出跟踪器！",
+          "text": "最新更新引入了iOS 26支持。应用现在看起来太棒了！这是我现在使用iPhone的唯一原因。"
+        },
+        "zh-Hant": {
+          "title": "有史以來最好的支出跟蹤器！",
+          "text": "最新更新引入了iOS 26支持。應用現在看起來太棒了！這是我現在使用iPhone的唯一原因。"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "originalLanguage": "en",
+      "author": "251868730",
+      "date": "2025-09-25",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "Simple and effective",
+          "text": "Not a fancy app with many complicated features. Just a simple app that fulfils its fundamental purpose. Great user interface, easy to learn and get into."
+        },
+        "de": {
+          "title": "Einfach und effektiv",
+          "text": "Keine schicke App mit vielen komplizierten Funktionen. Nur eine einfache App, die ihren grundlegenden Zweck erfüllt. Tolle Benutzeroberfläche, leicht zu erlernen und zu verwenden."
+        },
+        "fr": {
+          "title": "Simple et efficace",
+          "text": "Pas une application sophistiquée avec de nombreuses fonctionnalités compliquées. Juste une application simple qui remplit son objectif fondamental. Excellente interface utilisateur, facile à apprendre et à utiliser."
+        },
+        "es": {
+          "title": "Simple y efectivo",
+          "text": "No es una aplicación elegante con muchas funciones complicadas. Solo una aplicación simple que cumple su propósito fundamental. Gran interfaz de usuario, fácil de aprender y usar."
+        },
+        "it": {
+          "title": "Semplice ed efficace",
+          "text": "Non è un'app sofisticata con molte funzioni complicate. Solo un'app semplice che soddisfa il suo scopo fondamentale. Ottima interfaccia utente, facile da imparare e utilizzare."
+        },
+        "ja": {
+          "title": "シンプルで効果的",
+          "text": "複雑な機能を持つ派手なアプリではありません。基本的な目的を果たすシンプルなアプリです。優れたユーザーインターフェース、学習と使用が簡単です。"
+        },
+        "zh-Hans": {
+          "title": "简单有效",
+          "text": "不是一个有很多复杂功能的花哨应用。只是一个实现其基本目的的简单应用。出色的用户界面，易于学习和使用。"
+        },
+        "zh-Hant": {
+          "title": "簡單有效",
+          "text": "不是一個有很多複雜功能的花哨應用。只是一個實現其基本目的的簡單應用。出色的用戶界面，易於學習和使用。"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "originalLanguage": "en",
+      "author": "RH696",
+      "date": "2025-09-20",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "Solid solution",
+          "text": "The developer was quick to implement new features to help me import my historical data. Imported all my data since 2014 with some quick excel data massaging. Pretty solid tracking app."
+        },
+        "de": {
+          "title": "Solide Lösung",
+          "text": "Der Entwickler hat schnell neue Funktionen implementiert, um mir beim Import meiner historischen Daten zu helfen. Habe alle meine Daten seit 2014 mit etwas Excel-Datenbearbeitung importiert. Ziemlich solide Tracking-App."
+        },
+        "fr": {
+          "title": "Solution solide",
+          "text": "Le développeur a rapidement implémenté de nouvelles fonctionnalités pour m'aider à importer mes données historiques. J'ai importé toutes mes données depuis 2014 avec un peu de manipulation de données Excel. Application de suivi assez solide."
+        },
+        "es": {
+          "title": "Solución sólida",
+          "text": "El desarrollador implementó rápidamente nuevas funciones para ayudarme a importar mis datos históricos. Importé todos mis datos desde 2014 con un poco de manipulación de datos de Excel. Aplicación de seguimiento bastante sólida."
+        },
+        "it": {
+          "title": "Soluzione solida",
+          "text": "Lo sviluppatore ha implementato rapidamente nuove funzionalità per aiutarmi a importare i miei dati storici. Ho importato tutti i miei dati dal 2014 con un po' di manipolazione dei dati Excel. App di tracciamento piuttosto solida."
+        },
+        "ja": {
+          "title": "堅実なソリューション",
+          "text": "開発者は、履歴データのインポートを支援する新機能を迅速に実装してくれました。Excelデータを少し調整して、2014年以降のすべてのデータをインポートしました。かなり堅実なトラッキングアプリです。"
+        },
+        "zh-Hans": {
+          "title": "可靠的解决方案",
+          "text": "开发者快速实现了新功能来帮助我导入历史数据。通过一些简单的Excel数据处理，导入了我自2014年以来的所有数据。相当可靠的跟踪应用。"
+        },
+        "zh-Hant": {
+          "title": "可靠的解決方案",
+          "text": "開發者快速實現了新功能來幫助我導入歷史數據。通過一些簡單的Excel數據處理，導入了我自2014年以來的所有數據。相當可靠的跟蹤應用。"
+        }
+      }
+    },
+    {
+      "id": "7",
+      "originalLanguage": "ja",
+      "author": "내가쓰고싶은별명은이미다사용중",
+      "date": "2025-11-11",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "Using it for years",
+          "text": "No fancy features, no automatic sync, but I actually prefer no sync. Even when splitting bills, I can remember and enter manually. Works great!"
+        },
+        "de": {
+          "title": "Verwende es seit Jahren",
+          "text": "Keine ausgefallenen Funktionen, keine automatische Synchronisierung, aber ich bevorzuge tatsächlich keine Synchronisierung. Selbst beim Aufteilen von Rechnungen kann ich mich erinnern und manuell eingeben. Funktioniert großartig!"
+        },
+        "fr": {
+          "title": "Je l'utilise depuis des années",
+          "text": "Pas de fonctionnalités sophistiquées, pas de synchronisation automatique, mais je préfère en fait l'absence de synchronisation. Même lors du partage des factures, je peux me souvenir et saisir manuellement. Fonctionne très bien !"
+        },
+        "es": {
+          "title": "Usándolo durante años",
+          "text": "Sin funciones elegantes, sin sincronización automática, pero en realidad prefiero sin sincronización. Incluso al dividir cuentas, puedo recordar e ingresar manualmente. ¡Funciona genial!"
+        },
+        "it": {
+          "title": "Lo uso da anni",
+          "text": "Nessuna funzione sofisticata, nessuna sincronizzazione automatica, ma in realtà preferisco senza sincronizzazione. Anche quando divido i conti, posso ricordare e inserire manualmente. Funziona benissimo!"
+        },
+        "ja": {
+          "title": "몇년째 쓰는데 좋아요",
+          "text": "별 기능 없고 자동연동도 안되는데 연동 안되는게 좋아요 카드로 엔빵하고 이럴때도 많아서 ㅠ 제가 기억하면되니 ㄱㅊ"
+        },
+        "zh-Hans": {
+          "title": "用了好几年",
+          "text": "没有花哨的功能，没有自动同步，但我其实更喜欢不同步。即使在分账时，我也能记住并手动输入。非常好用！"
+        },
+        "zh-Hant": {
+          "title": "用了好幾年",
+          "text": "沒有花哨的功能，沒有自動同步，但我其實更喜歡不同步。即使在分賬時，我也能記住並手動輸入。非常好用！"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "originalLanguage": "zh-Hans",
+      "author": "弋痕兮",
+      "date": "2025-05-23",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "10-year user",
+          "text": "Started using in 2016 when the app was free. Love the simple, elegant, ad-free design. Developer is responsive to feedback and bug reports. Hope to see more great products!"
+        },
+        "de": {
+          "title": "10-jähriger Benutzer",
+          "text": "Begann 2016 zu verwenden, als die App kostenlos war. Liebe das einfache, elegante, werbefreie Design. Entwickler reagiert auf Feedback und Fehlerberichte. Hoffe auf mehr großartige Produkte!"
+        },
+        "fr": {
+          "title": "Utilisateur depuis 10 ans",
+          "text": "J'ai commencé à l'utiliser en 2016 lorsque l'application était gratuite. J'adore le design simple, élégant et sans publicité. Le développeur répond aux commentaires et aux rapports de bugs. J'espère voir plus de produits géniaux !"
+        },
+        "es": {
+          "title": "Usuario de 10 años",
+          "text": "Comencé a usarlo en 2016 cuando la aplicación era gratuita. Me encanta el diseño simple, elegante y sin anuncios. El desarrollador responde a los comentarios y reportes de errores. ¡Espero ver más productos geniales!"
+        },
+        "it": {
+          "title": "Utente da 10 anni",
+          "text": "Ho iniziato a usarlo nel 2016 quando l'app era gratuita. Amo il design semplice, elegante e senza pubblicità. Lo sviluppatore risponde ai feedback e ai rapporti sui bug. Spero di vedere altri prodotti fantastici!"
+        },
+        "ja": {
+          "title": "10年ユーザー",
+          "text": "2016年にアプリが無料だったときに使い始めました。シンプルでエレガントな広告のないデザインが大好きです。開発者はフィードバックとバグレポートに対応しています。もっと素晴らしい製品を期待しています！"
+        },
+        "zh-Hans": {
+          "title": "从16年开始使用 十年老用户",
+          "text": "从16年开始使用，那会App限免时下载，一直使用至今，非常喜欢简约大气且页面无广的风格。开发者都有及时调整和修复，希望开发者能够写出更多好用新颖的产品。"
+        },
+        "zh-Hant": {
+          "title": "從16年開始使用 十年老用戶",
+          "text": "從16年開始使用，那會App限免時下載，一直使用至今，非常喜歡簡約大氣且頁面無廣的風格。開發者都有及時調整和修復，希望開發者能夠寫出更多好用新穎的產品。"
+        }
+      }
+    },
+    {
+      "id": "9",
+      "originalLanguage": "it",
+      "author": "Fabbri Canta",
+      "date": "2025-11-19",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "Excellent application",
+          "text": "Excellent application for tracking expenses."
+        },
+        "de": {
+          "title": "Ausgezeichnete Anwendung",
+          "text": "Ausgezeichnete Anwendung zur Verfolgung von Ausgaben."
+        },
+        "fr": {
+          "title": "Excellente application",
+          "text": "Excellente application pour suivre les dépenses."
+        },
+        "es": {
+          "title": "Excelente aplicación",
+          "text": "Excelente aplicación para rastrear gastos."
+        },
+        "it": {
+          "title": "Ottima applicazione",
+          "text": "Ottima applicazione per tracciare le spese."
+        },
+        "ja": {
+          "title": "優れたアプリケーション",
+          "text": "支出を追跡するための優れたアプリケーション。"
+        },
+        "zh-Hans": {
+          "title": "优秀的应用",
+          "text": "追踪支出的优秀应用。"
+        },
+        "zh-Hant": {
+          "title": "優秀的應用",
+          "text": "追蹤支出的優秀應用。"
+        }
+      }
+    },
+    {
+      "id": "10",
+      "originalLanguage": "en",
+      "author": "Elias12kuip",
+      "date": "2020-10-21",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "Beautifully simple and easy to use!",
+          "text": "This app is perfect for tracking all expenses. Its simplicity makes tracking easier than any app I have EVER tried. The design is aesthetically pleasing and very easy on the eyes."
+        },
+        "de": {
+          "title": "Wunderschön einfach und benutzerfreundlich!",
+          "text": "Diese App ist perfekt zum Verfolgen aller Ausgaben. Ihre Einfachheit macht das Verfolgen einfacher als jede App, die ich je ausprobiert habe. Das Design ist ästhetisch ansprechend und sehr angenehm für die Augen."
+        },
+        "fr": {
+          "title": "Magnifiquement simple et facile à utiliser !",
+          "text": "Cette application est parfaite pour suivre toutes les dépenses. Sa simplicité rend le suivi plus facile que toute autre application que j'ai jamais essayée. Le design est esthétiquement agréable et très reposant pour les yeux."
+        },
+        "es": {
+          "title": "Bellamente simple y fácil de usar!",
+          "text": "Esta aplicación es perfecta para rastrear todos los gastos. Su simplicidad hace que el seguimiento sea más fácil que cualquier aplicación que haya probado. El diseño es estéticamente agradable y muy suave para la vista."
+        },
+        "it": {
+          "title": "Splendidamente semplice e facile da usare!",
+          "text": "Questa app è perfetta per tracciare tutte le spese. La sua semplicità rende il tracciamento più facile di qualsiasi app che abbia mai provato. Il design è esteticamente piacevole e molto riposante per gli occhi."
+        },
+        "ja": {
+          "title": "美しくシンプルで使いやすい！",
+          "text": "このアプリは、すべての支出を追跡するのに最適です。そのシンプルさは、私が試したどのアプリよりも追跡を簡単にします。デザインは美的に心地よく、目に非常に優しいです。"
+        },
+        "zh-Hans": {
+          "title": "美观简洁且易于使用！",
+          "text": "这个应用非常适合跟踪所有支出。它的简洁性使跟踪比我尝试过的任何应用都更容易。设计美观悦目，非常舒适。"
+        },
+        "zh-Hant": {
+          "title": "美觀簡潔且易於使用！",
+          "text": "這個應用非常適合跟蹤所有支出。它的簡潔性使跟蹤比我嘗試過的任何應用都更容易。設計美觀悅目，非常舒適。"
+        }
+      }
+    },
+    {
+      "id": "11",
+      "originalLanguage": "zh-Hans",
+      "author": "Liaaaaaar",
+      "date": "2020-10-10",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "Using for nearly 6 years",
+          "text": "Really love it, very simple and convenient. Simpler expense apps are easier to stick with. Chose this one among many because it doesn't have unnecessary features—just set your expense tags and go."
+        },
+        "de": {
+          "title": "Verwende es seit fast 6 Jahren",
+          "text": "Liebe es wirklich, sehr einfach und bequem. Einfachere Ausgaben-Apps sind einfacher beizubehalten. Habe diese unter vielen gewählt, weil sie keine unnötigen Funktionen hat – einfach Ausgaben-Tags festlegen und loslegen."
+        },
+        "fr": {
+          "title": "Je l'utilise depuis près de 6 ans",
+          "text": "Je l'adore vraiment, très simple et pratique. Les applications de dépenses plus simples sont plus faciles à maintenir. J'ai choisi celle-ci parmi plusieurs car elle n'a pas de fonctionnalités inutiles – il suffit de définir vos balises de dépenses et c'est parti."
+        },
+        "es": {
+          "title": "Usándolo durante casi 6 años",
+          "text": "Realmente me encanta, muy simple y conveniente. Las aplicaciones de gastos más simples son más fáciles de mantener. Elegí esta entre muchas porque no tiene funciones innecesarias, solo configura tus etiquetas de gastos y listo."
+        },
+        "it": {
+          "title": "Lo uso da quasi 6 anni",
+          "text": "Lo amo davvero, molto semplice e comodo. Le app di spese più semplici sono più facili da mantenere. Ho scelto questa tra tante perché non ha funzionalità inutili: basta impostare i tag delle spese e sei pronto."
+        },
+        "ja": {
+          "title": "6年近く使用中",
+          "text": "本当に気に入っています、非常にシンプルで便利です。シンプルな支出アプリは続けやすいです。多くの中からこれを選んだのは、不要な機能がないから。支出タグを設定するだけです。"
+        },
+        "zh-Hans": {
+          "title": "用了将近6年的记账软件",
+          "text": "真的非常喜欢，很简洁很方便。记账软件其实越简单越容易坚持吧。当初在众多记账软件中挑中这一款，就是因为它没有那些琐碎的项目来源，只要自己设定支出标签就可以了。"
+        },
+        "zh-Hant": {
+          "title": "用了將近6年的記賬軟件",
+          "text": "真的非常喜歡，很簡潔很方便。記賬軟件其實越簡單越容易堅持吧。當初在眾多記賬軟件中挑中這一款，就是因為它沒有那些瑣碎的項目來源，只要自己設定支出標籤就可以了。"
+        }
+      }
+    },
+    {
+      "id": "12",
+      "originalLanguage": "en",
+      "author": "mattmd 5",
+      "date": "2020-07-20",
+      "rating": 5,
+      "translations": {
+        "en": {
+          "title": "I use this every day",
+          "text": "Coins is super convenient and it helps me stay on top of my spending. It only takes me about 10 seconds to enter an expense. Then I can view past expenses by the day, week, month or year."
+        },
+        "de": {
+          "title": "Ich verwende dies jeden Tag",
+          "text": "Coins ist super praktisch und hilft mir, meine Ausgaben im Griff zu behalten. Es dauert nur etwa 10 Sekunden, um eine Ausgabe einzugeben. Dann kann ich vergangene Ausgaben nach Tag, Woche, Monat oder Jahr ansehen."
+        },
+        "fr": {
+          "title": "Je l'utilise tous les jours",
+          "text": "Coins est super pratique et m'aide à garder le contrôle de mes dépenses. Il ne me faut qu'environ 10 secondes pour saisir une dépense. Ensuite, je peux consulter les dépenses passées par jour, semaine, mois ou année."
+        },
+        "es": {
+          "title": "Lo uso todos los días",
+          "text": "Coins es súper conveniente y me ayuda a mantenerme al tanto de mis gastos. Solo me toma unos 10 segundos ingresar un gasto. Luego puedo ver gastos pasados por día, semana, mes o año."
+        },
+        "it": {
+          "title": "Lo uso tutti i giorni",
+          "text": "Coins è super comodo e mi aiuta a tenere sotto controllo le mie spese. Mi ci vogliono solo circa 10 secondi per inserire una spesa. Poi posso visualizzare le spese passate per giorno, settimana, mese o anno."
+        },
+        "ja": {
+          "title": "毎日使っています",
+          "text": "Coinsは非常に便利で、支出を把握するのに役立ちます。支出を入力するのに約10秒しかかかりません。その後、過去の支出を日、週、月、年ごとに表示できます。"
+        },
+        "zh-Hans": {
+          "title": "我每天都用",
+          "text": "Coins非常方便，它帮助我掌握我的支出。输入一笔支出只需要大约10秒。然后我可以按天、周、月或年查看过去的支出。"
+        },
+        "zh-Hant": {
+          "title": "我每天都用",
+          "text": "Coins非常方便，它幫助我掌握我的支出。輸入一筆支出只需要大約10秒。然後我可以按天、周、月或年查看過去的支出。"
+        }
+      }
+    }
+  ]
+}

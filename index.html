@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iOS." data-i18n-content="meta.description">
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Coins - Simple Expense Tracker">
+  <meta property="og:description" content="Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iOS.">
+  <meta property="og:image" content="./assets/icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://coins-app.com/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coins - Simple Expense Tracker">
+  <meta name="twitter:description" content="Track your expenses in just 30 seconds a day.">
+  <meta name="twitter:image" content="./assets/icon.png">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Coins",
+    "operatingSystem": "iOS",
+    "applicationCategory": "FinanceApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "500"
+    },
+    "description": "Simple, smart expense tracking for iOS. Track your expenses in just 30 seconds a day.",
+    "screenshot": "./assets/icon.png",
+    "applicationSubCategory": "BudgetingApplication"
+  }
+  </script>
+
+  <!-- Preload critical assets -->
+  <link rel="preload" href="./styles/main.css" as="style">
+  <link rel="preload" href="./scripts/i18n.js" as="script">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="./assets/icon.png">
+
+  <!-- Lucide icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/main.css">
+
+  <title>Coins - Simple Expense Tracker</title>
+</head>
+
+<body>
+  <!-- Language Switcher (top right) -->
+  <div class="language-switcher">
+    <select id="language-select" aria-label="Choose language">
+      <option value="en">English</option>
+      <option value="de">Deutsch</option>
+      <option value="fr">Français</option>
+      <option value="es">Español</option>
+      <option value="it">Italiano</option>
+      <option value="ja">日本語</option>
+      <option value="zh-Hans">简体中文</option>
+      <option value="zh-Hant">繁體中文</option>
+    </select>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <!-- Animated transaction badges background -->
+    <div class="transaction-badges" id="transaction-badges">
+      <!-- Badges will be generated dynamically -->
+    </div>
+
+    <div class="container">
+      <img src="./assets/icon.png" alt="Coins App Icon" class="app-icon" width="120" height="120" loading="eager">
+      <h1 data-i18n="hero.title">Coins</h1>
+      <p class="subtitle" data-i18n="hero.subtitle">Simple, Smart Expense Tracking</p>
+      <p class="description" data-i18n="hero.description">Track your expenses in just 30 seconds a day</p>
+
+      <!-- App Store Badge (will be updated based on language) -->
+      <a href="https://apps.apple.com/app/coins-spending-tracker/id572886919"
+         class="app-store-badge"
+         id="app-store-badge"
+         aria-label="Download on the App Store"
+         rel="noopener noreferrer"
+         target="_blank">
+        <img src="./assets/app-store-badges/en.svg" alt="Download on the App Store" width="200" height="60" loading="eager">
+      </a>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" onclick="document.querySelector('#features').scrollIntoView({behavior: 'smooth'})">
+      <div class="scroll-indicator-icon">
+        <div class="scroll-indicator-dot"></div>
+      </div>
+      <span data-i18n="hero.scroll">Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 data-i18n="features.heading">Everything You Need</h2>
+      <div class="features-grid" id="features-grid">
+        <!-- Populated dynamically from features.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <h2 data-i18n="reviews.heading">What People Say</h2>
+    </div>
+    <div class="reviews-container">
+      <div class="reviews-row" id="reviews-row-1">
+        <!-- First row - scrolls left to right -->
+      </div>
+      <div class="reviews-row reviews-row-reverse" id="reviews-row-2">
+        <!-- Second row - scrolls right to left -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <a href="./privacy-policy.html" data-i18n="footer.privacy">Privacy Policy</a>
+      <p data-i18n="footer.copyright">© 2026 Coins. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./scripts/i18n.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
