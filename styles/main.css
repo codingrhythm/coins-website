@@ -433,9 +433,28 @@ body {
   position: relative;
   margin: var(--spacing-xl) auto 0;
   overflow: hidden;
-  /* CSS mask to fade out edges smoothly */
+  /* CSS mask to fade out edges smoothly on desktop */
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+/* Custom scrollbar styling for webkit browsers */
+.reviews-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.reviews-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.reviews-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.reviews-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .reviews-row {
@@ -651,17 +670,42 @@ body {
   }
 
   .reviews-container {
-    /* Tighter fade on mobile */
-    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
-    mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+    /* On mobile, make it horizontally scrollable */
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scroll-behavior: smooth;
+    /* Remove mask on mobile to show scrollbar */
+    -webkit-mask-image: none;
+    mask-image: none;
+    /* Add padding for better scroll experience */
+    padding: 0 var(--spacing-md);
+    margin-left: calc(-1 * var(--spacing-md));
+    margin-right: calc(-1 * var(--spacing-md));
+    position: relative;
   }
 
   .reviews-row {
-    animation: scroll-left-to-right 40s linear infinite;
+    /* Disable animation on mobile */
+    animation: none;
+    /* Enable scroll snap for better UX */
+    scroll-snap-type: x mandatory;
+    padding: var(--spacing-md) 0;
   }
 
   .reviews-row-reverse {
-    animation: scroll-right-to-left 40s linear infinite;
+    /* Disable animation on mobile */
+    animation: none;
+  }
+
+  .review-card {
+    /* Add scroll snap alignment */
+    scroll-snap-align: start;
+  }
+
+  /* Hide the second row on mobile to avoid confusion */
+  .reviews-row-reverse {
+    display: none;
   }
 
   .transaction-badges {
@@ -699,6 +743,18 @@ body {
 
   .review-text {
     font-size: 0.875rem;
+  }
+
+  /* Show a subtle hint that content is scrollable */
+  .reviews-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    background: linear-gradient(to left, var(--bg-gradient-end), transparent);
+    pointer-events: none;
   }
 }
 

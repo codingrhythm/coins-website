@@ -109,7 +109,10 @@ async function loadReviews() {
     row1.innerHTML = '';
     row2.innerHTML = '';
 
-    // Split reviews into two rows (alternating)
+    // Check if mobile view
+    const isMobile = window.innerWidth <= 768;
+
+    // On mobile, put all reviews in row1; on desktop, alternate between rows
     reviews.forEach((review, index) => {
       const translation = review.translations[currentLang] || review.translations['en'];
 
@@ -135,22 +138,30 @@ async function loadReviews() {
         <p class="review-text">${textEscaped}</p>
       `;
 
-      // Alternate between rows
-      if (index % 2 === 0) {
+      if (isMobile) {
+        // On mobile, put all reviews in the first row
         row1.appendChild(card);
       } else {
-        row2.appendChild(card);
+        // On desktop, alternate between rows
+        if (index % 2 === 0) {
+          row1.appendChild(card);
+        } else {
+          row2.appendChild(card);
+        }
       }
     });
 
-    // Duplicate cards multiple times for seamless infinite scroll
-    // Store original content
-    const row1Content = row1.innerHTML;
-    const row2Content = row2.innerHTML;
+    // Duplicate cards for seamless infinite scroll on desktop only
+    // On mobile (≤768px), no duplication needed as it's manually scrollable
+    if (!isMobile) {
+      // Store original content
+      const row1Content = row1.innerHTML;
+      const row2Content = row2.innerHTML;
 
-    // Duplicate content 3 times for smoother animation
-    row1.innerHTML = row1Content + row1Content + row1Content;
-    row2.innerHTML = row2Content + row2Content + row2Content;
+      // Duplicate content 3 times for smoother animation on desktop
+      row1.innerHTML = row1Content + row1Content + row1Content;
+      row2.innerHTML = row2Content + row2Content + row2Content;
+    }
 
     console.log(`Loaded ${reviews.length} reviews for language: ${currentLang}`);
   } catch (error) {
@@ -474,6 +485,24 @@ window.addEventListener('languageChanged', async (event) => {
     container.innerHTML = '';
     // Restart with new language
     initTransactionBadges();
+  }
+});
+
+/**
+ * Handle window resize to reload reviews when switching between mobile/desktop
+ *
+ * Tracks previous width to only reload when crossing the 768px breakpoint
+ */
+let previousWidth = window.innerWidth;
+window.addEventListener('resize', async () => {
+  const currentWidth = window.innerWidth;
+  const wasMobile = previousWidth <= 768;
+  const isMobile = currentWidth <= 768;
+
+  // Only reload if we crossed the mobile/desktop boundary
+  if (wasMobile !== isMobile) {
+    await loadReviews();
+    previousWidth = currentWidth;
   }
 });
 
