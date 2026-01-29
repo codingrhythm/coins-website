@@ -116,11 +116,11 @@ body {
 /* Transaction badges floating animation */
 .transaction-badges {
   position: absolute;
-  top: 35%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 2000px;
-  height: 1000px;
+  height: 800px;
   pointer-events: none;
   z-index: 1;
 }
@@ -273,6 +273,7 @@ body {
   animation: fadeInUp 0.6s ease-out 0.4s backwards;
   transition: all var(--transition-normal);
   filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+  margin-bottom: var(--spacing-xl);
 }
 
 .app-store-badge:hover {
@@ -632,10 +633,15 @@ body {
 
   .hero {
     min-height: 85vh;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .app-store-badge {
+    margin-bottom: var(--spacing-lg);
   }
 
   .scroll-indicator {
-    bottom: var(--spacing-md);
+    bottom: var(--spacing-sm);
     font-size: 0.75rem;
   }
 
@@ -711,15 +717,24 @@ body {
   .transaction-badges {
     width: 100%;
     max-width: 600px;
-    height: 600px;
+    height: 500px;
+    top: 20%;
   }
 }
 
 @media (max-width: 480px) {
+  .hero {
+    padding: var(--spacing-md) 0;
+  }
+
   .app-icon {
     width: 100px;
     height: 100px;
     border-radius: 22px;
+  }
+
+  .app-store-badge {
+    margin-bottom: var(--spacing-lg);
   }
 
   .app-store-badge img {
@@ -755,6 +770,26 @@ body {
     width: 40px;
     background: linear-gradient(to left, var(--bg-gradient-end), transparent);
     pointer-events: none;
+  }
+
+  .transaction-badges {
+    height: 400px;
+    top: 18%;
+  }
+}
+
+/* Hide scroll indicator on shorter screens to prevent overlap */
+@media (max-height: 900px) {
+  .scroll-indicator {
+    display: none;
+  }
+
+  .hero {
+    padding-bottom: var(--spacing-lg);
+  }
+
+  .app-store-badge {
+    margin-bottom: var(--spacing-lg);
   }
 }
 

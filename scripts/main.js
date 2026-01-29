@@ -412,12 +412,12 @@ function initTransactionBadges() {
       <span class="amount">${amountFormatted}</span>
     `;
 
-    // Random position in a larger area, biased towards upper half
+    // Random position in a larger area, strongly biased towards upper area
     const angle = Math.random() * Math.PI * 2;
     const distance = 150 + Math.random() * 250; // 150-400px from center
     const x = Math.cos(angle) * distance;
-    // Bias towards upper positions by adjusting y calculation
-    const y = Math.sin(angle) * distance - 50; // Shift up by 50px
+    // Strong bias towards upper positions - shift up by 100px
+    const y = Math.sin(angle) * distance - 100;
 
     badge.style.left = `calc(50% + ${x}px)`;
     badge.style.top = `calc(50% + ${y}px)`;
