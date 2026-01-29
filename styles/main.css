@@ -431,7 +431,6 @@ body {
 
 .reviews-container {
   position: relative;
-  max-width: 1200px;
   margin: var(--spacing-xl) auto 0;
   overflow: hidden;
   /* CSS mask to fade out edges smoothly */
@@ -443,12 +442,13 @@ body {
   display: flex;
   gap: var(--spacing-md);
   padding: var(--spacing-md) 0;
-  animation: scroll-left-to-right 40s linear infinite;
+  animation: scroll-left-to-right 60s linear infinite;
   width: fit-content;
+  will-change: transform;
 }
 
 .reviews-row-reverse {
-  animation: scroll-right-to-left 40s linear infinite;
+  animation: scroll-right-to-left 60s linear infinite;
 }
 
 /* Pause animation on hover */
@@ -464,8 +464,8 @@ body {
   border-radius: var(--radius-md);
   padding: var(--spacing-lg);
   transition: all var(--transition-normal);
-  min-width: 320px;
-  max-width: 400px;
+  min-width: 300px;
+  max-width: 380px;
   flex-shrink: 0;
 }
 
@@ -645,14 +645,23 @@ body {
   }
 
   .review-card {
-    min-width: 280px;
+    min-width: 260px;
+    max-width: 320px;
+    padding: var(--spacing-md);
   }
 
   .reviews-container {
-    max-width: 100%;
     /* Tighter fade on mobile */
-    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
-    mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  }
+
+  .reviews-row {
+    animation: scroll-left-to-right 40s linear infinite;
+  }
+
+  .reviews-row-reverse {
+    animation: scroll-right-to-left 40s linear infinite;
   }
 
   .transaction-badges {
@@ -676,6 +685,20 @@ body {
   .review-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .review-card {
+    min-width: 240px;
+    max-width: 280px;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .review-title {
+    font-size: 1rem;
+  }
+
+  .review-text {
+    font-size: 0.875rem;
   }
 }
 

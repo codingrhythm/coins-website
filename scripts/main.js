@@ -143,9 +143,14 @@ async function loadReviews() {
       }
     });
 
-    // Duplicate cards for seamless infinite scroll
-    row1.innerHTML += row1.innerHTML;
-    row2.innerHTML += row2.innerHTML;
+    // Duplicate cards multiple times for seamless infinite scroll
+    // Store original content
+    const row1Content = row1.innerHTML;
+    const row2Content = row2.innerHTML;
+
+    // Duplicate content 3 times for smoother animation
+    row1.innerHTML = row1Content + row1Content + row1Content;
+    row2.innerHTML = row2Content + row2Content + row2Content;
 
     console.log(`Loaded ${reviews.length} reviews for language: ${currentLang}`);
   } catch (error) {
