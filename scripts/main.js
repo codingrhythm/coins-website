@@ -191,7 +191,9 @@ function formatDate(dateString) {
       'it': 'it-IT',
       'ja': 'ja-JP',
       'zh-Hans': 'zh-CN',
-      'zh-Hant': 'zh-TW'
+      'zh-Hant': 'zh-TW',
+      'ko': 'ko-KR',
+      'ru': 'ru-RU'
     };
 
     const locale = localeMap[lang] || 'en-US';
@@ -270,8 +272,8 @@ function initLucideIcons() {
  * @returns {string} Translated text
  */
 function getTransactionText(key) {
-  if (window.i18n && window.i18n.translations && window.i18n.translations.transactions) {
-    return window.i18n.translations.transactions[key] || key;
+  if (window.i18n && window.i18n.t) {
+    return window.i18n.t(`transactions.${key}`);
   }
   return key;
 }

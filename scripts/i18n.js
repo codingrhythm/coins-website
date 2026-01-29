@@ -5,7 +5,7 @@ class I18n {
   constructor() {
     this.currentLanguage = 'en';
     this.translations = {};
-    this.supportedLanguages = ['en', 'de', 'fr', 'es', 'it', 'ja', 'zh-Hans', 'zh-Hant'];
+    this.supportedLanguages = ['en', 'de', 'fr', 'es', 'it', 'ja', 'zh-Hans', 'zh-Hant', 'ko', 'ru'];
   }
 
   /**
@@ -42,7 +42,11 @@ class I18n {
       'zh-hant': 'zh-Hant',
       'zh-hant-tw': 'zh-Hant',
       'zh-hk': 'zh-Hant',
-      'zh': 'zh-Hans' // Default Chinese to Simplified
+      'zh': 'zh-Hans', // Default Chinese to Simplified
+      'ko': 'ko',
+      'ko-kr': 'ko',
+      'ru': 'ru',
+      'ru-ru': 'ru'
     };
 
     // Try exact match first

@@ -358,5 +358,95 @@
       "gifts": "禮品", "flowers": "鮮花", "laundry": "洗衣", "repairs": "維修",
       "plants": "植物", "candles": "蠟燭"
     }
+  },
+  "ko": {
+    "meta": {
+      "title": "Coins - 간단한 지출 추적",
+      "description": "하루 30초만으로 지출을 추적하세요. 아름답고 간단하며 스마트한 지출 관리 앱."
+    },
+    "nav": {
+      "features": "기능",
+      "reviews": "리뷰",
+      "download": "다운로드"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "간단하고 스마트한 지출 추적",
+      "description": "하루 30초만으로 지출을 추적하세요",
+      "cta": "App Store에서 다운로드",
+      "scroll": "스크롤하여 탐색"
+    },
+    "features": {
+      "heading": "필요한 모든 기능"
+    },
+    "reviews": {
+      "heading": "사용자 후기"
+    },
+    "footer": {
+      "privacy": "개인정보 보호정책",
+      "copyright": "© 2026 Coins. All rights reserved."
+    },
+    "transactions": {
+      "coffee": "커피", "pizza": "피자", "burger": "버거", "ramen": "라면", "bento": "도시락",
+      "salad": "샐러드", "dessert": "디저트", "drinks": "음료", "snacks": "간식",
+      "metro": "지하철", "taxi": "택시", "uber": "우버", "gas": "주유", "parking": "주차",
+      "flight": "항공권", "bikeShare": "공유 자전거", "groceries": "식료품", "clothing": "의류",
+      "sneakers": "운동화", "cosmetics": "화장품", "backpack": "백팩", "phoneCase": "폰케이스",
+      "headphones": "헤드폰", "movie": "영화", "games": "게임", "concert": "콘서트",
+      "artSupplies": "미술 용품", "event": "이벤트", "activities": "활동", "gym": "헬스장",
+      "doctor": "병원", "pharmacy": "약국", "yoga": "요가", "haircut": "미용실",
+      "books": "책", "notebook": "노트", "stationery": "문구", "software": "소프트웨어",
+      "course": "강의", "electricity": "전기요금", "internet": "인터넷", "phoneBill": "전화요금",
+      "rent": "월세", "water": "수도요금", "dogFood": "강아지 사료", "catToys": "고양이 장난감", "vet": "동물병원",
+      "salary": "월급", "bonus": "보너스", "freelance": "프리랜스", "gift": "선물",
+      "investment": "투자", "prize": "상금", "contract": "계약", "commission": "수수료",
+      "gifts": "선물", "flowers": "꽃", "laundry": "세탁", "repairs": "수리",
+      "plants": "식물", "candles": "캔들"
+    }
+  },
+  "ru": {
+    "meta": {
+      "title": "Coins - Простой трекер расходов",
+      "description": "Отслеживайте расходы всего за 30 секунд в день. Красивый, простой и умный трекер расходов для iOS."
+    },
+    "nav": {
+      "features": "Функции",
+      "reviews": "Отзывы",
+      "download": "Скачать"
+    },
+    "hero": {
+      "title": "Coins",
+      "subtitle": "Простое и умное отслеживание расходов",
+      "description": "Отслеживайте расходы всего за 30 секунд в день",
+      "cta": "Загрузить в App Store",
+      "scroll": "Прокрутите для изучения"
+    },
+    "features": {
+      "heading": "Всё что вам нужно"
+    },
+    "reviews": {
+      "heading": "Что говорят люди"
+    },
+    "footer": {
+      "privacy": "Политика конфиденциальности",
+      "copyright": "© 2026 Coins. Все права защищены."
+    },
+    "transactions": {
+      "coffee": "Кофе", "pizza": "Пицца", "burger": "Бургер", "ramen": "Рамен", "bento": "Бенто",
+      "salad": "Салат", "dessert": "Десерт", "drinks": "Напитки", "snacks": "Снеки",
+      "metro": "Метро", "taxi": "Такси", "uber": "Убер", "gas": "Бензин", "parking": "Парковка",
+      "flight": "Авиабилет", "bikeShare": "Велопрокат", "groceries": "Продукты", "clothing": "Одежда",
+      "sneakers": "Кроссовки", "cosmetics": "Косметика", "backpack": "Рюкзак", "phoneCase": "Чехол",
+      "headphones": "Наушники", "movie": "Кино", "games": "Игры", "concert": "Концерт",
+      "artSupplies": "Художественные принадлежности", "event": "Мероприятие", "activities": "Активности", "gym": "Спортзал",
+      "doctor": "Врач", "pharmacy": "Аптека", "yoga": "Йога", "haircut": "Стрижка",
+      "books": "Книги", "notebook": "Блокнот", "stationery": "Канцтовары", "software": "Программное обеспечение",
+      "course": "Курс", "electricity": "Электричество", "internet": "Интернет", "phoneBill": "Мобильная связь",
+      "rent": "Аренда", "water": "Вода", "dogFood": "Корм для собаки", "catToys": "Игрушки для кошки", "vet": "Ветеринар",
+      "salary": "Зарплата", "bonus": "Бонус", "freelance": "Фриланс", "gift": "Подарок",
+      "investment": "Инвестиции", "prize": "Приз", "contract": "Контракт", "commission": "Комиссия",
+      "gifts": "Подарки", "flowers": "Цветы", "laundry": "Прачечная", "repairs": "Ремонт",
+      "plants": "Растения", "candles": "Свечи"
+    }
   }
 }
