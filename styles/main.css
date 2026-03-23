@@ -184,9 +184,9 @@ body {
 .section__split {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 32px;
   margin-top: 16px;
-  width: 100%;
 }
 
 .section__split-left {
