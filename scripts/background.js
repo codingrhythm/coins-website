@@ -32,6 +32,8 @@ class BackgroundRenderer {
     this._prevFocused = -1;
     this._animOpacity = 1;
     this._fadeTarget = null;
+    this._blurCanvas = document.createElement('canvas');
+    this._blurCtx = this._blurCanvas.getContext('2d');
   }
 
   init() {
@@ -69,6 +71,23 @@ class BackgroundRenderer {
     this.canvas.style.width = this.width + 'px';
     this.canvas.style.height = this.height + 'px';
     this.ctx.setTransform(this.dpr, 0, 0, this.dpr, 0, 0);
+    this._blurCanvas.width = Math.ceil(this.width / 4);
+    this._blurCanvas.height = Math.ceil(this.height / 4);
+  }
+
+  drawBlurred(callback) {
+    const bCtx = this._blurCtx;
+    const bw = this._blurCanvas.width;
+    const bh = this._blurCanvas.height;
+    const scale = 0.25;
+
+    bCtx.clearRect(0, 0, bw, bh);
+    bCtx.save();
+    bCtx.scale(scale, scale);
+    callback(bCtx, this.width, this.height);
+    bCtx.restore();
+
+    this.ctx.drawImage(this._blurCanvas, 0, 0, this.width, this.height);
   }
 
   _frame(now) {
@@ -95,7 +114,9 @@ class BackgroundRenderer {
     // Gradient shift layer
     if (!this.reducedMotion && this.gradientShift) {
       const colors = SECTION_GRADIENTS[focused];
-      this.gradientShift.draw(ctx, width, height, time, colors);
+      this.drawBlurred((bCtx, w, h) => {
+        this.gradientShift.draw(bCtx, w, h, time, colors);
+      });
     }
 
     // Theme animation (only focused section's animation)
@@ -114,7 +135,7 @@ class BackgroundRenderer {
           this._animOpacity = Math.min(this._animOpacity + 0.033, 1);
         }
         ctx.globalAlpha = this._animOpacity;
-        anim.update(time, ctx, width, height, scale);
+        anim.update(time, ctx, width, height, scale, this);
         ctx.globalAlpha = 1;
       }
     }
@@ -164,9 +185,7 @@ class GradientShiftLayer {
     const y1 = h * 0.3 + h * 0.1 * cycle;
     const c1 = colors[0];
 
-    ctx.save();
     ctx.globalAlpha = 0.09;
-    ctx.filter = `blur(${minDim * 0.22}px)`;
     ctx.beginPath();
     ctx.arc(x1, y1, r1, 0, Math.PI * 2);
     ctx.fillStyle = `rgb(${c1.r},${c1.g},${c1.b})`;
@@ -181,14 +200,13 @@ class GradientShiftLayer {
     ctx.arc(x2, y2, r2, 0, Math.PI * 2);
     ctx.fillStyle = `rgb(${cLast.r},${cLast.g},${cLast.b})`;
     ctx.fill();
-    ctx.restore();
   }
 }
 
 // --- Task 10: SunsetGlow and Ocean animations ---
 
 class SunsetGlowAnimation {
-  update(time, ctx, w, h, scale) {
+  update(time, ctx, w, h, scale, renderer) {
     const minDim = Math.min(w, h);
 
     // Large pulsing sun glow
@@ -206,21 +224,22 @@ class SunsetGlowAnimation {
     ctx.restore();
 
     // 2 drifting light rays
-    ctx.save();
-    ctx.globalAlpha = 0.12;
-    ctx.filter = `blur(${minDim * 0.05}px)`;
-    const ray1X = w * 0.5 + w * 0.15 * Math.sin(time * 0.3);
-    ctx.beginPath();
-    ctx.ellipse(ray1X, h * 0.35, w * 0.125, h * 0.25, 0, 0, Math.PI * 2);
-    ctx.fillStyle = 'white';
-    ctx.fill();
+    if (renderer) {
+      renderer.drawBlurred((bCtx, w, h) => {
+        bCtx.globalAlpha = 0.12;
+        const ray1X = w * 0.5 + w * 0.15 * Math.sin(time * 0.3);
+        bCtx.beginPath();
+        bCtx.ellipse(ray1X, h * 0.35, w * 0.125, h * 0.25, 0, 0, Math.PI * 2);
+        bCtx.fillStyle = 'white';
+        bCtx.fill();
 
-    ctx.globalAlpha = 0.10;
-    const ray2X = w * 0.5 - w * 0.15 * Math.sin(time * 0.3 + 1);
-    ctx.beginPath();
-    ctx.ellipse(ray2X, h * 0.4, w * 0.09, h * 0.2, 0, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.restore();
+        bCtx.globalAlpha = 0.10;
+        const ray2X = w * 0.5 - w * 0.15 * Math.sin(time * 0.3 + 1);
+        bCtx.beginPath();
+        bCtx.ellipse(ray2X, h * 0.4, w * 0.09, h * 0.2, 0, 0, Math.PI * 2);
+        bCtx.fill();
+      });
+    }
 
     // 5 lens flare circles
     ctx.save();
@@ -254,25 +273,26 @@ class OceanAnimation {
     }
   }
 
-  update(time, ctx, w, h, scale) {
+  update(time, ctx, w, h, scale, renderer) {
     const minDim = Math.min(w, h);
 
     // 4 caustic light patterns
-    ctx.save();
-    ctx.filter = `blur(${minDim * 0.12}px)`;
-    for (let i = 0; i < 4; i++) {
-      const cx = w * (0.2 + i * 0.2) + w * 0.08 * Math.sin(time * 0.4 + i * 1.5);
-      const cy = h * (0.1 + i * 0.05);
-      const rw = w * (0.2 + i * 0.04);
-      const rh = h * (0.05 + i * 0.012);
-      const alpha = 0.12 + 0.04 * Math.sin(time * 0.8 + i);
-      ctx.globalAlpha = alpha;
-      ctx.beginPath();
-      ctx.ellipse(cx, cy, rw, rh, 0, 0, Math.PI * 2);
-      ctx.fillStyle = 'white';
-      ctx.fill();
+    if (renderer) {
+      renderer.drawBlurred((bCtx, w, h) => {
+        for (let i = 0; i < 4; i++) {
+          const cx = w * (0.2 + i * 0.2) + w * 0.08 * Math.sin(time * 0.4 + i * 1.5);
+          const cy = h * (0.1 + i * 0.05);
+          const rw = w * (0.2 + i * 0.04);
+          const rh = h * (0.05 + i * 0.012);
+          const alpha = 0.12 + 0.04 * Math.sin(time * 0.8 + i);
+          bCtx.globalAlpha = alpha;
+          bCtx.beginPath();
+          bCtx.ellipse(cx, cy, rw, rh, 0, 0, Math.PI * 2);
+          bCtx.fillStyle = 'white';
+          bCtx.fill();
+        }
+      });
     }
-    ctx.restore();
 
     // 10 rising bubbles
     ctx.save();
@@ -312,7 +332,7 @@ class ForestAnimation {
     }
   }
 
-  update(time, ctx, w, h, scale) {
+  update(time, ctx, w, h, scale, renderer) {
     ctx.save();
     for (const leaf of this.leaves) {
       const y = ((time * leaf.speed + leaf.phase) % 1.0);
@@ -353,36 +373,36 @@ class AuroraAnimation {
     ];
   }
 
-  update(time, ctx, w, h, scale) {
+  update(time, ctx, w, h, scale, renderer) {
     const minDim = Math.min(w, h);
     const segments = 30;
     const thickness = h * 0.12;
 
-    ctx.save();
-    ctx.filter = `blur(${minDim * 0.08}px)`;
+    if (renderer) {
+      renderer.drawBlurred((bCtx, w, h) => {
+        for (const band of this.bands) {
+          const yOffset = Math.sin(time * band.speed) * h * 0.05;
 
-    for (const band of this.bands) {
-      const yOffset = Math.sin(time * band.speed) * h * 0.05;
-
-      ctx.beginPath();
-      for (let i = 0; i <= segments; i++) {
-        const x = (i / segments) * w;
-        const y = band.yBase * h + yOffset +
-                  Math.sin((i / segments) * band.freq * Math.PI + time * band.speed) * h * 0.04;
-        if (i === 0) ctx.moveTo(x, y);
-        else ctx.lineTo(x, y);
-      }
-      for (let i = segments; i >= 0; i--) {
-        const x = (i / segments) * w;
-        const y = band.yBase * h + yOffset + thickness +
-                  Math.sin((i / segments) * band.freq * Math.PI + time * band.speed + 1) * h * 0.03;
-        ctx.lineTo(x, y);
-      }
-      ctx.closePath();
-      ctx.fillStyle = band.color;
-      ctx.fill();
+          bCtx.beginPath();
+          for (let i = 0; i <= segments; i++) {
+            const x = (i / segments) * w;
+            const y = band.yBase * h + yOffset +
+                      Math.sin((i / segments) * band.freq * Math.PI + time * band.speed) * h * 0.04;
+            if (i === 0) bCtx.moveTo(x, y);
+            else bCtx.lineTo(x, y);
+          }
+          for (let i = segments; i >= 0; i--) {
+            const x = (i / segments) * w;
+            const y = band.yBase * h + yOffset + thickness +
+                      Math.sin((i / segments) * band.freq * Math.PI + time * band.speed + 1) * h * 0.03;
+            bCtx.lineTo(x, y);
+          }
+          bCtx.closePath();
+          bCtx.fillStyle = band.color;
+          bCtx.fill();
+        }
+      });
     }
-    ctx.restore();
   }
 }
 
@@ -423,7 +443,7 @@ class MidnightAnimation {
     }
   }
 
-  update(time, ctx, w, h, scale) {
+  update(time, ctx, w, h, scale, renderer) {
     ctx.save();
     for (const star of this.stars) {
       const alpha = star.peakAlpha * (0.5 + 0.5 * Math.sin(time * star.speed + star.phase));
@@ -469,7 +489,7 @@ class DesertAnimation {
     }
   }
 
-  update(time, ctx, w, h, scale) {
+  update(time, ctx, w, h, scale, renderer) {
     ctx.save();
     for (const flower of this.flowers) {
       const cycle = (time * flower.bloomSpeed + flower.phase) % (Math.PI * 2);
