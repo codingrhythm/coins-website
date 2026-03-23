@@ -2,8 +2,8 @@
 
 // Section gradient definitions matching spec
 const SECTION_GRADIENTS = [
-  // sunsetGlow (Hero)
-  [{ r: 26, g: 42, b: 108 }, { r: 178, g: 31, b: 31 }, { r: 253, g: 187, b: 45 }],
+  // sunsetGlow (Hero) — matches app: coral red → tangerine → deep rose → dark purple
+  [{ r: 255, g: 107, b: 107 }, { r: 238, g: 90, b: 36 }, { r: 196, g: 69, b: 105 }, { r: 108, g: 44, b: 112 }],
   // ocean (Core)
   [{ r: 0, g: 119, b: 182 }, { r: 0, g: 95, b: 140 }, { r: 2, g: 62, b: 88 }, { r: 1, g: 40, b: 58 }],
   // forest (Smart)
@@ -148,24 +148,8 @@ class BackgroundRenderer {
 // --- Task 10: SunsetGlow and Ocean animations ---
 
 class SunsetGlowAnimation {
-  update(time, ctx, w, h, scale, renderer) {
-    const minDim = Math.min(w, h);
-
-    // Small lens flare circles
-    ctx.save();
-    for (let i = 0; i < 5; i++) {
-      const t = (i + 1) / 6;
-      const fx = w * (0.15 + t * 0.7) + 5 * Math.sin(time * 0.5 + i);
-      const fy = h * (0.15 + t * 0.7);
-      const fr = minDim * (0.03 + i * 0.02);
-      const alpha = 0.08 + (i % 3) * 0.02;
-      ctx.globalAlpha = alpha;
-      ctx.beginPath();
-      ctx.arc(fx, fy, fr, 0, Math.PI * 2);
-      ctx.fillStyle = 'white';
-      ctx.fill();
-    }
-    ctx.restore();
+  update() {
+    // No overlay animation for hero — gradient only
   }
 }
 
