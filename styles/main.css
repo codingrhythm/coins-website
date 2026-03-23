@@ -35,7 +35,11 @@
 }
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-snap-type: y proximity; }
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  background: #0a0f1a;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color: var(--text-primary);
@@ -459,8 +463,17 @@ body {
 /* Responsive (mobile ≤768px) */
 @media (max-width: 768px) {
   .section { padding: 32px 12px; }
-  .showcase__callout { display: none; }
-  .showcase__img { max-height: 36vh; }
+  .showcase {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .showcase__img { max-height: 32vh; }
+  .showcase__callout {
+    position: static;
+    white-space: normal;
+    margin: 0;
+    transform: none;
+  }
   .section__split { flex-direction: column; }
   .section__split-right { display: none; }
   .feature-cards { flex-direction: column; align-items: center; }
