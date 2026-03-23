@@ -68,52 +68,52 @@
     "hero": {
       "title": "Coins",
       "cta": "Im App Store laden",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "Entwickle deine Geldgewohnheit",
+      "subtitle2": "Wenige Sekunden am Tag genügen.",
+      "pillar.fast": "Schnell",
+      "pillar.private": "Privat",
+      "pillar.smart": "Intelligent"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "Kernfunktionen",
+        "headline": "In Sekunden erfassen. Im Budget bleiben.",
+        "subtitle": "Ausgaben mit einem Tipp erfassen. Monatsbudget festlegen und vor Überschreitung gewarnt werden.",
+        "fast": { "title": "Schnellerfassung", "desc": "Einfach Betrag eingeben — fertig" },
+        "calc": { "title": "Integrierter Rechner", "desc": "Quittungen unterwegs zusammenrechnen" },
+        "budget": { "title": "Budget-Warnung", "desc": "Wissen, bevor du zu viel ausgibst" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "Smarte Funktionen",
+        "headline": "Das große Bild sehen",
+        "subtitle": "Schöne Diagramme, smarte Vorschläge und Widgets, die dich informiert halten.",
+        "reports": { "title": "Schöne Berichte", "desc": "Klare, aufschlussreiche Ausgabendiagramme" },
+        "suggestions": { "title": "Smarte Vorschläge", "desc": "Häufige Buchungen in zwei Tipps hinzufügen" },
+        "widgets": { "title": "Startbildschirm-Widgets", "desc": "Budgetfortschritt auf einen Blick" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "Pro-Version",
+        "headline": "Mehr Power freischalten",
+        "subtitle": "Erweiterte Funktionen für alle, die das volle Bild wollen.",
+        "forecast": { "title": "Finanzprognose", "desc": "Zukünftige Ausgaben aus deiner Historie vorhersagen" },
+        "currency": { "title": "Multi-Währung", "desc": "Perfekt für Reisen und internationale Ausgaben" },
+        "scan": { "title": "Beleg scannen", "desc": "Foto machen, KI füllt automatisch aus" },
+        "repeat": { "title": "Wiederkehrende Buchungen", "desc": "Regelmäßige Rechnungen und Einkommen automatisieren" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "Und noch so viel mehr…",
+        "subtitle": "Deine Daten bleiben auf deinem Gerät und in deiner iCloud — immer privat, immer sicher.",
+        "shortcuts": "iOS Kurzbefehle",
+        "icloud": "iCloud-Sync",
+        "privacy": "Datenschutz zuerst",
+        "categories": "Eigene Kategorien",
+        "themes": "Hintergrundthemen",
+        "recurring": "Wiederkehrende Buchungen",
+        "search": "Smarte Suche",
+        "batch": "Stapelverarbeitung"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "Von Tausenden geliebt"
       }
     },
     "footer": {
@@ -129,52 +129,52 @@
     "hero": {
       "title": "Coins",
       "cta": "Télécharger sur l'App Store",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "Adoptez de bonnes habitudes financières",
+      "subtitle2": "Quelques secondes par jour suffisent.",
+      "pillar.fast": "Rapide",
+      "pillar.private": "Privé",
+      "pillar.smart": "Intelligent"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "Fonctions essentielles",
+        "headline": "Saisissez en secondes. Restez dans le budget.",
+        "subtitle": "Enregistrez vos dépenses d'un seul geste. Définissez un budget mensuel et recevez des alertes avant de dépasser.",
+        "fast": { "title": "Saisie rapide", "desc": "Entrez un montant — c'est fait" },
+        "calc": { "title": "Calculatrice intégrée", "desc": "Additionnez vos reçus en déplacement" },
+        "budget": { "title": "Alertes budget", "desc": "Soyez averti avant de trop dépenser" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "Fonctions intelligentes",
+        "headline": "Voyez le tableau complet",
+        "subtitle": "De beaux graphiques, des suggestions intelligentes et des widgets pour rester informé.",
+        "reports": { "title": "Beaux rapports", "desc": "Des graphiques de dépenses clairs et pertinents" },
+        "suggestions": { "title": "Suggestions intelligentes", "desc": "Ajoutez vos opérations fréquentes en deux gestes" },
+        "widgets": { "title": "Widgets écran d'accueil", "desc": "Progression du budget en un coup d'œil" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "Passer à Pro",
+        "headline": "Libérez plus de puissance",
+        "subtitle": "Des fonctionnalités avancées pour ceux qui veulent une vision complète.",
+        "forecast": { "title": "Prévisions financières", "desc": "Prédisez vos dépenses futures à partir de votre historique" },
+        "currency": { "title": "Multi-devises", "desc": "Parfait pour les voyages et les dépenses internationales" },
+        "scan": { "title": "Scan de reçus", "desc": "Prenez une photo, l'IA remplit automatiquement" },
+        "repeat": { "title": "Opérations récurrentes", "desc": "Automatisez les factures et revenus réguliers" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "Et bien plus encore…",
+        "subtitle": "Vos données restent sur votre appareil et votre iCloud — toujours privées, toujours sécurisées.",
+        "shortcuts": "Raccourcis iOS",
+        "icloud": "Synchronisation iCloud",
+        "privacy": "Confidentialité d'abord",
+        "categories": "Catégories personnalisées",
+        "themes": "Thèmes d'arrière-plan",
+        "recurring": "Opérations récurrentes",
+        "search": "Recherche intelligente",
+        "batch": "Opérations par lot"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "Adoré par des milliers d'utilisateurs"
       }
     },
     "footer": {
@@ -190,52 +190,52 @@
     "hero": {
       "title": "Coins",
       "cta": "Descargar en App Store",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "Crea tu hábito financiero",
+      "subtitle2": "Unos segundos al día es todo lo que necesitas.",
+      "pillar.fast": "Rápido",
+      "pillar.private": "Privado",
+      "pillar.smart": "Inteligente"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "Funciones principales",
+        "headline": "Registra en segundos. Mantén tu presupuesto.",
+        "subtitle": "Registra gastos con un solo toque. Establece un presupuesto mensual y recibe alertas antes de gastar de más.",
+        "fast": { "title": "Registro rápido", "desc": "Solo ingresa un monto — listo" },
+        "calc": { "title": "Calculadora integrada", "desc": "Suma recibos sobre la marcha" },
+        "budget": { "title": "Alertas de presupuesto", "desc": "Entérate antes de gastar de más" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "Funciones inteligentes",
+        "headline": "Ve el panorama completo",
+        "subtitle": "Gráficos hermosos, sugerencias inteligentes y widgets que te mantienen informado.",
+        "reports": { "title": "Informes hermosos", "desc": "Gráficos de gastos claros y reveladores" },
+        "suggestions": { "title": "Sugerencias inteligentes", "desc": "Agrega transacciones frecuentes en dos toques" },
+        "widgets": { "title": "Widgets de pantalla", "desc": "Progreso del presupuesto de un vistazo" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "Hazte Pro",
+        "headline": "Desbloquea más poder",
+        "subtitle": "Funciones avanzadas para quienes quieren la imagen completa.",
+        "forecast": { "title": "Pronóstico financiero", "desc": "Predice gastos futuros a partir de tu historial" },
+        "currency": { "title": "Multi-moneda", "desc": "Perfecto para viajes y gastos internacionales" },
+        "scan": { "title": "Escaneo de recibos", "desc": "Toma una foto, la IA completa automáticamente" },
+        "repeat": { "title": "Transacciones recurrentes", "desc": "Automatiza facturas e ingresos recurrentes" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "Y mucho más…",
+        "subtitle": "Tus datos permanecen en tu dispositivo y tu iCloud — siempre privados, siempre seguros.",
+        "shortcuts": "Atajos de iOS",
+        "icloud": "Sincronización iCloud",
+        "privacy": "Privacidad primero",
+        "categories": "Categorías personalizadas",
+        "themes": "Temas de fondo",
+        "recurring": "Transacciones recurrentes",
+        "search": "Búsqueda inteligente",
+        "batch": "Operaciones por lotes"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "Amado por miles"
       }
     },
     "footer": {
@@ -251,52 +251,52 @@
     "hero": {
       "title": "Coins",
       "cta": "Scarica su App Store",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "Costruisci la tua abitudine finanziaria",
+      "subtitle2": "Bastano pochi secondi al giorno.",
+      "pillar.fast": "Veloce",
+      "pillar.private": "Privato",
+      "pillar.smart": "Intelligente"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "Funzioni principali",
+        "headline": "Registra in pochi secondi. Rispetta il budget.",
+        "subtitle": "Registra le spese con un tocco. Imposta un budget mensile e ricevi avvisi prima di sforare.",
+        "fast": { "title": "Inserimento rapido", "desc": "Inserisci un importo — fatto" },
+        "calc": { "title": "Calcolatrice integrata", "desc": "Somma gli scontrini al volo" },
+        "budget": { "title": "Avvisi budget", "desc": "Sappi prima di spendere troppo" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "Funzioni smart",
+        "headline": "Vedi il quadro completo",
+        "subtitle": "Grafici belli, suggerimenti smart e widget che ti tengono informato.",
+        "reports": { "title": "Report bellissimi", "desc": "Grafici di spesa chiari e approfonditi" },
+        "suggestions": { "title": "Suggerimenti smart", "desc": "Aggiungi transazioni frequenti in due tocchi" },
+        "widgets": { "title": "Widget schermata Home", "desc": "Progresso del budget a colpo d'occhio" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "Passa a Pro",
+        "headline": "Sblocca più potenza",
+        "subtitle": "Funzionalità avanzate per chi vuole il quadro completo.",
+        "forecast": { "title": "Previsioni finanziarie", "desc": "Prevedi le spese future dalla tua cronologia" },
+        "currency": { "title": "Multi-valuta", "desc": "Perfetto per viaggi e spese internazionali" },
+        "scan": { "title": "Scansione scontrini", "desc": "Scatta una foto, l'IA compila automaticamente" },
+        "repeat": { "title": "Transazioni ricorrenti", "desc": "Automatizza bollette e entrate ricorrenti" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "E molto altro ancora…",
+        "subtitle": "I tuoi dati restano sul tuo dispositivo e su iCloud — sempre privati, sempre sicuri.",
+        "shortcuts": "Comandi rapidi iOS",
+        "icloud": "Sincronizzazione iCloud",
+        "privacy": "Privacy al primo posto",
+        "categories": "Categorie personalizzate",
+        "themes": "Temi di sfondo",
+        "recurring": "Transazioni ricorrenti",
+        "search": "Ricerca intelligente",
+        "batch": "Operazioni in blocco"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "Amato da migliaia di utenti"
       }
     },
     "footer": {
@@ -312,52 +312,52 @@
     "hero": {
       "title": "Coins",
       "cta": "App Storeでダウンロード",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "お金の習慣を身につけよう",
+      "subtitle2": "1日ほんの数秒でOK。",
+      "pillar.fast": "高速",
+      "pillar.private": "プライベート",
+      "pillar.smart": "スマート"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "基本機能",
+        "headline": "数秒で記録。予算をキープ。",
+        "subtitle": "ワンタップで支出を記録。月の予算を設定し、使いすぎる前にアラートを受け取れます。",
+        "fast": { "title": "クイック入力", "desc": "金額を入力するだけ — 完了" },
+        "calc": { "title": "内蔵電卓", "desc": "レシートをその場で合計" },
+        "budget": { "title": "予算アラート", "desc": "使いすぎる前にお知らせ" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "スマート機能",
+        "headline": "全体像を把握しよう",
+        "subtitle": "美しいグラフ、スマートな提案、情報を常に表示するウィジェット。",
+        "reports": { "title": "美しいレポート", "desc": "わかりやすい支出グラフ" },
+        "suggestions": { "title": "スマート提案", "desc": "よく使う取引を2タップで追加" },
+        "widgets": { "title": "ホーム画面ウィジェット", "desc": "予算の進捗を一目で確認" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "Proにアップグレード",
+        "headline": "さらなるパワーを解放",
+        "subtitle": "全体像を求める方のための高度な機能。",
+        "forecast": { "title": "支出予測", "desc": "履歴から将来の支出を予測" },
+        "currency": { "title": "マルチ通貨", "desc": "旅行や海外での支出に最適" },
+        "scan": { "title": "レシートスキャン", "desc": "写真を撮ると、AIが自動入力" },
+        "repeat": { "title": "繰り返し取引", "desc": "定期的な支払いと収入を自動化" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "他にもたくさん…",
+        "subtitle": "データはあなたのデバイスとiCloudに保存 — 常にプライベート、常に安全。",
+        "shortcuts": "iOSショートカット",
+        "icloud": "iCloud同期",
+        "privacy": "プライバシー最優先",
+        "categories": "カスタムカテゴリ",
+        "themes": "背景テーマ",
+        "recurring": "繰り返し取引",
+        "search": "スマート検索",
+        "batch": "一括操作"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "何千人ものユーザーに愛されています"
       }
     },
     "footer": {
@@ -373,52 +373,52 @@
     "hero": {
       "title": "可记",
       "cta": "在 App Store 下载",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "养成记账好习惯",
+      "subtitle2": "每天只需几秒钟。",
+      "pillar.fast": "快速",
+      "pillar.private": "隐私",
+      "pillar.smart": "智能"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "核心功能",
+        "headline": "秒速记账，预算无忧。",
+        "subtitle": "一键记录支出，设置月度预算，超支前即时提醒。",
+        "fast": { "title": "快速记账", "desc": "输入金额即可 — 完成" },
+        "calc": { "title": "内置计算器", "desc": "随时合计小票金额" },
+        "budget": { "title": "预算提醒", "desc": "超支前及时提醒" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "智能功能",
+        "headline": "全局掌控",
+        "subtitle": "精美图表、智能建议和小组件，让你时刻了解财务状况。",
+        "reports": { "title": "精美报表", "desc": "清晰直观的消费图表" },
+        "suggestions": { "title": "智能建议", "desc": "两步添加常用交易" },
+        "widgets": { "title": "主屏幕小组件", "desc": "一眼查看预算进度" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "升级 Pro",
+        "headline": "解锁更多功能",
+        "subtitle": "为追求全面掌控的你提供高级功能。",
+        "forecast": { "title": "财务预测", "desc": "根据历史数据预测未来支出" },
+        "currency": { "title": "多币种", "desc": "旅行和跨国消费的完美选择" },
+        "scan": { "title": "扫描小票", "desc": "拍张照，AI自动填写" },
+        "repeat": { "title": "重复交易", "desc": "自动化定期账单和收入" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "还有更多精彩…",
+        "subtitle": "数据保存在你的设备和iCloud上 — 始终私密，始终安全。",
+        "shortcuts": "iOS 快捷指令",
+        "icloud": "iCloud 同步",
+        "privacy": "隐私优先",
+        "categories": "自定义分类",
+        "themes": "背景主题",
+        "recurring": "重复交易",
+        "search": "智能搜索",
+        "batch": "批量操作"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "深受数千用户喜爱"
       }
     },
     "footer": {
@@ -434,52 +434,52 @@
     "hero": {
       "title": "Coins",
       "cta": "在 App Store 下載",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "養成記帳好習慣",
+      "subtitle2": "每天只需幾秒鐘。",
+      "pillar.fast": "快速",
+      "pillar.private": "隱私",
+      "pillar.smart": "智能"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "核心功能",
+        "headline": "秒速記帳，預算無憂。",
+        "subtitle": "一鍵記錄支出，設定月度預算，超支前即時提醒。",
+        "fast": { "title": "快速記帳", "desc": "輸入金額即可 — 完成" },
+        "calc": { "title": "內建計算機", "desc": "隨時合計收據金額" },
+        "budget": { "title": "預算提醒", "desc": "超支前及時提醒" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "智慧功能",
+        "headline": "全局掌控",
+        "subtitle": "精美圖表、智慧建議和小工具，讓你時刻掌握財務狀況。",
+        "reports": { "title": "精美報表", "desc": "清晰直觀的消費圖表" },
+        "suggestions": { "title": "智慧建議", "desc": "兩步新增常用交易" },
+        "widgets": { "title": "主畫面小工具", "desc": "一眼查看預算進度" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "升級 Pro",
+        "headline": "解鎖更多功能",
+        "subtitle": "為追求全面掌控的你提供進階功能。",
+        "forecast": { "title": "財務預測", "desc": "根據歷史資料預測未來支出" },
+        "currency": { "title": "多幣種", "desc": "旅行和跨國消費的完美選擇" },
+        "scan": { "title": "掃描收據", "desc": "拍張照，AI自動填寫" },
+        "repeat": { "title": "重複交易", "desc": "自動化定期帳單和收入" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "還有更多精彩…",
+        "subtitle": "資料保存在你的裝置和iCloud上 — 始終私密，始終安全。",
+        "shortcuts": "iOS 捷徑",
+        "icloud": "iCloud 同步",
+        "privacy": "隱私優先",
+        "categories": "自訂分類",
+        "themes": "背景主題",
+        "recurring": "重複交易",
+        "search": "智慧搜尋",
+        "batch": "批次操作"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "深受數千用戶喜愛"
       }
     },
     "footer": {
@@ -495,52 +495,52 @@
     "hero": {
       "title": "Coins",
       "cta": "App Store에서 다운로드",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "돈 관리 습관을 만들어요",
+      "subtitle2": "하루 몇 초면 충분해요.",
+      "pillar.fast": "빠름",
+      "pillar.private": "프라이버시",
+      "pillar.smart": "스마트"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "핵심 기능",
+        "headline": "몇 초 만에 기록. 예산 유지.",
+        "subtitle": "한 번의 탭으로 지출을 기록하세요. 월 예산을 설정하고 초과 전에 알림을 받으세요.",
+        "fast": { "title": "빠른 입력", "desc": "금액만 입력하면 — 끝" },
+        "calc": { "title": "내장 계산기", "desc": "이동 중에도 영수증 합산" },
+        "budget": { "title": "예산 알림", "desc": "초과하기 전에 알려드려요" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "스마트 기능",
+        "headline": "전체 그림을 보세요",
+        "subtitle": "아름다운 차트, 스마트 제안, 항상 최신 정보를 제공하는 위젯.",
+        "reports": { "title": "아름다운 리포트", "desc": "명확하고 통찰력 있는 지출 차트" },
+        "suggestions": { "title": "스마트 제안", "desc": "자주 쓰는 거래를 두 번 탭으로 추가" },
+        "widgets": { "title": "홈 화면 위젯", "desc": "예산 진행 상황을 한눈에" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "Pro로 업그레이드",
+        "headline": "더 강력한 기능 잠금해제",
+        "subtitle": "전체 재무 현황을 원하는 분을 위한 고급 기능.",
+        "forecast": { "title": "재무 예측", "desc": "이력으로 미래 지출을 예측" },
+        "currency": { "title": "다중 통화", "desc": "여행 및 해외 지출에 완벽" },
+        "scan": { "title": "영수증 스캔", "desc": "사진을 찍으면 AI가 자동 입력" },
+        "repeat": { "title": "반복 거래", "desc": "정기 청구서와 수입을 자동화" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "그리고 더 많은 기능…",
+        "subtitle": "데이터는 기기와 iCloud에 보관 — 항상 비공개, 항상 안전.",
+        "shortcuts": "iOS 단축어",
+        "icloud": "iCloud 동기화",
+        "privacy": "프라이버시 우선",
+        "categories": "맞춤 카테고리",
+        "themes": "배경 테마",
+        "recurring": "반복 거래",
+        "search": "스마트 검색",
+        "batch": "일괄 처리"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "수천 명이 사랑하는 앱"
       }
     },
     "footer": {
@@ -556,52 +556,52 @@
     "hero": {
       "title": "Coins",
       "cta": "Загрузить в App Store",
-      "headline": "Build Your Money Habit",
-      "subtitle2": "A few seconds a day is all it takes.",
-      "pillar.fast": "Fast",
-      "pillar.private": "Private",
-      "pillar.smart": "Smart"
+      "headline": "Выработайте денежную привычку",
+      "subtitle2": "Несколько секунд в день — и всё.",
+      "pillar.fast": "Быстро",
+      "pillar.private": "Приватно",
+      "pillar.smart": "Умно"
     },
     "sections": {
       "core": {
-        "label": "Core Experience",
-        "headline": "Track in Seconds. Stay on Budget.",
-        "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "label": "Основные функции",
+        "headline": "Записывайте за секунды. Держите бюджет.",
+        "subtitle": "Записывайте расходы одним касанием. Установите месячный бюджет и получайте предупреждения.",
+        "fast": { "title": "Быстрый ввод", "desc": "Просто введите сумму — готово" },
+        "calc": { "title": "Встроенный калькулятор", "desc": "Суммируйте чеки на ходу" },
+        "budget": { "title": "Уведомления о бюджете", "desc": "Узнайте до того, как потратите лишнее" }
       },
       "smart": {
-        "label": "Smart Features",
-        "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "label": "Умные функции",
+        "headline": "Увидьте полную картину",
+        "subtitle": "Красивые графики, умные подсказки и виджеты для вашего удобства.",
+        "reports": { "title": "Красивые отчёты", "desc": "Понятные графики расходов" },
+        "suggestions": { "title": "Умные подсказки", "desc": "Добавляйте частые операции в два касания" },
+        "widgets": { "title": "Виджеты на главный экран", "desc": "Прогресс бюджета с первого взгляда" }
       },
       "pro": {
-        "label": "Go Pro",
-        "headline": "Unlock More Power",
-        "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "label": "Перейти на Pro",
+        "headline": "Разблокируйте больше возможностей",
+        "subtitle": "Продвинутые функции для тех, кто хочет полную картину.",
+        "forecast": { "title": "Финансовый прогноз", "desc": "Предсказывайте расходы на основе истории" },
+        "currency": { "title": "Мультивалюта", "desc": "Идеально для путешествий и зарубежных расходов" },
+        "scan": { "title": "Сканирование чеков", "desc": "Сделайте фото — ИИ заполнит автоматически" },
+        "repeat": { "title": "Повторяющиеся операции", "desc": "Автоматизируйте регулярные счета и доходы" }
       },
       "more": {
-        "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
-        "shortcuts": "iOS Shortcuts",
-        "icloud": "iCloud Sync",
-        "privacy": "Privacy First",
-        "categories": "Custom Categories",
-        "themes": "Background Themes",
-        "recurring": "Repeat Transactions",
-        "search": "Smart Search",
-        "batch": "Batch Operations"
+        "headline": "И ещё многое другое…",
+        "subtitle": "Ваши данные хранятся на устройстве и в iCloud — всегда конфиденциально, всегда безопасно.",
+        "shortcuts": "Команды iOS",
+        "icloud": "Синхронизация iCloud",
+        "privacy": "Приватность прежде всего",
+        "categories": "Свои категории",
+        "themes": "Темы фона",
+        "recurring": "Повторяющиеся операции",
+        "search": "Умный поиск",
+        "batch": "Пакетные операции"
       },
       "reviews": {
-        "headline": "Loved by Thousands"
+        "headline": "Любимое приложение тысяч людей"
       }
     },
     "footer": {
