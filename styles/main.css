@@ -190,8 +190,7 @@ body {
 }
 
 .section__split-left {
-  flex: 1;
-  min-width: 0;
+  flex: 0 1 auto;
 }
 
 .section__split-right {
