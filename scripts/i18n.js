@@ -238,7 +238,7 @@ class I18n {
   updateScreenshots(lang) {
     // Map i18n lang codes to screenshot folder names
     const screenshotLang = lang === 'zh-Hans' ? 'zh-Hans' : lang === 'zh-Hant' ? 'zh-Hant' : lang;
-    document.querySelectorAll('.screenshot-img[data-screenshot]').forEach(img => {
+    document.querySelectorAll('[data-screenshot]').forEach(img => {
       const filename = img.getAttribute('data-screenshot');
       img.src = `./assets/screenshots/${screenshotLang}/${filename}`;
     });
