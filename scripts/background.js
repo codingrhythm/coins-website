@@ -27,7 +27,7 @@ class BackgroundRenderer {
     this.dpr = 1;
     this.lastFrame = 0;
     this.animations = {};
-    this.gradientShift = null;
+
     this.reducedMotion = false;
     this._prevFocused = -1;
     this._animOpacity = 1;
@@ -46,7 +46,6 @@ class BackgroundRenderer {
     window.addEventListener('resize', () => this._resize());
 
     // Create animation instances (lazy — classes may not exist yet during incremental dev)
-    this.gradientShift = typeof GradientShiftLayer !== 'undefined' ? new GradientShiftLayer() : null;
     const animClasses = {
       sunsetGlow: typeof SunsetGlowAnimation !== 'undefined' ? SunsetGlowAnimation : null,
       ocean: typeof OceanAnimation !== 'undefined' ? OceanAnimation : null,
@@ -111,14 +110,6 @@ class BackgroundRenderer {
     const effectiveBlend = this.reducedMotion ? 0 : blend;
     this._drawGradient(ctx, width, height, focused, effectiveBlend, dir);
 
-    // Gradient shift layer
-    if (!this.reducedMotion && this.gradientShift) {
-      const colors = SECTION_GRADIENTS[focused];
-      this.drawBlurred((bCtx, w, h) => {
-        this.gradientShift.draw(bCtx, w, h, time, colors);
-      });
-    }
-
     // Theme animation (only focused section's animation)
     if (!this.reducedMotion) {
       const theme = THEME_NAMES[focused];
@@ -172,34 +163,6 @@ class BackgroundRenderer {
       });
     }
     return result;
-  }
-}
-
-class GradientShiftLayer {
-  draw(ctx, w, h, time, colors) {
-    const minDim = Math.min(w, h);
-    const cycle = (Math.sin(time * 0.628) + 1) / 2;
-
-    const r1 = minDim * 0.35;
-    const x1 = w * 0.3 + w * 0.1 * cycle;
-    const y1 = h * 0.3 + h * 0.1 * cycle;
-    const c1 = colors[0];
-
-    ctx.globalAlpha = 0.09;
-    ctx.beginPath();
-    ctx.arc(x1, y1, r1, 0, Math.PI * 2);
-    ctx.fillStyle = `rgb(${c1.r},${c1.g},${c1.b})`;
-    ctx.fill();
-
-    const r2 = minDim * 0.3;
-    const cLast = colors[colors.length - 1];
-    const x2 = w * 0.7 - w * 0.1 * cycle;
-    const y2 = h * 0.7 - h * 0.1 * cycle;
-
-    ctx.beginPath();
-    ctx.arc(x2, y2, r2, 0, Math.PI * 2);
-    ctx.fillStyle = `rgb(${cLast.r},${cLast.g},${cLast.b})`;
-    ctx.fill();
   }
 }
 
