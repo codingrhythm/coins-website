@@ -180,6 +180,20 @@ body {
 .feature-card__title { font-size: 1.125rem; font-weight: 600; margin-bottom: 4px; }
 .feature-card__desc { font-size: 0.9375rem; color: var(--text-secondary); }
 
+/* Section screenshots */
+.section__screenshot {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.screenshot-img {
+  max-height: 40vh;
+  width: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
 /* Pill chips */
 .pill-chips {
   display: flex;

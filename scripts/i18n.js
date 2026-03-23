@@ -201,6 +201,9 @@ class I18n {
     // Update App Store badge
     this.updateAppStoreBadge(lang);
 
+    // Update localized screenshots
+    this.updateScreenshots(lang);
+
     // Save preference to localStorage
     localStorage.setItem('preferredLanguage', lang);
 
@@ -224,6 +227,20 @@ class I18n {
     badges.forEach(badge => {
       badge.src = `./assets/app-store-badges/${lang}.svg`;
       badge.alt = this.t('hero.cta');
+    });
+  }
+
+  /**
+   * Update localized screenshots to match selected language
+   *
+   * @param {string} lang - Language code
+   */
+  updateScreenshots(lang) {
+    // Map i18n lang codes to screenshot folder names
+    const screenshotLang = lang === 'zh-Hans' ? 'zh-Hans' : lang === 'zh-Hant' ? 'zh-Hant' : lang;
+    document.querySelectorAll('.screenshot-img[data-screenshot]').forEach(img => {
+      const filename = img.getAttribute('data-screenshot');
+      img.src = `./assets/screenshots/${screenshotLang}/${filename}`;
     });
   }
 
