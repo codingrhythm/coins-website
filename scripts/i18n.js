@@ -123,12 +123,24 @@ class I18n {
     const keys = key.split('.');
     let value = this.translations[lang];
 
-    for (const k of keys) {
+    // Try progressive dot-notation traversal, combining remaining segments
+    // when a key like "pillar.fast" is stored as a flat key under "hero"
+    for (let i = 0; i < keys.length; i++) {
       if (value && typeof value === 'object') {
-        value = value[k];
+        if (value[keys[i]] !== undefined) {
+          value = value[keys[i]];
+        } else {
+          // Try combining remaining keys as a single flat key
+          const flatKey = keys.slice(i).join('.');
+          if (value[flatKey] !== undefined) {
+            return value[flatKey];
+          }
+          console.warn(`Translation not found for key: ${key} in language: ${lang}`);
+          return key;
+        }
       } else {
         console.warn(`Translation not found for key: ${key} in language: ${lang}`);
-        return key; // Return key if translation not found
+        return key;
       }
     }
 
