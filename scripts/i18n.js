@@ -101,8 +101,9 @@ class I18n {
         'en': {
           'hero': {
             'title': 'Coins',
-            'subtitle': 'Simple, Smart Expense Tracking',
-            'description': 'Track your expenses in just 30 seconds a day'
+            'headline': 'Build Your Money Habit',
+            'subtitle2': 'A few seconds a day is all it takes.',
+            'cta': 'Download on the App Store'
           }
         }
       };
@@ -207,11 +208,11 @@ class I18n {
    * @param {string} lang - Language code
    */
   updateAppStoreBadge(lang) {
-    const badge = document.querySelector('#app-store-badge img');
-    if (badge) {
+    const badges = document.querySelectorAll('.app-store-badge img');
+    badges.forEach(badge => {
       badge.src = `./assets/app-store-badges/${lang}.svg`;
       badge.alt = this.t('hero.cta');
-    }
+    });
   }
 
   /**
