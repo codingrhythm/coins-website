@@ -147,13 +147,18 @@ body {
 .feature-cards {
   display: flex;
   gap: 16px;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: 8px;
 }
 
-.feature-cards--3 .feature-card { flex: 0 1 280px; }
-.feature-cards--4 .feature-card { flex: 0 1 220px; }
+.feature-cards--4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.feature-cards--3 .feature-card { flex: 1 1 0; min-width: 0; }
+.feature-cards--4 .feature-card { flex: 1 1 0; min-width: 0; }
 
 .feature-card {
   background: var(--card-bg);
@@ -364,6 +369,8 @@ body {
   .section { padding: 32px 12px; }
   .feature-cards { flex-direction: column; align-items: center; }
   .feature-cards .feature-card { flex: 0 1 auto; width: 100%; max-width: 320px; }
+  .feature-cards--4 { grid-template-columns: 1fr; }
+  .feature-cards--4 .feature-card { max-width: 320px; justify-self: center; width: 100%; }
 
   .reviews-container {
     overflow-x: auto;
