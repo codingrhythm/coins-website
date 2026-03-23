@@ -60,8 +60,7 @@
   <link rel="icon" href="./assets/icon.png" type="image/png">
   <link rel="apple-touch-icon" href="./assets/icon.png">
 
-  <!-- Lucide icons CDN -->
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- NO Lucide CDN -->
 
   <!-- Styles -->
   <link rel="stylesheet" href="./styles/main.css">
@@ -70,7 +69,8 @@
 </head>
 
 <body>
-  <!-- Language Switcher (top right) -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
   <div class="language-switcher">
     <select id="language-select" aria-label="Choose language">
       <option value="en">English</option>
@@ -86,74 +86,167 @@
     </select>
   </div>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <!-- Animated transaction badges background -->
-    <div class="transaction-badges" id="transaction-badges">
-      <!-- Badges will be generated dynamically -->
-    </div>
-
-    <div class="container">
-      <img src="./assets/icon.png" alt="Coins App Icon" class="app-icon" width="120" height="120" loading="eager">
+  <!-- Section 1: Hero -->
+  <section class="section section--hero" data-theme="sunsetGlow">
+    <div class="section__content">
+      <div class="app-icon-container">
+        <img src="./assets/icon.png" alt="Coins App Icon" class="app-icon" width="120" height="120" loading="eager">
+      </div>
       <h1 data-i18n="hero.title">Coins</h1>
-      <p class="subtitle" data-i18n="hero.subtitle">Simple, Smart Expense Tracking</p>
-      <p class="description" data-i18n="hero.description">Track your expenses in just 30 seconds a day</p>
-
-      <!-- App Store Badge (will be updated based on language) -->
+      <p class="section__headline" data-i18n="hero.headline">Build Your Money Habit</p>
+      <p class="section__subtitle" data-i18n="hero.subtitle2">A few seconds a day is all it takes.</p>
+      <div class="hero-pillars">
+        <div class="hero-pillar"><span class="hero-pillar__icon">⚡</span><span data-i18n="hero.pillar.fast">Fast</span></div>
+        <div class="hero-pillar"><span class="hero-pillar__icon">🔒</span><span data-i18n="hero.pillar.private">Private</span></div>
+        <div class="hero-pillar"><span class="hero-pillar__icon">💡</span><span data-i18n="hero.pillar.smart">Smart</span></div>
+      </div>
       <a href="https://apps.apple.com/app/coins-spending-tracker/id572886919"
-         class="app-store-badge"
-         id="app-store-badge"
-         aria-label="Download on the App Store"
-         rel="noopener noreferrer"
-         target="_blank">
+         class="app-store-badge" rel="noopener noreferrer" target="_blank"
+         aria-label="Download on the App Store">
         <img src="./assets/app-store-badges/en.svg" alt="Download on the App Store" width="200" height="60" loading="eager">
       </a>
     </div>
-
-    <!-- Scroll Indicator -->
-    <div class="scroll-indicator" onclick="document.querySelector('#features').scrollIntoView({behavior: 'smooth'})">
-      <div class="scroll-indicator-icon">
-        <div class="scroll-indicator-dot"></div>
-      </div>
-      <span data-i18n="hero.scroll">Scroll to explore</span>
+    <div class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-indicator__pill"><div class="scroll-indicator__dot"></div></div>
     </div>
   </section>
 
-  <!-- Features Section -->
-  <section class="features" id="features">
-    <div class="container">
-      <h2 data-i18n="features.heading">Everything You Need</h2>
-      <div class="features-grid" id="features-grid">
-        <!-- Populated dynamically from features.json -->
+  <!-- Section 2: Core Experience -->
+  <section class="section section--core" data-theme="ocean">
+    <div class="section__content">
+      <span class="section__label" data-i18n="sections.core.label">Core Experience</span>
+      <h2 class="section__headline" data-i18n="sections.core.headline">Track in Seconds. Stay on Budget.</h2>
+      <p class="section__subtitle" data-i18n="sections.core.subtitle">Log expenses with a single tap. Set a monthly budget and get alerts before overspending.</p>
+      <div class="feature-cards feature-cards--3">
+        <div class="feature-card">
+          <span class="feature-card__emoji">⚡</span>
+          <h3 class="feature-card__title" data-i18n="sections.core.fast.title">Fast Entry</h3>
+          <p class="feature-card__desc" data-i18n="sections.core.fast.desc">Just enter an amount — done</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-card__emoji">🧮</span>
+          <h3 class="feature-card__title" data-i18n="sections.core.calc.title">Built-in Calculator</h3>
+          <p class="feature-card__desc" data-i18n="sections.core.calc.desc">Add up receipts on the fly</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-card__emoji">💰</span>
+          <h3 class="feature-card__title" data-i18n="sections.core.budget.title">Budget Alerts</h3>
+          <p class="feature-card__desc" data-i18n="sections.core.budget.desc">Know before you overspend</p>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-indicator__pill"><div class="scroll-indicator__dot"></div></div>
+    </div>
+  </section>
+
+  <!-- Section 3: Smart Features -->
+  <section class="section section--smart" data-theme="forest">
+    <div class="section__content">
+      <span class="section__label" data-i18n="sections.smart.label">Smart Features</span>
+      <h2 class="section__headline" data-i18n="sections.smart.headline">See the Big Picture</h2>
+      <p class="section__subtitle" data-i18n="sections.smart.subtitle">Beautiful charts, smart suggestions, and widgets that keep you informed.</p>
+      <div class="feature-cards feature-cards--3">
+        <div class="feature-card">
+          <span class="feature-card__emoji">📊</span>
+          <h3 class="feature-card__title" data-i18n="sections.smart.reports.title">Beautiful Reports</h3>
+          <p class="feature-card__desc" data-i18n="sections.smart.reports.desc">Clear, insightful spending charts</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-card__emoji">💡</span>
+          <h3 class="feature-card__title" data-i18n="sections.smart.suggestions.title">Smart Suggestions</h3>
+          <p class="feature-card__desc" data-i18n="sections.smart.suggestions.desc">Add frequent transactions in two taps</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-card__emoji">📱</span>
+          <h3 class="feature-card__title" data-i18n="sections.smart.widgets.title">Home Screen Widgets</h3>
+          <p class="feature-card__desc" data-i18n="sections.smart.widgets.desc">Budget progress at a glance</p>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-indicator__pill"><div class="scroll-indicator__dot"></div></div>
+    </div>
+  </section>
+
+  <!-- Section 4: Go Pro -->
+  <section class="section section--pro" data-theme="aurora">
+    <div class="section__content">
+      <span class="section__label" data-i18n="sections.pro.label">Go Pro</span>
+      <h2 class="section__headline" data-i18n="sections.pro.headline">Unlock More Power</h2>
+      <p class="section__subtitle" data-i18n="sections.pro.subtitle">Advanced features for those who want the full picture.</p>
+      <div class="feature-cards feature-cards--4">
+        <div class="feature-card">
+          <span class="feature-card__emoji">📈</span>
+          <h3 class="feature-card__title" data-i18n="sections.pro.forecast.title">Financial Forecast</h3>
+          <p class="feature-card__desc" data-i18n="sections.pro.forecast.desc">Predict future spending from your history</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-card__emoji">🌍</span>
+          <h3 class="feature-card__title" data-i18n="sections.pro.currency.title">Multi-Currency</h3>
+          <p class="feature-card__desc" data-i18n="sections.pro.currency.desc">Perfect for travel and international expenses</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-card__emoji">📸</span>
+          <h3 class="feature-card__title" data-i18n="sections.pro.scan.title">Receipt Scanning</h3>
+          <p class="feature-card__desc" data-i18n="sections.pro.scan.desc">Snap a photo, let AI auto-fill</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-card__emoji">🔄</span>
+          <h3 class="feature-card__title" data-i18n="sections.pro.repeat.title">Repeat Transactions</h3>
+          <p class="feature-card__desc" data-i18n="sections.pro.repeat.desc">Automate recurring bills and income</p>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-indicator__pill"><div class="scroll-indicator__dot"></div></div>
+    </div>
+  </section>
+
+  <!-- Section 5: And More -->
+  <section class="section section--more" data-theme="midnight">
+    <div class="section__content">
+      <h2 class="section__headline" data-i18n="sections.more.headline">And So Much More...</h2>
+      <div class="pill-chips">
+        <span class="pill-chip"><span class="pill-chip__emoji">🔗</span><span data-i18n="sections.more.shortcuts">iOS Shortcuts</span></span>
+        <span class="pill-chip"><span class="pill-chip__emoji">☁️</span><span data-i18n="sections.more.icloud">iCloud Sync</span></span>
+        <span class="pill-chip"><span class="pill-chip__emoji">🔒</span><span data-i18n="sections.more.privacy">Privacy First</span></span>
+        <span class="pill-chip"><span class="pill-chip__emoji">🏷️</span><span data-i18n="sections.more.categories">Custom Categories</span></span>
+        <span class="pill-chip"><span class="pill-chip__emoji">🎨</span><span data-i18n="sections.more.themes">Background Themes</span></span>
+        <span class="pill-chip"><span class="pill-chip__emoji">🔁</span><span data-i18n="sections.more.recurring">Repeat Transactions</span></span>
+        <span class="pill-chip"><span class="pill-chip__emoji">🔍</span><span data-i18n="sections.more.search">Smart Search</span></span>
+        <span class="pill-chip"><span class="pill-chip__emoji">📋</span><span data-i18n="sections.more.batch">Batch Operations</span></span>
+      </div>
+      <p class="section__subtitle" data-i18n="sections.more.subtitle">Your data stays on your device and your iCloud — always private, always secure.</p>
+    </div>
+    <div class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-indicator__pill"><div class="scroll-indicator__dot"></div></div>
+    </div>
+  </section>
+
+  <!-- Section 6: Reviews + CTA -->
+  <section class="section section--reviews" data-theme="desert">
+    <div class="section__content">
+      <h2 class="section__headline" data-i18n="sections.reviews.headline">Loved by Thousands</h2>
+      <div class="reviews-stars" aria-label="5 out of 5 stars">★★★★★</div>
+      <div class="reviews-container">
+        <div class="reviews-row" id="reviews-row"></div>
+      </div>
+      <a href="https://apps.apple.com/app/coins-spending-tracker/id572886919"
+         class="app-store-badge" rel="noopener noreferrer" target="_blank"
+         aria-label="Download on the App Store">
+        <img src="./assets/app-store-badges/en.svg" alt="Download on the App Store" width="200" height="60" loading="lazy">
+      </a>
+      <div class="section__footer">
+        <a href="./privacy-policy.html" data-i18n="footer.privacy">Privacy Policy</a>
+        <p data-i18n="footer.copyright">© 2026 Chenji Studio. All rights reserved.</p>
       </div>
     </div>
   </section>
 
-  <!-- Reviews Section -->
-  <section class="reviews" id="reviews">
-    <div class="container">
-      <h2 data-i18n="reviews.heading">What People Say</h2>
-    </div>
-    <div class="reviews-container">
-      <div class="reviews-row" id="reviews-row-1">
-        <!-- First row - scrolls left to right -->
-      </div>
-      <div class="reviews-row reviews-row-reverse" id="reviews-row-2">
-        <!-- Second row - scrolls right to left -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <a href="./privacy-policy.html" data-i18n="footer.privacy">Privacy Policy</a>
-      <p data-i18n="footer.copyright">© 2026 Chenji Studio. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
   <script src="./scripts/i18n.js"></script>
+  <script src="./scripts/scroll-tracker.js"></script>
+  <script src="./scripts/background.js"></script>
   <script src="./scripts/main.js"></script>
 </body>
 </html>
