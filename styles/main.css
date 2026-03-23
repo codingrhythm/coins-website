@@ -237,12 +237,12 @@ body {
 .showcase__callout .feature-card__title { font-size: 0.9375rem; }
 .showcase__callout .feature-card__desc { font-size: 0.8125rem; }
 
-/* Callout positions — mostly outside the screenshot */
-.showcase__callout--left { right: calc(50% + 60px); }
-.showcase__callout--right { left: calc(50% + 60px); }
-.showcase__callout--top { top: 5%; }
-.showcase__callout--mid { top: 42%; }
-.showcase__callout--bottom { bottom: 5%; }
+/* Callout positions — overlap only at screenshot corners (dark gradient areas) */
+.showcase__callout--left { right: calc(50% + 80px); }
+.showcase__callout--right { left: calc(50% + 80px); }
+.showcase__callout--top { top: 0; }
+.showcase__callout--mid { top: 50%; transform: translateY(-50%); }
+.showcase__callout--bottom { bottom: 0; }
 
 /* Split layout for "And More" section */
 .section__split {
