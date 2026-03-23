@@ -24,13 +24,16 @@ async function loadReviews() {
     const currentLang = window.i18n ? window.i18n.currentLanguage : 'en';
     const reviews = reviewsData.reviews;
 
-    const row = document.getElementById('reviews-row');
-    if (!row) return;
+    const row1 = document.getElementById('reviews-row-1');
+    const row2 = document.getElementById('reviews-row-2');
+    if (!row1 || !row2) return;
 
-    row.innerHTML = '';
-    const isMobile = window.innerWidth <= 768;
+    row1.innerHTML = '';
+    row2.innerHTML = '';
 
-    reviews.forEach(review => {
+    const mid = Math.ceil(reviews.length / 2);
+
+    reviews.forEach((review, i) => {
       const translation = review.translations[currentLang] || review.translations['en'];
       const card = document.createElement('div');
       card.className = 'review-card';
@@ -45,12 +48,12 @@ async function loadReviews() {
         <h4 class="review-title">${escapeHtml(translation.title)}</h4>
         <p class="review-text">${escapeHtml(translation.text)}</p>
       `;
-      row.appendChild(card);
+      (i < mid ? row1 : row2).appendChild(card);
     });
 
-    if (!isMobile) {
-      row.innerHTML += row.innerHTML;
-    }
+    // Duplicate for seamless infinite scroll
+    row1.innerHTML += row1.innerHTML;
+    row2.innerHTML += row2.innerHTML;
   } catch (error) {
     console.error('Failed to load reviews:', error);
   }

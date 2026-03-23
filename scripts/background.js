@@ -31,6 +31,8 @@ class BackgroundRenderer {
     this._prevFocused = -1;
     this._animOpacity = 1;
     this._fadeTarget = null;
+    // Smooth gradient transition: current displayed colors lerp toward target
+    this._currentColors = null;
   }
 
   init() {
@@ -59,12 +61,11 @@ class BackgroundRenderer {
 
   _resize() {
     this.dpr = window.devicePixelRatio || 1;
-    this.width = window.innerWidth;
-    this.height = window.innerHeight;
+    this.width = this.canvas.clientWidth || window.innerWidth;
+    this.height = this.canvas.clientHeight || window.innerHeight;
     this.canvas.width = this.width * this.dpr;
     this.canvas.height = this.height * this.dpr;
-    this.canvas.style.width = this.width + 'px';
-    this.canvas.style.height = this.height + 'px';
+    // Don't set style.width/height — let CSS inset:0 control sizing
     this.ctx.setTransform(this.dpr, 0, 0, this.dpr, 0, 0);
   }
 
@@ -112,17 +113,33 @@ class BackgroundRenderer {
   }
 
   _drawGradient(ctx, w, h, focused, blend, dir) {
+    // Compute the target colors from scroll position
     const colors1 = SECTION_GRADIENTS[focused];
     const adjIdx = focused + dir;
     const colors2 = (adjIdx >= 0 && adjIdx < SECTION_GRADIENTS.length)
       ? SECTION_GRADIENTS[adjIdx]
       : colors1;
 
-    const mixed = this._interpolateGradient(colors1, colors2, blend);
+    const target = this._interpolateGradient(colors1, colors2, blend);
+
+    // Initialize current colors on first frame
+    if (!this._currentColors) {
+      this._currentColors = target.map(c => ({ r: c.r, g: c.g, b: c.b }));
+    }
+
+    // Smoothly lerp current colors toward target (prevents flash on focus change)
+    const lerpSpeed = 0.08;
+    for (let i = 0; i < this._currentColors.length; i++) {
+      const cur = this._currentColors[i];
+      const tgt = target[i] || target[target.length - 1];
+      cur.r = Math.round(cur.r + (tgt.r - cur.r) * lerpSpeed);
+      cur.g = Math.round(cur.g + (tgt.g - cur.g) * lerpSpeed);
+      cur.b = Math.round(cur.b + (tgt.b - cur.b) * lerpSpeed);
+    }
 
     const grad = ctx.createLinearGradient(0, 0, 0, h);
-    mixed.forEach((c, i) => {
-      grad.addColorStop(i / (mixed.length - 1), `rgb(${c.r},${c.g},${c.b})`);
+    this._currentColors.forEach((c, i) => {
+      grad.addColorStop(i / (this._currentColors.length - 1), `rgb(${c.r},${c.g},${c.b})`);
     });
 
     ctx.fillStyle = grad;
