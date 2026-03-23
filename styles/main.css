@@ -11,6 +11,28 @@
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* SVG icons (SF Symbol style) */
+.icon {
+  width: 1.25em;
+  height: 1.25em;
+  color: var(--text-primary);
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.icon--callout {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.icon--pill {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 2px;
+}
+
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-snap-type: y proximity; }
 body {
@@ -118,7 +140,7 @@ body {
   color: var(--text-secondary);
 }
 
-.hero-pillar__icon { font-size: 1.5rem; }
+.hero-pillar .icon { width: 1.5rem; height: 1.5rem; }
 
 /* App Store badge */
 .app-store-badge {
@@ -176,7 +198,6 @@ body {
   transform: translateY(-4px);
 }
 
-.feature-card__emoji { font-size: 2rem; display: block; margin-bottom: 8px; }
 .feature-card__title { font-size: 1.125rem; font-weight: 600; margin-bottom: 4px; }
 .feature-card__desc { font-size: 0.9375rem; color: var(--text-secondary); }
 
@@ -213,7 +234,6 @@ body {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
-.showcase__callout .feature-card__emoji { font-size: 1.5rem; margin-bottom: 4px; }
 .showcase__callout .feature-card__title { font-size: 0.9375rem; }
 .showcase__callout .feature-card__desc { font-size: 0.8125rem; }
 
@@ -273,7 +293,6 @@ body {
   gap: 6px;
 }
 
-.pill-chip__emoji { font-size: 1rem; }
 
 /* Reviews */
 .reviews-stars { font-size: 1.5rem; color: #ffd700; letter-spacing: 4px; }
