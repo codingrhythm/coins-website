@@ -261,8 +261,10 @@ class SunsetGlowAnimation {
 
 class OceanAnimation {
   constructor() {
+    const mobile = window.innerWidth <= 768;
+    const count = mobile ? 5 : 10;
     this.bubbles = [];
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < count; i++) {
       this.bubbles.push({
         x: 0.1 + Math.random() * 0.8,
         speed: 0.04 + Math.random() * 0.05,
@@ -319,8 +321,10 @@ class OceanAnimation {
 
 class ForestAnimation {
   constructor() {
+    const mobile = window.innerWidth <= 768;
+    const count = mobile ? 4 : 8;
     this.leaves = [];
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < count; i++) {
       this.leaves.push({
         x: Math.random(),
         speed: 0.025 + Math.random() * 0.02,
@@ -410,9 +414,11 @@ class AuroraAnimation {
 
 class MidnightAnimation {
   constructor() {
+    const mobile = window.innerWidth <= 768;
     this.stars = [];
-    // 8 large bright
-    for (let i = 0; i < 8; i++) {
+    // Large bright (8 or 4)
+    const largeCount = mobile ? 4 : 8;
+    for (let i = 0; i < largeCount; i++) {
       this.stars.push({
         x: Math.random(), y: Math.random(),
         size: 2.5 + Math.random() * 0.5,
@@ -421,8 +427,9 @@ class MidnightAnimation {
         phase: Math.random() * Math.PI * 2
       });
     }
-    // 12 medium
-    for (let i = 0; i < 12; i++) {
+    // Medium (12 or 6)
+    const mediumCount = mobile ? 6 : 12;
+    for (let i = 0; i < mediumCount; i++) {
       this.stars.push({
         x: Math.random(), y: Math.random(),
         size: 1.8 + Math.random() * 0.2,
@@ -431,8 +438,9 @@ class MidnightAnimation {
         phase: Math.random() * Math.PI * 2
       });
     }
-    // 15 small dim
-    for (let i = 0; i < 15; i++) {
+    // Small dim (15 or 8)
+    const smallCount = mobile ? 8 : 15;
+    for (let i = 0; i < smallCount; i++) {
       this.stars.push({
         x: Math.random(), y: Math.random(),
         size: 1.0 + Math.random() * 0.5,
@@ -475,8 +483,10 @@ class MidnightAnimation {
 
 class DesertAnimation {
   constructor() {
+    const mobile = window.innerWidth <= 768;
+    const count = mobile ? 4 : 8;
     this.flowers = [];
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < count; i++) {
       this.flowers.push({
         x: 0.1 + Math.random() * 0.8,
         y: 0.1 + Math.random() * 0.8,
