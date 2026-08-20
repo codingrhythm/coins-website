@@ -2,13 +2,14 @@
   "en": {
     "meta": {
       "title": "Coins - Simple Expense Tracker",
-      "description": "Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iOS."
+      "description": "Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iPhone, iPad, and Mac."
     },
     "hero": {
       "title": "Coins",
       "cta": "Download on the App Store",
       "headline": "Build Your Money Habit",
       "subtitle2": "A few seconds a day is all it takes.",
+      "platforms": "Now on iPhone, iPad & Mac.",
       "pillar.fast": "Fast",
       "pillar.private": "Private",
       "pillar.smart": "Smart"
@@ -25,7 +26,8 @@
       "smart": {
         "label": "Smart Features",
         "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
+        "subtitle": "Beautiful charts, a monthly Financial Health score, and widgets that keep you informed.",
+        "health": { "title": "Financial Health Score", "desc": "Your monthly money score, from savings to stability" },
         "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
         "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
         "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
@@ -35,13 +37,14 @@
         "headline": "Unlock More Power",
         "subtitle": "Advanced features for those who want the full picture.",
         "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
+        "retire": { "title": "Retire Planner", "desc": "Map your path to financial freedom" },
         "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
         "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
         "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
       },
       "more": {
         "headline": "And So Much More...",
-        "subtitle": "Your data stays on your device and your iCloud — always private, always secure.",
+        "subtitle": "Now on iPhone, iPad, and Mac — always in sync via iCloud, and always private.",
         "shortcuts": "iOS Shortcuts",
         "icloud": "iCloud Sync",
         "privacy": "Privacy First",
@@ -49,7 +52,13 @@
         "themes": "Background Themes",
         "recurring": "Repeat Transactions",
         "search": "Smart Search",
-        "batch": "Batch Operations"
+        "batch": "Batch Operations",
+        "mac": "Mac App",
+        "ipad": "iPad Optimized",
+        "fiscalYear": "Fiscal Year Budgets",
+        "budgetExclusions": "Budget Exclusions",
+        "shareImage": "Share as Image",
+        "essentialCategories": "Essential Categories"
       },
       "reviews": {
         "headline": "Loved by Thousands"
@@ -63,13 +72,14 @@
   "de": {
     "meta": {
       "title": "Coins - Einfacher Ausgaben-Tracker",
-      "description": "Erfassen Sie Ihre Ausgaben in nur 30 Sekunden am Tag. Schön, einfach und intelligent."
+      "description": "Erfassen Sie Ihre Ausgaben in nur 30 Sekunden am Tag. Schön, einfach und intelligent — für iPhone, iPad und Mac."
     },
     "hero": {
       "title": "Coins",
       "cta": "Im App Store laden",
       "headline": "Entwickle deine Geldgewohnheit",
       "subtitle2": "Wenige Sekunden am Tag genügen.",
+      "platforms": "Jetzt auch für iPhone, iPad & Mac.",
       "pillar.fast": "Schnell",
       "pillar.private": "Privat",
       "pillar.smart": "Intelligent"
@@ -86,7 +96,8 @@
       "smart": {
         "label": "Smarte Funktionen",
         "headline": "Das große Bild sehen",
-        "subtitle": "Schöne Diagramme, smarte Vorschläge und Widgets, die dich informiert halten.",
+        "subtitle": "Schöne Diagramme, ein monatlicher Financial-Health-Score und Widgets, die dich informiert halten.",
+        "health": { "title": "Financial-Health-Score", "desc": "Dein monatlicher Geld-Score — von Ersparnissen bis Stabilität" },
         "reports": { "title": "Schöne Berichte", "desc": "Klare, aufschlussreiche Ausgabendiagramme" },
         "suggestions": { "title": "Smarte Vorschläge", "desc": "Häufige Buchungen in zwei Tipps hinzufügen" },
         "widgets": { "title": "Startbildschirm-Widgets", "desc": "Budgetfortschritt auf einen Blick" }
@@ -96,13 +107,14 @@
         "headline": "Mehr Power freischalten",
         "subtitle": "Erweiterte Funktionen für alle, die das volle Bild wollen.",
         "forecast": { "title": "Finanzprognose", "desc": "Zukünftige Ausgaben aus deiner Historie vorhersagen" },
+        "retire": { "title": "Ruhestandsplaner", "desc": "Plane deinen Weg zur finanziellen Freiheit" },
         "currency": { "title": "Multi-Währung", "desc": "Perfekt für Reisen und internationale Ausgaben" },
         "scan": { "title": "Beleg scannen", "desc": "Foto machen, KI füllt automatisch aus" },
         "repeat": { "title": "Wiederkehrende Buchungen", "desc": "Regelmäßige Rechnungen und Einkommen automatisieren" }
       },
       "more": {
         "headline": "Und noch so viel mehr…",
-        "subtitle": "Deine Daten bleiben auf deinem Gerät und in deiner iCloud — immer privat, immer sicher.",
+        "subtitle": "Jetzt auf iPhone, iPad und Mac — immer synchron über iCloud, immer privat.",
         "shortcuts": "iOS Kurzbefehle",
         "icloud": "iCloud-Sync",
         "privacy": "Datenschutz zuerst",
@@ -110,7 +122,13 @@
         "themes": "Hintergrundthemen",
         "recurring": "Wiederkehrende Buchungen",
         "search": "Smarte Suche",
-        "batch": "Stapelverarbeitung"
+        "batch": "Stapelverarbeitung",
+        "mac": "Mac-App",
+        "ipad": "Optimiert für iPad",
+        "fiscalYear": "Geschäftsjahr-Budgets",
+        "budgetExclusions": "Budget-Ausschlüsse",
+        "shareImage": "Als Bild teilen",
+        "essentialCategories": "Essenzielle Kategorien"
       },
       "reviews": {
         "headline": "Von Tausenden geliebt"
@@ -124,13 +142,14 @@
   "fr": {
     "meta": {
       "title": "Coins - Tracker de Dépenses Simple",
-      "description": "Suivez vos dépenses en seulement 30 secondes par jour. Beau, simple et intelligent."
+      "description": "Suivez vos dépenses en seulement 30 secondes par jour. Beau, simple et intelligent — sur iPhone, iPad et Mac."
     },
     "hero": {
       "title": "Coins",
       "cta": "Télécharger sur l'App Store",
       "headline": "Adoptez de bonnes habitudes financières",
       "subtitle2": "Quelques secondes par jour suffisent.",
+      "platforms": "Maintenant sur iPhone, iPad et Mac.",
       "pillar.fast": "Rapide",
       "pillar.private": "Privé",
       "pillar.smart": "Intelligent"
@@ -147,7 +166,8 @@
       "smart": {
         "label": "Fonctions intelligentes",
         "headline": "Voyez le tableau complet",
-        "subtitle": "De beaux graphiques, des suggestions intelligentes et des widgets pour rester informé.",
+        "subtitle": "De beaux graphiques, un score de santé financière mensuel et des widgets pour rester informé.",
+        "health": { "title": "Score de santé financière", "desc": "Votre score financier mensuel, de l'épargne à la stabilité" },
         "reports": { "title": "Beaux rapports", "desc": "Des graphiques de dépenses clairs et pertinents" },
         "suggestions": { "title": "Suggestions intelligentes", "desc": "Ajoutez vos opérations fréquentes en deux gestes" },
         "widgets": { "title": "Widgets écran d'accueil", "desc": "Progression du budget en un coup d'œil" }
@@ -157,13 +177,14 @@
         "headline": "Libérez plus de puissance",
         "subtitle": "Des fonctionnalités avancées pour ceux qui veulent une vision complète.",
         "forecast": { "title": "Prévisions financières", "desc": "Prédisez vos dépenses futures à partir de votre historique" },
+        "retire": { "title": "Planificateur de retraite", "desc": "Tracez votre chemin vers la liberté financière" },
         "currency": { "title": "Multi-devises", "desc": "Parfait pour les voyages et les dépenses internationales" },
         "scan": { "title": "Scan de reçus", "desc": "Prenez une photo, l'IA remplit automatiquement" },
         "repeat": { "title": "Opérations récurrentes", "desc": "Automatisez les factures et revenus réguliers" }
       },
       "more": {
         "headline": "Et bien plus encore…",
-        "subtitle": "Vos données restent sur votre appareil et votre iCloud — toujours privées, toujours sécurisées.",
+        "subtitle": "Désormais sur iPhone, iPad et Mac — toujours synchronisé via iCloud, toujours privé.",
         "shortcuts": "Raccourcis iOS",
         "icloud": "Synchronisation iCloud",
         "privacy": "Confidentialité d'abord",
@@ -171,7 +192,13 @@
         "themes": "Thèmes d'arrière-plan",
         "recurring": "Opérations récurrentes",
         "search": "Recherche intelligente",
-        "batch": "Opérations par lot"
+        "batch": "Opérations par lot",
+        "mac": "Application Mac",
+        "ipad": "Optimisé pour iPad",
+        "fiscalYear": "Budgets par année fiscale",
+        "budgetExclusions": "Exclusions de budget",
+        "shareImage": "Partager en image",
+        "essentialCategories": "Catégories essentielles"
       },
       "reviews": {
         "headline": "Adoré par des milliers d'utilisateurs"
@@ -185,13 +212,14 @@
   "es": {
     "meta": {
       "title": "Coins - Rastreador de Gastos Simple",
-      "description": "Rastrea tus gastos en solo 30 segundos al día. Hermoso, simple e inteligente."
+      "description": "Rastrea tus gastos en solo 30 segundos al día. Hermoso, simple e inteligente — en iPhone, iPad y Mac."
     },
     "hero": {
       "title": "Coins",
       "cta": "Descargar en App Store",
       "headline": "Crea tu hábito financiero",
       "subtitle2": "Unos segundos al día es todo lo que necesitas.",
+      "platforms": "Ahora en iPhone, iPad y Mac.",
       "pillar.fast": "Rápido",
       "pillar.private": "Privado",
       "pillar.smart": "Inteligente"
@@ -208,7 +236,8 @@
       "smart": {
         "label": "Funciones inteligentes",
         "headline": "Ve el panorama completo",
-        "subtitle": "Gráficos hermosos, sugerencias inteligentes y widgets que te mantienen informado.",
+        "subtitle": "Gráficos hermosos, una puntuación mensual de salud financiera y widgets que te mantienen informado.",
+        "health": { "title": "Puntuación de salud financiera", "desc": "Tu puntuación financiera mensual, del ahorro a la estabilidad" },
         "reports": { "title": "Informes hermosos", "desc": "Gráficos de gastos claros y reveladores" },
         "suggestions": { "title": "Sugerencias inteligentes", "desc": "Agrega transacciones frecuentes en dos toques" },
         "widgets": { "title": "Widgets de pantalla", "desc": "Progreso del presupuesto de un vistazo" }
@@ -218,13 +247,14 @@
         "headline": "Desbloquea más poder",
         "subtitle": "Funciones avanzadas para quienes quieren la imagen completa.",
         "forecast": { "title": "Pronóstico financiero", "desc": "Predice gastos futuros a partir de tu historial" },
+        "retire": { "title": "Planificador de jubilación", "desc": "Traza tu camino hacia la libertad financiera" },
         "currency": { "title": "Multi-moneda", "desc": "Perfecto para viajes y gastos internacionales" },
         "scan": { "title": "Escaneo de recibos", "desc": "Toma una foto, la IA completa automáticamente" },
         "repeat": { "title": "Transacciones recurrentes", "desc": "Automatiza facturas e ingresos recurrentes" }
       },
       "more": {
         "headline": "Y mucho más…",
-        "subtitle": "Tus datos permanecen en tu dispositivo y tu iCloud — siempre privados, siempre seguros.",
+        "subtitle": "Ahora en iPhone, iPad y Mac — siempre sincronizado con iCloud, siempre privado.",
         "shortcuts": "Atajos de iOS",
         "icloud": "Sincronización iCloud",
         "privacy": "Privacidad primero",
@@ -232,7 +262,13 @@
         "themes": "Temas de fondo",
         "recurring": "Transacciones recurrentes",
         "search": "Búsqueda inteligente",
-        "batch": "Operaciones por lotes"
+        "batch": "Operaciones por lotes",
+        "mac": "App para Mac",
+        "ipad": "Optimizado para iPad",
+        "fiscalYear": "Presupuestos por año fiscal",
+        "budgetExclusions": "Exclusiones de presupuesto",
+        "shareImage": "Compartir como imagen",
+        "essentialCategories": "Categorías esenciales"
       },
       "reviews": {
         "headline": "Amado por miles"
@@ -246,13 +282,14 @@
   "it": {
     "meta": {
       "title": "Coins - Tracker di Spese Semplice",
-      "description": "Traccia le tue spese in soli 30 secondi al giorno. Bello, semplice e intelligente."
+      "description": "Traccia le tue spese in soli 30 secondi al giorno. Bello, semplice e intelligente — su iPhone, iPad e Mac."
     },
     "hero": {
       "title": "Coins",
       "cta": "Scarica su App Store",
       "headline": "Costruisci la tua abitudine finanziaria",
       "subtitle2": "Bastano pochi secondi al giorno.",
+      "platforms": "Ora su iPhone, iPad e Mac.",
       "pillar.fast": "Veloce",
       "pillar.private": "Privato",
       "pillar.smart": "Intelligente"
@@ -269,7 +306,8 @@
       "smart": {
         "label": "Funzioni smart",
         "headline": "Vedi il quadro completo",
-        "subtitle": "Grafici belli, suggerimenti smart e widget che ti tengono informato.",
+        "subtitle": "Grafici belli, un punteggio mensile di salute finanziaria e widget che ti tengono informato.",
+        "health": { "title": "Punteggio di salute finanziaria", "desc": "Il tuo punteggio finanziario mensile, dal risparmio alla stabilità" },
         "reports": { "title": "Report bellissimi", "desc": "Grafici di spesa chiari e approfonditi" },
         "suggestions": { "title": "Suggerimenti smart", "desc": "Aggiungi transazioni frequenti in due tocchi" },
         "widgets": { "title": "Widget schermata Home", "desc": "Progresso del budget a colpo d'occhio" }
@@ -279,13 +317,14 @@
         "headline": "Sblocca più potenza",
         "subtitle": "Funzionalità avanzate per chi vuole il quadro completo.",
         "forecast": { "title": "Previsioni finanziarie", "desc": "Prevedi le spese future dalla tua cronologia" },
+        "retire": { "title": "Pianificatore pensione", "desc": "Traccia il tuo percorso verso la libertà finanziaria" },
         "currency": { "title": "Multi-valuta", "desc": "Perfetto per viaggi e spese internazionali" },
         "scan": { "title": "Scansione scontrini", "desc": "Scatta una foto, l'IA compila automaticamente" },
         "repeat": { "title": "Transazioni ricorrenti", "desc": "Automatizza bollette e entrate ricorrenti" }
       },
       "more": {
         "headline": "E molto altro ancora…",
-        "subtitle": "I tuoi dati restano sul tuo dispositivo e su iCloud — sempre privati, sempre sicuri.",
+        "subtitle": "Ora su iPhone, iPad e Mac — sempre sincronizzato tramite iCloud, sempre privato.",
         "shortcuts": "Comandi rapidi iOS",
         "icloud": "Sincronizzazione iCloud",
         "privacy": "Privacy al primo posto",
@@ -293,7 +332,13 @@
         "themes": "Temi di sfondo",
         "recurring": "Transazioni ricorrenti",
         "search": "Ricerca intelligente",
-        "batch": "Operazioni in blocco"
+        "batch": "Operazioni in blocco",
+        "mac": "App per Mac",
+        "ipad": "Ottimizzato per iPad",
+        "fiscalYear": "Budget per anno fiscale",
+        "budgetExclusions": "Esclusioni dal budget",
+        "shareImage": "Condividi come immagine",
+        "essentialCategories": "Categorie essenziali"
       },
       "reviews": {
         "headline": "Amato da migliaia di utenti"
@@ -307,13 +352,14 @@
   "ja": {
     "meta": {
       "title": "Coins - シンプルな家計簿アプリ",
-      "description": "1日たった30秒で支出を記録。美しく、シンプルで、スマートな家計管理。"
+      "description": "1日たった30秒で支出を記録。美しく、シンプルで、スマートな家計管理。iPhone、iPad、Macに対応。"
     },
     "hero": {
       "title": "Coins",
       "cta": "App Storeでダウンロード",
       "headline": "お金の習慣を身につけよう",
       "subtitle2": "1日ほんの数秒でOK。",
+      "platforms": "iPhone、iPad、Macに対応。",
       "pillar.fast": "高速",
       "pillar.private": "プライベート",
       "pillar.smart": "スマート"
@@ -330,7 +376,8 @@
       "smart": {
         "label": "スマート機能",
         "headline": "全体像を把握しよう",
-        "subtitle": "美しいグラフ、スマートな提案、情報を常に表示するウィジェット。",
+        "subtitle": "美しいグラフ、毎月のファイナンシャルヘルススコア、情報を常に表示するウィジェット。",
+        "health": { "title": "ファイナンシャルヘルススコア", "desc": "貯蓄から安定性まで、毎月のお金のスコア" },
         "reports": { "title": "美しいレポート", "desc": "わかりやすい支出グラフ" },
         "suggestions": { "title": "スマート提案", "desc": "よく使う取引を2タップで追加" },
         "widgets": { "title": "ホーム画面ウィジェット", "desc": "予算の進捗を一目で確認" }
@@ -340,13 +387,14 @@
         "headline": "さらなるパワーを解放",
         "subtitle": "全体像を求める方のための高度な機能。",
         "forecast": { "title": "支出予測", "desc": "履歴から将来の支出を予測" },
+        "retire": { "title": "リタイアプランナー", "desc": "経済的自由への道筋を描こう" },
         "currency": { "title": "マルチ通貨", "desc": "旅行や海外での支出に最適" },
         "scan": { "title": "レシートスキャン", "desc": "写真を撮ると、AIが自動入力" },
         "repeat": { "title": "繰り返し取引", "desc": "定期的な支払いと収入を自動化" }
       },
       "more": {
         "headline": "他にもたくさん…",
-        "subtitle": "データはあなたのデバイスとiCloudに保存 — 常にプライベート、常に安全。",
+        "subtitle": "iPhone、iPad、Macに対応 — iCloudで常に同期、常にプライベート。",
         "shortcuts": "iOSショートカット",
         "icloud": "iCloud同期",
         "privacy": "プライバシー最優先",
@@ -354,7 +402,13 @@
         "themes": "背景テーマ",
         "recurring": "繰り返し取引",
         "search": "スマート検索",
-        "batch": "一括操作"
+        "batch": "一括操作",
+        "mac": "Macアプリ",
+        "ipad": "iPad最適化",
+        "fiscalYear": "会計年度予算",
+        "budgetExclusions": "予算の除外設定",
+        "shareImage": "画像として共有",
+        "essentialCategories": "必須カテゴリ"
       },
       "reviews": {
         "headline": "何千人ものユーザーに愛されています"
@@ -368,13 +422,14 @@
   "zh-Hans": {
     "meta": {
       "title": "可记 - 简单记账应用",
-      "description": "每天只需30秒记账。简洁、美观、智能的记账应用。"
+      "description": "每天只需30秒记账。简洁、美观、智能 — 支持 iPhone、iPad 和 Mac。"
     },
     "hero": {
       "title": "可记",
       "cta": "在 App Store 下载",
       "headline": "养成记账好习惯",
       "subtitle2": "每天只需几秒钟。",
+      "platforms": "现已支持 iPhone、iPad 和 Mac。",
       "pillar.fast": "快速",
       "pillar.private": "隐私",
       "pillar.smart": "智能"
@@ -391,7 +446,8 @@
       "smart": {
         "label": "智能功能",
         "headline": "全局掌控",
-        "subtitle": "精美图表、智能建议和小组件，让你时刻了解财务状况。",
+        "subtitle": "精美图表、每月财务健康评分和小组件，让你时刻了解财务状况。",
+        "health": { "title": "财务健康评分", "desc": "从储蓄到稳定性的每月财务评分" },
         "reports": { "title": "精美报表", "desc": "清晰直观的消费图表" },
         "suggestions": { "title": "智能建议", "desc": "两步添加常用交易" },
         "widgets": { "title": "主屏幕小组件", "desc": "一眼查看预算进度" }
@@ -401,13 +457,14 @@
         "headline": "解锁更多功能",
         "subtitle": "为追求全面掌控的你提供高级功能。",
         "forecast": { "title": "财务预测", "desc": "根据历史数据预测未来支出" },
+        "retire": { "title": "退休规划", "desc": "规划你的财务自由之路" },
         "currency": { "title": "多币种", "desc": "旅行和跨国消费的完美选择" },
         "scan": { "title": "扫描小票", "desc": "拍张照，AI自动填写" },
         "repeat": { "title": "重复交易", "desc": "自动化定期账单和收入" }
       },
       "more": {
         "headline": "还有更多精彩…",
-        "subtitle": "数据保存在你的设备和iCloud上 — 始终私密，始终安全。",
+        "subtitle": "现已支持 iPhone、iPad 和 Mac — 通过 iCloud 始终同步，始终私密。",
         "shortcuts": "iOS 快捷指令",
         "icloud": "iCloud 同步",
         "privacy": "隐私优先",
@@ -415,7 +472,13 @@
         "themes": "背景主题",
         "recurring": "重复交易",
         "search": "智能搜索",
-        "batch": "批量操作"
+        "batch": "批量操作",
+        "mac": "Mac 应用",
+        "ipad": "iPad 优化",
+        "fiscalYear": "财政年度预算",
+        "budgetExclusions": "预算排除项",
+        "shareImage": "分享为图片",
+        "essentialCategories": "必要开支分类"
       },
       "reviews": {
         "headline": "深受数千用户喜爱"
@@ -429,13 +492,14 @@
   "zh-Hant": {
     "meta": {
       "title": "Coins - 簡單記帳應用",
-      "description": "每天只需30秒記帳。簡潔、美觀、智能的記帳應用。"
+      "description": "每天只需30秒記帳。簡潔、美觀、智能 — 支援 iPhone、iPad 和 Mac。"
     },
     "hero": {
       "title": "Coins",
       "cta": "在 App Store 下載",
       "headline": "養成記帳好習慣",
       "subtitle2": "每天只需幾秒鐘。",
+      "platforms": "現已支援 iPhone、iPad 和 Mac。",
       "pillar.fast": "快速",
       "pillar.private": "隱私",
       "pillar.smart": "智能"
@@ -452,7 +516,8 @@
       "smart": {
         "label": "智慧功能",
         "headline": "全局掌控",
-        "subtitle": "精美圖表、智慧建議和小工具，讓你時刻掌握財務狀況。",
+        "subtitle": "精美圖表、每月財務健康評分和小工具，讓你時刻掌握財務狀況。",
+        "health": { "title": "財務健康評分", "desc": "從儲蓄到穩定性的每月財務評分" },
         "reports": { "title": "精美報表", "desc": "清晰直觀的消費圖表" },
         "suggestions": { "title": "智慧建議", "desc": "兩步新增常用交易" },
         "widgets": { "title": "主畫面小工具", "desc": "一眼查看預算進度" }
@@ -462,13 +527,14 @@
         "headline": "解鎖更多功能",
         "subtitle": "為追求全面掌控的你提供進階功能。",
         "forecast": { "title": "財務預測", "desc": "根據歷史資料預測未來支出" },
+        "retire": { "title": "退休規劃", "desc": "規劃你的財務自由之路" },
         "currency": { "title": "多幣種", "desc": "旅行和跨國消費的完美選擇" },
         "scan": { "title": "掃描收據", "desc": "拍張照，AI自動填寫" },
         "repeat": { "title": "重複交易", "desc": "自動化定期帳單和收入" }
       },
       "more": {
         "headline": "還有更多精彩…",
-        "subtitle": "資料保存在你的裝置和iCloud上 — 始終私密，始終安全。",
+        "subtitle": "現已支援 iPhone、iPad 和 Mac — 透過 iCloud 始終同步，始終私密。",
         "shortcuts": "iOS 捷徑",
         "icloud": "iCloud 同步",
         "privacy": "隱私優先",
@@ -476,7 +542,13 @@
         "themes": "背景主題",
         "recurring": "重複交易",
         "search": "智慧搜尋",
-        "batch": "批次操作"
+        "batch": "批次操作",
+        "mac": "Mac 應用程式",
+        "ipad": "iPad 最佳化",
+        "fiscalYear": "財政年度預算",
+        "budgetExclusions": "預算排除項",
+        "shareImage": "分享為圖片",
+        "essentialCategories": "必要開支分類"
       },
       "reviews": {
         "headline": "深受數千用戶喜愛"
@@ -490,13 +562,14 @@
   "ko": {
     "meta": {
       "title": "Coins - 간단한 지출 추적",
-      "description": "하루 30초만으로 지출을 추적하세요. 아름답고 간단하며 스마트한 지출 관리 앱."
+      "description": "하루 30초만으로 지출을 추적하세요. 아름답고 간단하며 스마트한 지출 관리 앱 — iPhone, iPad, Mac 지원."
     },
     "hero": {
       "title": "Coins",
       "cta": "App Store에서 다운로드",
       "headline": "돈 관리 습관을 만들어요",
       "subtitle2": "하루 몇 초면 충분해요.",
+      "platforms": "이제 iPhone, iPad, Mac에서도 사용하세요.",
       "pillar.fast": "빠름",
       "pillar.private": "프라이버시",
       "pillar.smart": "스마트"
@@ -513,7 +586,8 @@
       "smart": {
         "label": "스마트 기능",
         "headline": "전체 그림을 보세요",
-        "subtitle": "아름다운 차트, 스마트 제안, 항상 최신 정보를 제공하는 위젯.",
+        "subtitle": "아름다운 차트, 매월 제공되는 재무 건강 점수, 항상 최신 정보를 제공하는 위젯.",
+        "health": { "title": "재무 건강 점수", "desc": "저축부터 안정성까지, 매월 확인하는 나의 재무 점수" },
         "reports": { "title": "아름다운 리포트", "desc": "명확하고 통찰력 있는 지출 차트" },
         "suggestions": { "title": "스마트 제안", "desc": "자주 쓰는 거래를 두 번 탭으로 추가" },
         "widgets": { "title": "홈 화면 위젯", "desc": "예산 진행 상황을 한눈에" }
@@ -523,13 +597,14 @@
         "headline": "더 강력한 기능 잠금해제",
         "subtitle": "전체 재무 현황을 원하는 분을 위한 고급 기능.",
         "forecast": { "title": "재무 예측", "desc": "이력으로 미래 지출을 예측" },
+        "retire": { "title": "은퇴 플래너", "desc": "경제적 자유로 가는 길을 설계하세요" },
         "currency": { "title": "다중 통화", "desc": "여행 및 해외 지출에 완벽" },
         "scan": { "title": "영수증 스캔", "desc": "사진을 찍으면 AI가 자동 입력" },
         "repeat": { "title": "반복 거래", "desc": "정기 청구서와 수입을 자동화" }
       },
       "more": {
         "headline": "그리고 더 많은 기능…",
-        "subtitle": "데이터는 기기와 iCloud에 보관 — 항상 비공개, 항상 안전.",
+        "subtitle": "이제 iPhone, iPad, Mac에서 — 항상 iCloud로 동기화되고, 항상 비공개로 안전하게.",
         "shortcuts": "iOS 단축어",
         "icloud": "iCloud 동기화",
         "privacy": "프라이버시 우선",
@@ -537,7 +612,13 @@
         "themes": "배경 테마",
         "recurring": "반복 거래",
         "search": "스마트 검색",
-        "batch": "일괄 처리"
+        "batch": "일괄 처리",
+        "mac": "Mac 앱",
+        "ipad": "iPad 최적화",
+        "fiscalYear": "회계연도 예산",
+        "budgetExclusions": "예산 제외 항목",
+        "shareImage": "이미지로 공유",
+        "essentialCategories": "필수 카테고리"
       },
       "reviews": {
         "headline": "수천 명이 사랑하는 앱"
@@ -551,13 +632,14 @@
   "ru": {
     "meta": {
       "title": "Coins - Простой трекер расходов",
-      "description": "Отслеживайте расходы всего за 30 секунд в день. Красивый, простой и умный трекер расходов для iOS."
+      "description": "Отслеживайте расходы всего за 30 секунд в день. Красивый, простой и умный трекер расходов для iPhone, iPad и Mac."
     },
     "hero": {
       "title": "Coins",
       "cta": "Загрузить в App Store",
       "headline": "Выработайте денежную привычку",
       "subtitle2": "Несколько секунд в день — и всё.",
+      "platforms": "Теперь на iPhone, iPad и Mac.",
       "pillar.fast": "Быстро",
       "pillar.private": "Приватно",
       "pillar.smart": "Умно"
@@ -574,7 +656,8 @@
       "smart": {
         "label": "Умные функции",
         "headline": "Увидьте полную картину",
-        "subtitle": "Красивые графики, умные подсказки и виджеты для вашего удобства.",
+        "subtitle": "Красивые графики, ежемесячный показатель финансового здоровья и виджеты для вашего удобства.",
+        "health": { "title": "Показатель финансового здоровья", "desc": "Ваш ежемесячный финансовый рейтинг — от накоплений до стабильности" },
         "reports": { "title": "Красивые отчёты", "desc": "Понятные графики расходов" },
         "suggestions": { "title": "Умные подсказки", "desc": "Добавляйте частые операции в два касания" },
         "widgets": { "title": "Виджеты на главный экран", "desc": "Прогресс бюджета с первого взгляда" }
@@ -584,13 +667,14 @@
         "headline": "Разблокируйте больше возможностей",
         "subtitle": "Продвинутые функции для тех, кто хочет полную картину.",
         "forecast": { "title": "Финансовый прогноз", "desc": "Предсказывайте расходы на основе истории" },
+        "retire": { "title": "Планировщик пенсии", "desc": "Постройте свой путь к финансовой свободе" },
         "currency": { "title": "Мультивалюта", "desc": "Идеально для путешествий и зарубежных расходов" },
         "scan": { "title": "Сканирование чеков", "desc": "Сделайте фото — ИИ заполнит автоматически" },
         "repeat": { "title": "Повторяющиеся операции", "desc": "Автоматизируйте регулярные счета и доходы" }
       },
       "more": {
         "headline": "И ещё многое другое…",
-        "subtitle": "Ваши данные хранятся на устройстве и в iCloud — всегда конфиденциально, всегда безопасно.",
+        "subtitle": "Теперь на iPhone, iPad и Mac — всегда синхронизировано через iCloud, всегда конфиденциально.",
         "shortcuts": "Команды iOS",
         "icloud": "Синхронизация iCloud",
         "privacy": "Приватность прежде всего",
@@ -598,7 +682,13 @@
         "themes": "Темы фона",
         "recurring": "Повторяющиеся операции",
         "search": "Умный поиск",
-        "batch": "Пакетные операции"
+        "batch": "Пакетные операции",
+        "mac": "Приложение для Mac",
+        "ipad": "Оптимизировано для iPad",
+        "fiscalYear": "Бюджеты по финансовому году",
+        "budgetExclusions": "Исключения из бюджета",
+        "shareImage": "Поделиться как изображением",
+        "essentialCategories": "Основные категории"
       },
       "reviews": {
         "headline": "Любимое приложение тысяч людей"

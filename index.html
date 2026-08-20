@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iOS." data-i18n-content="meta.description">
+  <meta name="description" content="Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iPhone, iPad, and Mac." data-i18n-content="meta.description">
 
   <!-- Open Graph for social sharing -->
   <meta property="og:title" content="Coins - Simple Expense Tracker">
-  <meta property="og:description" content="Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iOS.">
+  <meta property="og:description" content="Track your expenses in just 30 seconds a day. Beautiful, simple, and smart expense tracking for iPhone, iPad, and Mac.">
   <meta property="og:image" content="./assets/icon.png">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://coins-app.com/">
@@ -15,7 +15,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Coins - Simple Expense Tracker">
-  <meta name="twitter:description" content="Track your expenses in just 30 seconds a day.">
+  <meta name="twitter:description" content="Track your expenses in just 30 seconds a day. Now on iPhone, iPad & Mac.">
   <meta name="twitter:image" content="./assets/icon.png">
 
   <!-- Google tag (gtag.js) -->
@@ -34,7 +34,7 @@
     "@context": "https://schema.org",
     "@type": "MobileApplication",
     "name": "Coins",
-    "operatingSystem": "iOS",
+    "operatingSystem": "iOS, iPadOS, macOS",
     "applicationCategory": "FinanceApplication",
     "offers": {
       "@type": "Offer",
@@ -46,7 +46,7 @@
       "ratingValue": "4.8",
       "reviewCount": "500"
     },
-    "description": "Simple, smart expense tracking for iOS. Track your expenses in just 30 seconds a day.",
+    "description": "Simple, smart expense tracking for iPhone, iPad, and Mac. Track your expenses in just 30 seconds a day.",
     "screenshot": "./assets/icon.png",
     "applicationSubCategory": "BudgetingApplication"
   }
@@ -138,6 +138,10 @@
       <rect x="8" y="2" width="8" height="4" rx="1"/>
       <line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="13" y2="16"/>
     </symbol>
+    <symbol id="icon-mac" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="4" width="20" height="13" rx="2"/>
+      <path d="M8 21h8M12 17v4"/>
+    </symbol>
   </svg>
 
   <div class="language-switcher">
@@ -162,6 +166,7 @@
       <h1 data-i18n="hero.title">Coins</h1>
       <p class="section__headline" data-i18n="hero.headline">Build Your Money Habit</p>
       <p class="section__subtitle" data-i18n="hero.subtitle2">A few seconds a day is all it takes.</p>
+      <p class="section__subtitle" data-i18n="hero.platforms">Now on iPhone, iPad &amp; Mac.</p>
       <div class="hero-pillars">
         <div class="hero-pillar"><svg class="icon"><use href="#icon-bolt"/></svg><span data-i18n="hero.pillar.fast">Fast</span></div>
         <div class="hero-pillar"><svg class="icon"><use href="#icon-lock"/></svg><span data-i18n="hero.pillar.private">Private</span></div>
@@ -213,9 +218,14 @@
     <div class="section__content">
       <span class="section__label" data-i18n="sections.smart.label">Smart Features</span>
       <h2 class="section__headline" data-i18n="sections.smart.headline">See the Big Picture</h2>
-      <p class="section__subtitle" data-i18n="sections.smart.subtitle">Beautiful charts, smart suggestions, and widgets that keep you informed.</p>
+      <p class="section__subtitle" data-i18n="sections.smart.subtitle">Beautiful charts, a monthly Financial Health score, and widgets that keep you informed.</p>
       <div class="showcase">
         <img class="showcase__img" data-screenshot="05_report1.png" src="./assets/screenshots/en/05_report1.png" alt="Reports screenshot" loading="lazy">
+        <div class="showcase__callout showcase__callout--left showcase__callout--top">
+          <svg class="icon icon--callout"><use href="#icon-trending"/></svg>
+          <h3 class="feature-card__title" data-i18n="sections.smart.health.title">Financial Health Score</h3>
+          <p class="feature-card__desc" data-i18n="sections.smart.health.desc">Your monthly money score, from savings to stability</p>
+        </div>
         <div class="showcase__callout showcase__callout--right showcase__callout--top">
           <svg class="icon icon--callout"><use href="#icon-chart"/></svg>
           <h3 class="feature-card__title" data-i18n="sections.smart.reports.title">Beautiful Reports</h3>
@@ -250,6 +260,11 @@
           <svg class="icon icon--callout"><use href="#icon-trending"/></svg>
           <h3 class="feature-card__title" data-i18n="sections.pro.forecast.title">Financial Forecast</h3>
           <p class="feature-card__desc" data-i18n="sections.pro.forecast.desc">Predict future spending from your history</p>
+        </div>
+        <div class="showcase__callout showcase__callout--left showcase__callout--mid">
+          <svg class="icon icon--callout"><use href="#icon-coins"/></svg>
+          <h3 class="feature-card__title" data-i18n="sections.pro.retire.title">Retire Planner</h3>
+          <p class="feature-card__desc" data-i18n="sections.pro.retire.desc">Map your path to financial freedom</p>
         </div>
         <div class="showcase__callout showcase__callout--right showcase__callout--top">
           <svg class="icon icon--callout"><use href="#icon-globe"/></svg>
@@ -288,11 +303,17 @@
             <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-repeat"/></svg><span data-i18n="sections.more.recurring">Repeat Transactions</span></span>
             <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-search"/></svg><span data-i18n="sections.more.search">Smart Search</span></span>
             <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-clipboard"/></svg><span data-i18n="sections.more.batch">Batch Operations</span></span>
+            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-mac"/></svg><span data-i18n="sections.more.mac">Mac App</span></span>
+            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-phone"/></svg><span data-i18n="sections.more.ipad">iPad Optimized</span></span>
+            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-coins"/></svg><span data-i18n="sections.more.fiscalYear">Fiscal Year Budgets</span></span>
+            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-calculator"/></svg><span data-i18n="sections.more.budgetExclusions">Budget Exclusions</span></span>
+            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-camera"/></svg><span data-i18n="sections.more.shareImage">Share as Image</span></span>
+            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-lightbulb"/></svg><span data-i18n="sections.more.essentialCategories">Essential Categories</span></span>
           </div>
-          <p class="section__subtitle" data-i18n="sections.more.subtitle">Your data stays on your device and your iCloud — always private, always secure.</p>
+          <p class="section__subtitle" data-i18n="sections.more.subtitle">Now on iPhone, iPad, and Mac — always in sync via iCloud, and always private.</p>
         </div>
         <div class="section__split-right">
-          <img class="screenshot-img" data-screenshot="10_background_theme.png" src="./assets/screenshots/en/10_background_theme.png" alt="Background themes screenshot" loading="lazy">
+          <img class="screenshot-img" data-screenshot="02_mac_dashboard.png" src="./assets/screenshots/en/02_mac_dashboard.png" alt="Mac app dashboard screenshot" loading="lazy">
         </div>
       </div>
     </div>
