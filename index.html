@@ -218,14 +218,9 @@
     <div class="section__content">
       <span class="section__label" data-i18n="sections.smart.label">Smart Features</span>
       <h2 class="section__headline" data-i18n="sections.smart.headline">See the Big Picture</h2>
-      <p class="section__subtitle" data-i18n="sections.smart.subtitle">Beautiful charts, a monthly Financial Health score, and widgets that keep you informed.</p>
+      <p class="section__subtitle" data-i18n="sections.smart.subtitle">Beautiful charts, smart suggestions, and widgets that keep you informed.</p>
       <div class="showcase">
         <img class="showcase__img" data-screenshot="05_report1.png" src="./assets/screenshots/en/05_report1.png" alt="Reports screenshot" loading="lazy">
-        <div class="showcase__callout showcase__callout--left showcase__callout--top">
-          <svg class="icon icon--callout"><use href="#icon-trending"/></svg>
-          <h3 class="feature-card__title" data-i18n="sections.smart.health.title">Financial Health Score</h3>
-          <p class="feature-card__desc" data-i18n="sections.smart.health.desc">Your monthly money score, from savings to stability</p>
-        </div>
         <div class="showcase__callout showcase__callout--right showcase__callout--top">
           <svg class="icon icon--callout"><use href="#icon-chart"/></svg>
           <h3 class="feature-card__title" data-i18n="sections.smart.reports.title">Beautiful Reports</h3>
@@ -248,6 +243,36 @@
     </div>
   </section>
 
+  <!-- Section 3b: Financial Health -->
+  <section class="section section--health" data-theme="gold">
+    <div class="section__content">
+      <span class="section__label" data-i18n="sections.health.label">Financial Health</span>
+      <h2 class="section__headline" data-i18n="sections.health.headline">Know Your Financial Health</h2>
+      <p class="section__subtitle" data-i18n="sections.health.subtitle">A monthly score across savings, essentials, budgeting, and stability — with a personalized tip and a Retire Planner to map your path to financial freedom.</p>
+      <div class="showcase">
+        <img class="showcase__img" data-screenshot="02_finance_health.png" src="./assets/screenshots/en/02_finance_health.png" alt="Financial Health screenshot" loading="lazy">
+        <div class="showcase__callout showcase__callout--left showcase__callout--top">
+          <svg class="icon icon--callout"><use href="#icon-trending"/></svg>
+          <h3 class="feature-card__title" data-i18n="sections.health.score.title">Financial Health Score</h3>
+          <p class="feature-card__desc" data-i18n="sections.health.score.desc">Your monthly money score, from savings to stability</p>
+        </div>
+        <div class="showcase__callout showcase__callout--right showcase__callout--top">
+          <svg class="icon icon--callout"><use href="#icon-lightbulb"/></svg>
+          <h3 class="feature-card__title" data-i18n="sections.health.tips.title">Personalized Tips</h3>
+          <p class="feature-card__desc" data-i18n="sections.health.tips.desc">A tailored tip each month to boost your score</p>
+        </div>
+        <div class="showcase__callout showcase__callout--left showcase__callout--bottom">
+          <svg class="icon icon--callout"><use href="#icon-coins"/></svg>
+          <h3 class="feature-card__title" data-i18n="sections.health.retire.title">Retire Planner</h3>
+          <p class="feature-card__desc" data-i18n="sections.health.retire.desc">Map your path to financial freedom</p>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-indicator__pill"><div class="scroll-indicator__dot"></div></div>
+    </div>
+  </section>
+
   <!-- Section 4: Go Pro -->
   <section class="section section--pro" data-theme="aurora">
     <div class="section__content">
@@ -260,11 +285,6 @@
           <svg class="icon icon--callout"><use href="#icon-trending"/></svg>
           <h3 class="feature-card__title" data-i18n="sections.pro.forecast.title">Financial Forecast</h3>
           <p class="feature-card__desc" data-i18n="sections.pro.forecast.desc">Predict future spending from your history</p>
-        </div>
-        <div class="showcase__callout showcase__callout--left showcase__callout--mid">
-          <svg class="icon icon--callout"><use href="#icon-coins"/></svg>
-          <h3 class="feature-card__title" data-i18n="sections.pro.retire.title">Retire Planner</h3>
-          <p class="feature-card__desc" data-i18n="sections.pro.retire.desc">Map your path to financial freedom</p>
         </div>
         <div class="showcase__callout showcase__callout--right showcase__callout--top">
           <svg class="icon icon--callout"><use href="#icon-globe"/></svg>
@@ -293,27 +313,24 @@
     <div class="section__content">
       <h2 class="section__headline" data-i18n="sections.more.headline">And So Much More...</h2>
       <div class="section__split">
-        <div class="section__split-left">
-          <div class="pill-chips pill-chips--left">
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-link"/></svg><span data-i18n="sections.more.shortcuts">iOS Shortcuts</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-cloud"/></svg><span data-i18n="sections.more.icloud">iCloud Sync</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-lock"/></svg><span data-i18n="sections.more.privacy">Privacy First</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-tag"/></svg><span data-i18n="sections.more.categories">Custom Categories</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-paintbrush"/></svg><span data-i18n="sections.more.themes">Background Themes</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-repeat"/></svg><span data-i18n="sections.more.recurring">Repeat Transactions</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-search"/></svg><span data-i18n="sections.more.search">Smart Search</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-clipboard"/></svg><span data-i18n="sections.more.batch">Batch Operations</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-mac"/></svg><span data-i18n="sections.more.mac">Mac App</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-phone"/></svg><span data-i18n="sections.more.ipad">iPad Optimized</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-coins"/></svg><span data-i18n="sections.more.fiscalYear">Fiscal Year Budgets</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-calculator"/></svg><span data-i18n="sections.more.budgetExclusions">Budget Exclusions</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-camera"/></svg><span data-i18n="sections.more.shareImage">Share as Image</span></span>
-            <span class="pill-chip"><svg class="icon icon--pill"><use href="#icon-lightbulb"/></svg><span data-i18n="sections.more.essentialCategories">Essential Categories</span></span>
+        <div class="section__split-left section__split-left--full">
+          <div class="tile-grid tile-grid--wide">
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-link"/></svg><span class="tile__label" data-i18n="sections.more.shortcuts">iOS Shortcuts</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-cloud"/></svg><span class="tile__label" data-i18n="sections.more.icloud">iCloud Sync</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-lock"/></svg><span class="tile__label" data-i18n="sections.more.privacy">Privacy First</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-tag"/></svg><span class="tile__label" data-i18n="sections.more.categories">Custom Categories</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-paintbrush"/></svg><span class="tile__label" data-i18n="sections.more.themes">Background Themes</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-repeat"/></svg><span class="tile__label" data-i18n="sections.more.recurring">Repeat Transactions</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-search"/></svg><span class="tile__label" data-i18n="sections.more.search">Smart Search</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-clipboard"/></svg><span class="tile__label" data-i18n="sections.more.batch">Batch Operations</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-mac"/></svg><span class="tile__label" data-i18n="sections.more.mac">Mac App</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-phone"/></svg><span class="tile__label" data-i18n="sections.more.ipad">iPad Optimized</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-coins"/></svg><span class="tile__label" data-i18n="sections.more.fiscalYear">Fiscal Year Budgets</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-calculator"/></svg><span class="tile__label" data-i18n="sections.more.budgetExclusions">Budget Exclusions</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-camera"/></svg><span class="tile__label" data-i18n="sections.more.shareImage">Share as Image</span></div>
+            <div class="tile"><svg class="icon icon--tile"><use href="#icon-lightbulb"/></svg><span class="tile__label" data-i18n="sections.more.essentialCategories">Essential Categories</span></div>
           </div>
           <p class="section__subtitle" data-i18n="sections.more.subtitle">Now on iPhone, iPad, and Mac — always in sync via iCloud, and always private.</p>
-        </div>
-        <div class="section__split-right">
-          <img class="screenshot-img" data-screenshot="02_mac_dashboard.png" src="./assets/screenshots/en/02_mac_dashboard.png" alt="Mac app dashboard screenshot" loading="lazy">
         </div>
       </div>
     </div>

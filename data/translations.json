@@ -26,18 +26,24 @@
       "smart": {
         "label": "Smart Features",
         "headline": "See the Big Picture",
-        "subtitle": "Beautiful charts, a monthly Financial Health score, and widgets that keep you informed.",
-        "health": { "title": "Financial Health Score", "desc": "Your monthly money score, from savings to stability" },
+        "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
         "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
         "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
         "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+      },
+      "health": {
+        "label": "Financial Health",
+        "headline": "Know Your Financial Health",
+        "subtitle": "A monthly score across savings, essentials, budgeting, and stability — with a personalized tip and a Retire Planner to map your path to financial freedom.",
+        "score": { "title": "Financial Health Score", "desc": "Your monthly money score, from savings to stability" },
+        "tips": { "title": "Personalized Tips", "desc": "A tailored tip each month to boost your score" },
+        "retire": { "title": "Retire Planner", "desc": "Map your path to financial freedom" }
       },
       "pro": {
         "label": "Go Pro",
         "headline": "Unlock More Power",
         "subtitle": "Advanced features for those who want the full picture.",
         "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "retire": { "title": "Retire Planner", "desc": "Map your path to financial freedom" },
         "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
         "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
         "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
@@ -96,18 +102,24 @@
       "smart": {
         "label": "Smarte Funktionen",
         "headline": "Das große Bild sehen",
-        "subtitle": "Schöne Diagramme, ein monatlicher Financial-Health-Score und Widgets, die dich informiert halten.",
-        "health": { "title": "Financial-Health-Score", "desc": "Dein monatlicher Geld-Score — von Ersparnissen bis Stabilität" },
+        "subtitle": "Schöne Diagramme, smarte Vorschläge und Widgets, die dich informiert halten.",
         "reports": { "title": "Schöne Berichte", "desc": "Klare, aufschlussreiche Ausgabendiagramme" },
         "suggestions": { "title": "Smarte Vorschläge", "desc": "Häufige Buchungen in zwei Tipps hinzufügen" },
         "widgets": { "title": "Startbildschirm-Widgets", "desc": "Budgetfortschritt auf einen Blick" }
+      },
+      "health": {
+        "label": "Finanzielle Gesundheit",
+        "headline": "Kenne deine finanzielle Gesundheit",
+        "subtitle": "Ein monatlicher Score für Ersparnisse, Essentials, Budgetierung und Stabilität — mit einem persönlichen Tipp und einem Ruhestandsplaner für deinen Weg zur finanziellen Freiheit.",
+        "score": { "title": "Financial-Health-Score", "desc": "Dein monatlicher Geld-Score — von Ersparnissen bis Stabilität" },
+        "tips": { "title": "Persönliche Tipps", "desc": "Jeden Monat ein maßgeschneiderter Tipp für einen besseren Score" },
+        "retire": { "title": "Ruhestandsplaner", "desc": "Plane deinen Weg zur finanziellen Freiheit" }
       },
       "pro": {
         "label": "Pro-Version",
         "headline": "Mehr Power freischalten",
         "subtitle": "Erweiterte Funktionen für alle, die das volle Bild wollen.",
         "forecast": { "title": "Finanzprognose", "desc": "Zukünftige Ausgaben aus deiner Historie vorhersagen" },
-        "retire": { "title": "Ruhestandsplaner", "desc": "Plane deinen Weg zur finanziellen Freiheit" },
         "currency": { "title": "Multi-Währung", "desc": "Perfekt für Reisen und internationale Ausgaben" },
         "scan": { "title": "Beleg scannen", "desc": "Foto machen, KI füllt automatisch aus" },
         "repeat": { "title": "Wiederkehrende Buchungen", "desc": "Regelmäßige Rechnungen und Einkommen automatisieren" }
@@ -166,18 +178,24 @@
       "smart": {
         "label": "Fonctions intelligentes",
         "headline": "Voyez le tableau complet",
-        "subtitle": "De beaux graphiques, un score de santé financière mensuel et des widgets pour rester informé.",
-        "health": { "title": "Score de santé financière", "desc": "Votre score financier mensuel, de l'épargne à la stabilité" },
+        "subtitle": "De beaux graphiques, des suggestions intelligentes et des widgets pour rester informé.",
         "reports": { "title": "Beaux rapports", "desc": "Des graphiques de dépenses clairs et pertinents" },
         "suggestions": { "title": "Suggestions intelligentes", "desc": "Ajoutez vos opérations fréquentes en deux gestes" },
         "widgets": { "title": "Widgets écran d'accueil", "desc": "Progression du budget en un coup d'œil" }
+      },
+      "health": {
+        "label": "Santé financière",
+        "headline": "Connaissez votre santé financière",
+        "subtitle": "Un score mensuel couvrant l'épargne, les dépenses essentielles, le budget et la stabilité — avec un conseil personnalisé et un planificateur de retraite pour tracer votre chemin vers la liberté financière.",
+        "score": { "title": "Score de santé financière", "desc": "Votre score financier mensuel, de l'épargne à la stabilité" },
+        "tips": { "title": "Conseils personnalisés", "desc": "Un conseil sur mesure chaque mois pour améliorer votre score" },
+        "retire": { "title": "Planificateur de retraite", "desc": "Tracez votre chemin vers la liberté financière" }
       },
       "pro": {
         "label": "Passer à Pro",
         "headline": "Libérez plus de puissance",
         "subtitle": "Des fonctionnalités avancées pour ceux qui veulent une vision complète.",
         "forecast": { "title": "Prévisions financières", "desc": "Prédisez vos dépenses futures à partir de votre historique" },
-        "retire": { "title": "Planificateur de retraite", "desc": "Tracez votre chemin vers la liberté financière" },
         "currency": { "title": "Multi-devises", "desc": "Parfait pour les voyages et les dépenses internationales" },
         "scan": { "title": "Scan de reçus", "desc": "Prenez une photo, l'IA remplit automatiquement" },
         "repeat": { "title": "Opérations récurrentes", "desc": "Automatisez les factures et revenus réguliers" }
@@ -236,18 +254,24 @@
       "smart": {
         "label": "Funciones inteligentes",
         "headline": "Ve el panorama completo",
-        "subtitle": "Gráficos hermosos, una puntuación mensual de salud financiera y widgets que te mantienen informado.",
-        "health": { "title": "Puntuación de salud financiera", "desc": "Tu puntuación financiera mensual, del ahorro a la estabilidad" },
+        "subtitle": "Gráficos hermosos, sugerencias inteligentes y widgets que te mantienen informado.",
         "reports": { "title": "Informes hermosos", "desc": "Gráficos de gastos claros y reveladores" },
         "suggestions": { "title": "Sugerencias inteligentes", "desc": "Agrega transacciones frecuentes en dos toques" },
         "widgets": { "title": "Widgets de pantalla", "desc": "Progreso del presupuesto de un vistazo" }
+      },
+      "health": {
+        "label": "Salud financiera",
+        "headline": "Conoce tu salud financiera",
+        "subtitle": "Una puntuación mensual que abarca ahorro, gastos esenciales, presupuesto y estabilidad — con un consejo personalizado y un planificador de jubilación para trazar tu camino hacia la libertad financiera.",
+        "score": { "title": "Puntuación de salud financiera", "desc": "Tu puntuación financiera mensual, del ahorro a la estabilidad" },
+        "tips": { "title": "Consejos personalizados", "desc": "Un consejo a tu medida cada mes para mejorar tu puntuación" },
+        "retire": { "title": "Planificador de jubilación", "desc": "Traza tu camino hacia la libertad financiera" }
       },
       "pro": {
         "label": "Hazte Pro",
         "headline": "Desbloquea más poder",
         "subtitle": "Funciones avanzadas para quienes quieren la imagen completa.",
         "forecast": { "title": "Pronóstico financiero", "desc": "Predice gastos futuros a partir de tu historial" },
-        "retire": { "title": "Planificador de jubilación", "desc": "Traza tu camino hacia la libertad financiera" },
         "currency": { "title": "Multi-moneda", "desc": "Perfecto para viajes y gastos internacionales" },
         "scan": { "title": "Escaneo de recibos", "desc": "Toma una foto, la IA completa automáticamente" },
         "repeat": { "title": "Transacciones recurrentes", "desc": "Automatiza facturas e ingresos recurrentes" }
@@ -306,18 +330,24 @@
       "smart": {
         "label": "Funzioni smart",
         "headline": "Vedi il quadro completo",
-        "subtitle": "Grafici belli, un punteggio mensile di salute finanziaria e widget che ti tengono informato.",
-        "health": { "title": "Punteggio di salute finanziaria", "desc": "Il tuo punteggio finanziario mensile, dal risparmio alla stabilità" },
+        "subtitle": "Grafici belli, suggerimenti smart e widget che ti tengono informato.",
         "reports": { "title": "Report bellissimi", "desc": "Grafici di spesa chiari e approfonditi" },
         "suggestions": { "title": "Suggerimenti smart", "desc": "Aggiungi transazioni frequenti in due tocchi" },
         "widgets": { "title": "Widget schermata Home", "desc": "Progresso del budget a colpo d'occhio" }
+      },
+      "health": {
+        "label": "Salute finanziaria",
+        "headline": "Conosci la tua salute finanziaria",
+        "subtitle": "Un punteggio mensile su risparmio, spese essenziali, budget e stabilità — con un consiglio personalizzato e un pianificatore pensione per tracciare il tuo percorso verso la libertà finanziaria.",
+        "score": { "title": "Punteggio di salute finanziaria", "desc": "Il tuo punteggio finanziario mensile, dal risparmio alla stabilità" },
+        "tips": { "title": "Consigli personalizzati", "desc": "Un consiglio su misura ogni mese per migliorare il punteggio" },
+        "retire": { "title": "Pianificatore pensione", "desc": "Traccia il tuo percorso verso la libertà finanziaria" }
       },
       "pro": {
         "label": "Passa a Pro",
         "headline": "Sblocca più potenza",
         "subtitle": "Funzionalità avanzate per chi vuole il quadro completo.",
         "forecast": { "title": "Previsioni finanziarie", "desc": "Prevedi le spese future dalla tua cronologia" },
-        "retire": { "title": "Pianificatore pensione", "desc": "Traccia il tuo percorso verso la libertà finanziaria" },
         "currency": { "title": "Multi-valuta", "desc": "Perfetto per viaggi e spese internazionali" },
         "scan": { "title": "Scansione scontrini", "desc": "Scatta una foto, l'IA compila automaticamente" },
         "repeat": { "title": "Transazioni ricorrenti", "desc": "Automatizza bollette e entrate ricorrenti" }
@@ -376,18 +406,24 @@
       "smart": {
         "label": "スマート機能",
         "headline": "全体像を把握しよう",
-        "subtitle": "美しいグラフ、毎月のファイナンシャルヘルススコア、情報を常に表示するウィジェット。",
-        "health": { "title": "ファイナンシャルヘルススコア", "desc": "貯蓄から安定性まで、毎月のお金のスコア" },
+        "subtitle": "美しいグラフ、スマートな提案、情報を常に表示するウィジェット。",
         "reports": { "title": "美しいレポート", "desc": "わかりやすい支出グラフ" },
         "suggestions": { "title": "スマート提案", "desc": "よく使う取引を2タップで追加" },
         "widgets": { "title": "ホーム画面ウィジェット", "desc": "予算の進捗を一目で確認" }
+      },
+      "health": {
+        "label": "ファイナンシャルヘルス",
+        "headline": "あなたのファイナンシャルヘルスを知ろう",
+        "subtitle": "貯蓄、必需品、予算、安定性にわたる毎月のスコアに加え、パーソナライズされたヒントと、経済的自由への道を描くリタイアプランナーを提供。",
+        "score": { "title": "ファイナンシャルヘルススコア", "desc": "貯蓄から安定性まで、毎月のお金のスコア" },
+        "tips": { "title": "パーソナライズされたヒント", "desc": "スコアを上げるための、毎月ぴったりのヒント" },
+        "retire": { "title": "リタイアプランナー", "desc": "経済的自由への道筋を描こう" }
       },
       "pro": {
         "label": "Proにアップグレード",
         "headline": "さらなるパワーを解放",
         "subtitle": "全体像を求める方のための高度な機能。",
         "forecast": { "title": "支出予測", "desc": "履歴から将来の支出を予測" },
-        "retire": { "title": "リタイアプランナー", "desc": "経済的自由への道筋を描こう" },
         "currency": { "title": "マルチ通貨", "desc": "旅行や海外での支出に最適" },
         "scan": { "title": "レシートスキャン", "desc": "写真を撮ると、AIが自動入力" },
         "repeat": { "title": "繰り返し取引", "desc": "定期的な支払いと収入を自動化" }
@@ -446,18 +482,24 @@
       "smart": {
         "label": "智能功能",
         "headline": "全局掌控",
-        "subtitle": "精美图表、每月财务健康评分和小组件，让你时刻了解财务状况。",
-        "health": { "title": "财务健康评分", "desc": "从储蓄到稳定性的每月财务评分" },
+        "subtitle": "精美图表、智能建议和小组件，让你时刻了解财务状况。",
         "reports": { "title": "精美报表", "desc": "清晰直观的消费图表" },
         "suggestions": { "title": "智能建议", "desc": "两步添加常用交易" },
         "widgets": { "title": "主屏幕小组件", "desc": "一眼查看预算进度" }
+      },
+      "health": {
+        "label": "财务健康",
+        "headline": "了解你的财务健康",
+        "subtitle": "涵盖储蓄、必要开支、预算和稳定性的每月评分 — 附带个性化建议，还有退休规划助你规划财务自由之路。",
+        "score": { "title": "财务健康评分", "desc": "从储蓄到稳定性的每月财务评分" },
+        "tips": { "title": "个性化建议", "desc": "每月量身定制的建议，助你提升评分" },
+        "retire": { "title": "退休规划", "desc": "规划你的财务自由之路" }
       },
       "pro": {
         "label": "升级 Pro",
         "headline": "解锁更多功能",
         "subtitle": "为追求全面掌控的你提供高级功能。",
         "forecast": { "title": "财务预测", "desc": "根据历史数据预测未来支出" },
-        "retire": { "title": "退休规划", "desc": "规划你的财务自由之路" },
         "currency": { "title": "多币种", "desc": "旅行和跨国消费的完美选择" },
         "scan": { "title": "扫描小票", "desc": "拍张照，AI自动填写" },
         "repeat": { "title": "重复交易", "desc": "自动化定期账单和收入" }
@@ -516,18 +558,24 @@
       "smart": {
         "label": "智慧功能",
         "headline": "全局掌控",
-        "subtitle": "精美圖表、每月財務健康評分和小工具，讓你時刻掌握財務狀況。",
-        "health": { "title": "財務健康評分", "desc": "從儲蓄到穩定性的每月財務評分" },
+        "subtitle": "精美圖表、智慧建議和小工具，讓你時刻掌握財務狀況。",
         "reports": { "title": "精美報表", "desc": "清晰直觀的消費圖表" },
         "suggestions": { "title": "智慧建議", "desc": "兩步新增常用交易" },
         "widgets": { "title": "主畫面小工具", "desc": "一眼查看預算進度" }
+      },
+      "health": {
+        "label": "財務健康",
+        "headline": "了解你的財務健康",
+        "subtitle": "涵蓋儲蓄、必要開支、預算和穩定性的每月評分 — 附帶個人化建議，還有退休規劃助你規劃財務自由之路。",
+        "score": { "title": "財務健康評分", "desc": "從儲蓄到穩定性的每月財務評分" },
+        "tips": { "title": "個人化建議", "desc": "每月量身打造的建議，助你提升評分" },
+        "retire": { "title": "退休規劃", "desc": "規劃你的財務自由之路" }
       },
       "pro": {
         "label": "升級 Pro",
         "headline": "解鎖更多功能",
         "subtitle": "為追求全面掌控的你提供進階功能。",
         "forecast": { "title": "財務預測", "desc": "根據歷史資料預測未來支出" },
-        "retire": { "title": "退休規劃", "desc": "規劃你的財務自由之路" },
         "currency": { "title": "多幣種", "desc": "旅行和跨國消費的完美選擇" },
         "scan": { "title": "掃描收據", "desc": "拍張照，AI自動填寫" },
         "repeat": { "title": "重複交易", "desc": "自動化定期帳單和收入" }
@@ -586,18 +634,24 @@
       "smart": {
         "label": "스마트 기능",
         "headline": "전체 그림을 보세요",
-        "subtitle": "아름다운 차트, 매월 제공되는 재무 건강 점수, 항상 최신 정보를 제공하는 위젯.",
-        "health": { "title": "재무 건강 점수", "desc": "저축부터 안정성까지, 매월 확인하는 나의 재무 점수" },
+        "subtitle": "아름다운 차트, 스마트 제안, 항상 최신 정보를 제공하는 위젯.",
         "reports": { "title": "아름다운 리포트", "desc": "명확하고 통찰력 있는 지출 차트" },
         "suggestions": { "title": "스마트 제안", "desc": "자주 쓰는 거래를 두 번 탭으로 추가" },
         "widgets": { "title": "홈 화면 위젯", "desc": "예산 진행 상황을 한눈에" }
+      },
+      "health": {
+        "label": "재무 건강",
+        "headline": "나의 재무 건강을 확인하세요",
+        "subtitle": "저축, 필수 지출, 예산, 안정성을 아우르는 매월 점수 — 맞춤 팁과 경제적 자유로 가는 길을 그리는 은퇴 플래너까지.",
+        "score": { "title": "재무 건강 점수", "desc": "저축부터 안정성까지, 매월 확인하는 나의 재무 점수" },
+        "tips": { "title": "맞춤 팁", "desc": "점수를 높이는 매월 맞춤 팁" },
+        "retire": { "title": "은퇴 플래너", "desc": "경제적 자유로 가는 길을 설계하세요" }
       },
       "pro": {
         "label": "Pro로 업그레이드",
         "headline": "더 강력한 기능 잠금해제",
         "subtitle": "전체 재무 현황을 원하는 분을 위한 고급 기능.",
         "forecast": { "title": "재무 예측", "desc": "이력으로 미래 지출을 예측" },
-        "retire": { "title": "은퇴 플래너", "desc": "경제적 자유로 가는 길을 설계하세요" },
         "currency": { "title": "다중 통화", "desc": "여행 및 해외 지출에 완벽" },
         "scan": { "title": "영수증 스캔", "desc": "사진을 찍으면 AI가 자동 입력" },
         "repeat": { "title": "반복 거래", "desc": "정기 청구서와 수입을 자동화" }
@@ -656,18 +710,24 @@
       "smart": {
         "label": "Умные функции",
         "headline": "Увидьте полную картину",
-        "subtitle": "Красивые графики, ежемесячный показатель финансового здоровья и виджеты для вашего удобства.",
-        "health": { "title": "Показатель финансового здоровья", "desc": "Ваш ежемесячный финансовый рейтинг — от накоплений до стабильности" },
+        "subtitle": "Красивые графики, умные подсказки и виджеты для вашего удобства.",
         "reports": { "title": "Красивые отчёты", "desc": "Понятные графики расходов" },
         "suggestions": { "title": "Умные подсказки", "desc": "Добавляйте частые операции в два касания" },
         "widgets": { "title": "Виджеты на главный экран", "desc": "Прогресс бюджета с первого взгляда" }
+      },
+      "health": {
+        "label": "Финансовое здоровье",
+        "headline": "Узнайте своё финансовое здоровье",
+        "subtitle": "Ежемесячный показатель по накоплениям, обязательным расходам, бюджету и стабильности — с персональным советом и планировщиком пенсии, который поможет построить путь к финансовой свободе.",
+        "score": { "title": "Показатель финансового здоровья", "desc": "Ваш ежемесячный финансовый рейтинг — от накоплений до стабильности" },
+        "tips": { "title": "Персональные советы", "desc": "Индивидуальный совет каждый месяц для повышения показателя" },
+        "retire": { "title": "Планировщик пенсии", "desc": "Постройте свой путь к финансовой свободе" }
       },
       "pro": {
         "label": "Перейти на Pro",
         "headline": "Разблокируйте больше возможностей",
         "subtitle": "Продвинутые функции для тех, кто хочет полную картину.",
         "forecast": { "title": "Финансовый прогноз", "desc": "Предсказывайте расходы на основе истории" },
-        "retire": { "title": "Планировщик пенсии", "desc": "Постройте свой путь к финансовой свободе" },
         "currency": { "title": "Мультивалюта", "desc": "Идеально для путешествий и зарубежных расходов" },
         "scan": { "title": "Сканирование чеков", "desc": "Сделайте фото — ИИ заполнит автоматически" },
         "repeat": { "title": "Повторяющиеся операции", "desc": "Автоматизируйте регулярные счета и доходы" }

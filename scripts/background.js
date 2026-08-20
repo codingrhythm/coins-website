@@ -8,6 +8,8 @@ const SECTION_GRADIENTS = [
   [{ r: 0, g: 119, b: 182 }, { r: 0, g: 95, b: 140 }, { r: 2, g: 62, b: 88 }, { r: 1, g: 40, b: 58 }],
   // forest (Smart)
   [{ r: 45, g: 140, b: 90 }, { r: 27, g: 107, b: 58 }, { r: 20, g: 82, b: 48 }, { r: 11, g: 61, b: 33 }],
+  // gold (Financial Health) — warm gold/amber, distinct from the green Smart section above
+  [{ r: 245, g: 176, b: 65 }, { r: 214, g: 140, b: 45 }, { r: 170, g: 100, b: 35 }, { r: 110, g: 65, b: 25 }],
   // aurora (Pro)
   [{ r: 0, g: 201, b: 167 }, { r: 27, g: 154, b: 170 }, { r: 74, g: 88, b: 153 }, { r: 107, g: 63, b: 160 }],
   // midnight (More)
@@ -16,7 +18,7 @@ const SECTION_GRADIENTS = [
   [{ r: 232, g: 168, b: 124 }, { r: 214, g: 132, b: 56 }, { r: 196, g: 107, b: 30 }, { r: 139, g: 69, b: 19 }]
 ];
 
-const THEME_NAMES = ['sunsetGlow', 'ocean', 'forest', 'aurora', 'midnight', 'desert'];
+const THEME_NAMES = ['sunsetGlow', 'ocean', 'forest', 'gold', 'aurora', 'midnight', 'desert'];
 
 class BackgroundRenderer {
   constructor() {
