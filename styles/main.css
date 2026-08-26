@@ -160,7 +160,15 @@ body {
 
 .hero-pillar .icon { width: 1.5rem; height: 1.5rem; }
 
-/* App Store badge */
+/* App Store badges (iOS + Mac side by side) */
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 .app-store-badge {
   display: inline-block;
   transition: all var(--transition-normal);

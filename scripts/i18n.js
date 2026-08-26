@@ -5,7 +5,10 @@ class I18n {
   constructor() {
     this.currentLanguage = 'en';
     this.translations = {};
-    this.supportedLanguages = ['en', 'de', 'fr', 'es', 'it', 'ja', 'zh-Hans', 'zh-Hant', 'ko', 'ru'];
+    this.supportedLanguages = ['en', 'de', 'fr', 'es', 'it', 'ja', 'zh-Hans', 'zh-Hant', 'ko', 'ru', 'ar', 'pt-BR'];
+    // Languages without localized screenshot folders fall back to English shots
+    this.screenshotFallbackLanguages = ['ar', 'pt-BR'];
+    this.rtlLanguages = ['ar'];
   }
 
   /**
@@ -46,7 +49,12 @@ class I18n {
       'ko': 'ko',
       'ko-kr': 'ko',
       'ru': 'ru',
-      'ru-ru': 'ru'
+      'ru-ru': 'ru',
+      'ar': 'ar',
+      'ar-sa': 'ar',
+      'pt': 'pt-BR', // Default Portuguese to Brazilian
+      'pt-br': 'pt-BR',
+      'pt-pt': 'pt-BR'
     };
 
     // Try exact match first
@@ -166,6 +174,9 @@ class I18n {
     // Update HTML lang attribute for accessibility and SEO
     document.documentElement.lang = lang;
 
+    // Update text direction for RTL languages (Arabic)
+    document.documentElement.dir = this.rtlLanguages.includes(lang) ? 'rtl' : 'ltr';
+
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(element => {
       const key = element.getAttribute('data-i18n');
@@ -223,10 +234,15 @@ class I18n {
    * @param {string} lang - Language code
    */
   updateAppStoreBadge(lang) {
-    const badges = document.querySelectorAll('.app-store-badge img');
+    const badges = document.querySelectorAll('.app-store-badge:not(.mac-app-store-badge) img');
     badges.forEach(badge => {
       badge.src = `./assets/app-store-badges/${lang}.svg`;
       badge.alt = this.t('hero.cta');
+    });
+
+    const macBadges = document.querySelectorAll('.mac-app-store-badge img');
+    macBadges.forEach(badge => {
+      badge.src = `./assets/mac-app-store-badges/${lang}.svg`;
     });
   }
 
@@ -236,8 +252,9 @@ class I18n {
    * @param {string} lang - Language code
    */
   updateScreenshots(lang) {
-    // Map i18n lang codes to screenshot folder names
-    const screenshotLang = lang === 'zh-Hans' ? 'zh-Hans' : lang === 'zh-Hant' ? 'zh-Hant' : lang;
+    // Map i18n lang codes to screenshot folder names; languages without
+    // localized screenshots fall back to English
+    const screenshotLang = this.screenshotFallbackLanguages.includes(lang) ? 'en' : lang;
     document.querySelectorAll('[data-screenshot]').forEach(img => {
       const filename = img.getAttribute('data-screenshot');
       img.src = `./assets/screenshots/${screenshotLang}/${filename}`;

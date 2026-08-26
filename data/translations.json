@@ -19,34 +19,73 @@
         "label": "Core Experience",
         "headline": "Track in Seconds. Stay on Budget.",
         "subtitle": "Log expenses with a single tap. Set a monthly budget and get alerts before overspending.",
-        "fast": { "title": "Fast Entry", "desc": "Just enter an amount — done" },
-        "calc": { "title": "Built-in Calculator", "desc": "Add up receipts on the fly" },
-        "budget": { "title": "Budget Alerts", "desc": "Know before you overspend" }
+        "fast": {
+          "title": "Fast Entry",
+          "desc": "Just enter an amount — done"
+        },
+        "calc": {
+          "title": "Built-in Calculator",
+          "desc": "Add up receipts on the fly"
+        },
+        "budget": {
+          "title": "Budget Alerts",
+          "desc": "Know before you overspend"
+        }
       },
       "smart": {
         "label": "Smart Features",
         "headline": "See the Big Picture",
         "subtitle": "Beautiful charts, smart suggestions, and widgets that keep you informed.",
-        "reports": { "title": "Beautiful Reports", "desc": "Clear, insightful spending charts" },
-        "suggestions": { "title": "Smart Suggestions", "desc": "Add frequent transactions in two taps" },
-        "widgets": { "title": "Home Screen Widgets", "desc": "Budget progress at a glance" }
+        "reports": {
+          "title": "Beautiful Reports",
+          "desc": "Clear, insightful spending charts"
+        },
+        "suggestions": {
+          "title": "Smart Suggestions",
+          "desc": "Add frequent transactions in two taps"
+        },
+        "widgets": {
+          "title": "Home Screen Widgets",
+          "desc": "Budget progress at a glance"
+        }
       },
       "health": {
         "label": "Financial Health",
         "headline": "Know Your Financial Health",
         "subtitle": "A monthly score across savings, essentials, budgeting, and stability — with a personalized tip and a Retire Planner to map your path to financial freedom.",
-        "score": { "title": "Financial Health Score", "desc": "Your monthly money score, from savings to stability" },
-        "tips": { "title": "Personalized Tips", "desc": "A tailored tip each month to boost your score" },
-        "retire": { "title": "Retire Planner", "desc": "Map your path to financial freedom" }
+        "score": {
+          "title": "Financial Health Score",
+          "desc": "Your monthly money score, from savings to stability"
+        },
+        "tips": {
+          "title": "Personalized Tips",
+          "desc": "A tailored tip each month to boost your score"
+        },
+        "retire": {
+          "title": "Retire Planner",
+          "desc": "Map your path to financial freedom"
+        }
       },
       "pro": {
         "label": "Go Pro",
         "headline": "Unlock More Power",
         "subtitle": "Advanced features for those who want the full picture.",
-        "forecast": { "title": "Financial Forecast", "desc": "Predict future spending from your history" },
-        "currency": { "title": "Multi-Currency", "desc": "Perfect for travel and international expenses" },
-        "scan": { "title": "Receipt Scanning", "desc": "Snap a photo, let AI auto-fill" },
-        "repeat": { "title": "Repeat Transactions", "desc": "Automate recurring bills and income" }
+        "forecast": {
+          "title": "Financial Forecast",
+          "desc": "Predict future spending from your history"
+        },
+        "currency": {
+          "title": "Multi-Currency",
+          "desc": "Perfect for travel and international expenses"
+        },
+        "scan": {
+          "title": "Receipt Scanning",
+          "desc": "Snap a photo, let AI auto-fill"
+        },
+        "repeat": {
+          "title": "Repeat Transactions",
+          "desc": "Automate recurring bills and income"
+        }
       },
       "more": {
         "headline": "And So Much More...",
@@ -95,34 +134,73 @@
         "label": "Kernfunktionen",
         "headline": "In Sekunden erfassen. Im Budget bleiben.",
         "subtitle": "Ausgaben mit einem Tipp erfassen. Monatsbudget festlegen und vor Überschreitung gewarnt werden.",
-        "fast": { "title": "Schnellerfassung", "desc": "Einfach Betrag eingeben — fertig" },
-        "calc": { "title": "Integrierter Rechner", "desc": "Quittungen unterwegs zusammenrechnen" },
-        "budget": { "title": "Budget-Warnung", "desc": "Wissen, bevor du zu viel ausgibst" }
+        "fast": {
+          "title": "Schnellerfassung",
+          "desc": "Einfach Betrag eingeben — fertig"
+        },
+        "calc": {
+          "title": "Integrierter Rechner",
+          "desc": "Quittungen unterwegs zusammenrechnen"
+        },
+        "budget": {
+          "title": "Budget-Warnung",
+          "desc": "Wissen, bevor du zu viel ausgibst"
+        }
       },
       "smart": {
         "label": "Smarte Funktionen",
         "headline": "Das große Bild sehen",
         "subtitle": "Schöne Diagramme, smarte Vorschläge und Widgets, die dich informiert halten.",
-        "reports": { "title": "Schöne Berichte", "desc": "Klare, aufschlussreiche Ausgabendiagramme" },
-        "suggestions": { "title": "Smarte Vorschläge", "desc": "Häufige Buchungen in zwei Tipps hinzufügen" },
-        "widgets": { "title": "Startbildschirm-Widgets", "desc": "Budgetfortschritt auf einen Blick" }
+        "reports": {
+          "title": "Schöne Berichte",
+          "desc": "Klare, aufschlussreiche Ausgabendiagramme"
+        },
+        "suggestions": {
+          "title": "Smarte Vorschläge",
+          "desc": "Häufige Buchungen in zwei Tipps hinzufügen"
+        },
+        "widgets": {
+          "title": "Startbildschirm-Widgets",
+          "desc": "Budgetfortschritt auf einen Blick"
+        }
       },
       "health": {
         "label": "Finanzielle Gesundheit",
         "headline": "Kenne deine finanzielle Gesundheit",
         "subtitle": "Ein monatlicher Score für Ersparnisse, Essentials, Budgetierung und Stabilität — mit einem persönlichen Tipp und einem Ruhestandsplaner für deinen Weg zur finanziellen Freiheit.",
-        "score": { "title": "Financial-Health-Score", "desc": "Dein monatlicher Geld-Score — von Ersparnissen bis Stabilität" },
-        "tips": { "title": "Persönliche Tipps", "desc": "Jeden Monat ein maßgeschneiderter Tipp für einen besseren Score" },
-        "retire": { "title": "Ruhestandsplaner", "desc": "Plane deinen Weg zur finanziellen Freiheit" }
+        "score": {
+          "title": "Financial-Health-Score",
+          "desc": "Dein monatlicher Geld-Score — von Ersparnissen bis Stabilität"
+        },
+        "tips": {
+          "title": "Persönliche Tipps",
+          "desc": "Jeden Monat ein maßgeschneiderter Tipp für einen besseren Score"
+        },
+        "retire": {
+          "title": "Ruhestandsplaner",
+          "desc": "Plane deinen Weg zur finanziellen Freiheit"
+        }
       },
       "pro": {
         "label": "Pro-Version",
         "headline": "Mehr Power freischalten",
         "subtitle": "Erweiterte Funktionen für alle, die das volle Bild wollen.",
-        "forecast": { "title": "Finanzprognose", "desc": "Zukünftige Ausgaben aus deiner Historie vorhersagen" },
-        "currency": { "title": "Multi-Währung", "desc": "Perfekt für Reisen und internationale Ausgaben" },
-        "scan": { "title": "Beleg scannen", "desc": "Foto machen, KI füllt automatisch aus" },
-        "repeat": { "title": "Wiederkehrende Buchungen", "desc": "Regelmäßige Rechnungen und Einkommen automatisieren" }
+        "forecast": {
+          "title": "Finanzprognose",
+          "desc": "Zukünftige Ausgaben aus deiner Historie vorhersagen"
+        },
+        "currency": {
+          "title": "Multi-Währung",
+          "desc": "Perfekt für Reisen und internationale Ausgaben"
+        },
+        "scan": {
+          "title": "Beleg scannen",
+          "desc": "Foto machen, KI füllt automatisch aus"
+        },
+        "repeat": {
+          "title": "Wiederkehrende Buchungen",
+          "desc": "Regelmäßige Rechnungen und Einkommen automatisieren"
+        }
       },
       "more": {
         "headline": "Und noch so viel mehr…",
@@ -171,34 +249,73 @@
         "label": "Fonctions essentielles",
         "headline": "Saisissez en secondes. Restez dans le budget.",
         "subtitle": "Enregistrez vos dépenses d'un seul geste. Définissez un budget mensuel et recevez des alertes avant de dépasser.",
-        "fast": { "title": "Saisie rapide", "desc": "Entrez un montant — c'est fait" },
-        "calc": { "title": "Calculatrice intégrée", "desc": "Additionnez vos reçus en déplacement" },
-        "budget": { "title": "Alertes budget", "desc": "Soyez averti avant de trop dépenser" }
+        "fast": {
+          "title": "Saisie rapide",
+          "desc": "Entrez un montant — c'est fait"
+        },
+        "calc": {
+          "title": "Calculatrice intégrée",
+          "desc": "Additionnez vos reçus en déplacement"
+        },
+        "budget": {
+          "title": "Alertes budget",
+          "desc": "Soyez averti avant de trop dépenser"
+        }
       },
       "smart": {
         "label": "Fonctions intelligentes",
         "headline": "Voyez le tableau complet",
         "subtitle": "De beaux graphiques, des suggestions intelligentes et des widgets pour rester informé.",
-        "reports": { "title": "Beaux rapports", "desc": "Des graphiques de dépenses clairs et pertinents" },
-        "suggestions": { "title": "Suggestions intelligentes", "desc": "Ajoutez vos opérations fréquentes en deux gestes" },
-        "widgets": { "title": "Widgets écran d'accueil", "desc": "Progression du budget en un coup d'œil" }
+        "reports": {
+          "title": "Beaux rapports",
+          "desc": "Des graphiques de dépenses clairs et pertinents"
+        },
+        "suggestions": {
+          "title": "Suggestions intelligentes",
+          "desc": "Ajoutez vos opérations fréquentes en deux gestes"
+        },
+        "widgets": {
+          "title": "Widgets écran d'accueil",
+          "desc": "Progression du budget en un coup d'œil"
+        }
       },
       "health": {
         "label": "Santé financière",
         "headline": "Connaissez votre santé financière",
         "subtitle": "Un score mensuel couvrant l'épargne, les dépenses essentielles, le budget et la stabilité — avec un conseil personnalisé et un planificateur de retraite pour tracer votre chemin vers la liberté financière.",
-        "score": { "title": "Score de santé financière", "desc": "Votre score financier mensuel, de l'épargne à la stabilité" },
-        "tips": { "title": "Conseils personnalisés", "desc": "Un conseil sur mesure chaque mois pour améliorer votre score" },
-        "retire": { "title": "Planificateur de retraite", "desc": "Tracez votre chemin vers la liberté financière" }
+        "score": {
+          "title": "Score de santé financière",
+          "desc": "Votre score financier mensuel, de l'épargne à la stabilité"
+        },
+        "tips": {
+          "title": "Conseils personnalisés",
+          "desc": "Un conseil sur mesure chaque mois pour améliorer votre score"
+        },
+        "retire": {
+          "title": "Planificateur de retraite",
+          "desc": "Tracez votre chemin vers la liberté financière"
+        }
       },
       "pro": {
         "label": "Passer à Pro",
         "headline": "Libérez plus de puissance",
         "subtitle": "Des fonctionnalités avancées pour ceux qui veulent une vision complète.",
-        "forecast": { "title": "Prévisions financières", "desc": "Prédisez vos dépenses futures à partir de votre historique" },
-        "currency": { "title": "Multi-devises", "desc": "Parfait pour les voyages et les dépenses internationales" },
-        "scan": { "title": "Scan de reçus", "desc": "Prenez une photo, l'IA remplit automatiquement" },
-        "repeat": { "title": "Opérations récurrentes", "desc": "Automatisez les factures et revenus réguliers" }
+        "forecast": {
+          "title": "Prévisions financières",
+          "desc": "Prédisez vos dépenses futures à partir de votre historique"
+        },
+        "currency": {
+          "title": "Multi-devises",
+          "desc": "Parfait pour les voyages et les dépenses internationales"
+        },
+        "scan": {
+          "title": "Scan de reçus",
+          "desc": "Prenez une photo, l'IA remplit automatiquement"
+        },
+        "repeat": {
+          "title": "Opérations récurrentes",
+          "desc": "Automatisez les factures et revenus réguliers"
+        }
       },
       "more": {
         "headline": "Et bien plus encore…",
@@ -247,34 +364,73 @@
         "label": "Funciones principales",
         "headline": "Registra en segundos. Mantén tu presupuesto.",
         "subtitle": "Registra gastos con un solo toque. Establece un presupuesto mensual y recibe alertas antes de gastar de más.",
-        "fast": { "title": "Registro rápido", "desc": "Solo ingresa un monto — listo" },
-        "calc": { "title": "Calculadora integrada", "desc": "Suma recibos sobre la marcha" },
-        "budget": { "title": "Alertas de presupuesto", "desc": "Entérate antes de gastar de más" }
+        "fast": {
+          "title": "Registro rápido",
+          "desc": "Solo ingresa un monto — listo"
+        },
+        "calc": {
+          "title": "Calculadora integrada",
+          "desc": "Suma recibos sobre la marcha"
+        },
+        "budget": {
+          "title": "Alertas de presupuesto",
+          "desc": "Entérate antes de gastar de más"
+        }
       },
       "smart": {
         "label": "Funciones inteligentes",
         "headline": "Ve el panorama completo",
         "subtitle": "Gráficos hermosos, sugerencias inteligentes y widgets que te mantienen informado.",
-        "reports": { "title": "Informes hermosos", "desc": "Gráficos de gastos claros y reveladores" },
-        "suggestions": { "title": "Sugerencias inteligentes", "desc": "Agrega transacciones frecuentes en dos toques" },
-        "widgets": { "title": "Widgets de pantalla", "desc": "Progreso del presupuesto de un vistazo" }
+        "reports": {
+          "title": "Informes hermosos",
+          "desc": "Gráficos de gastos claros y reveladores"
+        },
+        "suggestions": {
+          "title": "Sugerencias inteligentes",
+          "desc": "Agrega transacciones frecuentes en dos toques"
+        },
+        "widgets": {
+          "title": "Widgets de pantalla",
+          "desc": "Progreso del presupuesto de un vistazo"
+        }
       },
       "health": {
         "label": "Salud financiera",
         "headline": "Conoce tu salud financiera",
         "subtitle": "Una puntuación mensual que abarca ahorro, gastos esenciales, presupuesto y estabilidad — con un consejo personalizado y un planificador de jubilación para trazar tu camino hacia la libertad financiera.",
-        "score": { "title": "Puntuación de salud financiera", "desc": "Tu puntuación financiera mensual, del ahorro a la estabilidad" },
-        "tips": { "title": "Consejos personalizados", "desc": "Un consejo a tu medida cada mes para mejorar tu puntuación" },
-        "retire": { "title": "Planificador de jubilación", "desc": "Traza tu camino hacia la libertad financiera" }
+        "score": {
+          "title": "Puntuación de salud financiera",
+          "desc": "Tu puntuación financiera mensual, del ahorro a la estabilidad"
+        },
+        "tips": {
+          "title": "Consejos personalizados",
+          "desc": "Un consejo a tu medida cada mes para mejorar tu puntuación"
+        },
+        "retire": {
+          "title": "Planificador de jubilación",
+          "desc": "Traza tu camino hacia la libertad financiera"
+        }
       },
       "pro": {
         "label": "Hazte Pro",
         "headline": "Desbloquea más poder",
         "subtitle": "Funciones avanzadas para quienes quieren la imagen completa.",
-        "forecast": { "title": "Pronóstico financiero", "desc": "Predice gastos futuros a partir de tu historial" },
-        "currency": { "title": "Multi-moneda", "desc": "Perfecto para viajes y gastos internacionales" },
-        "scan": { "title": "Escaneo de recibos", "desc": "Toma una foto, la IA completa automáticamente" },
-        "repeat": { "title": "Transacciones recurrentes", "desc": "Automatiza facturas e ingresos recurrentes" }
+        "forecast": {
+          "title": "Pronóstico financiero",
+          "desc": "Predice gastos futuros a partir de tu historial"
+        },
+        "currency": {
+          "title": "Multi-moneda",
+          "desc": "Perfecto para viajes y gastos internacionales"
+        },
+        "scan": {
+          "title": "Escaneo de recibos",
+          "desc": "Toma una foto, la IA completa automáticamente"
+        },
+        "repeat": {
+          "title": "Transacciones recurrentes",
+          "desc": "Automatiza facturas e ingresos recurrentes"
+        }
       },
       "more": {
         "headline": "Y mucho más…",
@@ -323,34 +479,73 @@
         "label": "Funzioni principali",
         "headline": "Registra in pochi secondi. Rispetta il budget.",
         "subtitle": "Registra le spese con un tocco. Imposta un budget mensile e ricevi avvisi prima di sforare.",
-        "fast": { "title": "Inserimento rapido", "desc": "Inserisci un importo — fatto" },
-        "calc": { "title": "Calcolatrice integrata", "desc": "Somma gli scontrini al volo" },
-        "budget": { "title": "Avvisi budget", "desc": "Sappi prima di spendere troppo" }
+        "fast": {
+          "title": "Inserimento rapido",
+          "desc": "Inserisci un importo — fatto"
+        },
+        "calc": {
+          "title": "Calcolatrice integrata",
+          "desc": "Somma gli scontrini al volo"
+        },
+        "budget": {
+          "title": "Avvisi budget",
+          "desc": "Sappi prima di spendere troppo"
+        }
       },
       "smart": {
         "label": "Funzioni smart",
         "headline": "Vedi il quadro completo",
         "subtitle": "Grafici belli, suggerimenti smart e widget che ti tengono informato.",
-        "reports": { "title": "Report bellissimi", "desc": "Grafici di spesa chiari e approfonditi" },
-        "suggestions": { "title": "Suggerimenti smart", "desc": "Aggiungi transazioni frequenti in due tocchi" },
-        "widgets": { "title": "Widget schermata Home", "desc": "Progresso del budget a colpo d'occhio" }
+        "reports": {
+          "title": "Report bellissimi",
+          "desc": "Grafici di spesa chiari e approfonditi"
+        },
+        "suggestions": {
+          "title": "Suggerimenti smart",
+          "desc": "Aggiungi transazioni frequenti in due tocchi"
+        },
+        "widgets": {
+          "title": "Widget schermata Home",
+          "desc": "Progresso del budget a colpo d'occhio"
+        }
       },
       "health": {
         "label": "Salute finanziaria",
         "headline": "Conosci la tua salute finanziaria",
         "subtitle": "Un punteggio mensile su risparmio, spese essenziali, budget e stabilità — con un consiglio personalizzato e un pianificatore pensione per tracciare il tuo percorso verso la libertà finanziaria.",
-        "score": { "title": "Punteggio di salute finanziaria", "desc": "Il tuo punteggio finanziario mensile, dal risparmio alla stabilità" },
-        "tips": { "title": "Consigli personalizzati", "desc": "Un consiglio su misura ogni mese per migliorare il punteggio" },
-        "retire": { "title": "Pianificatore pensione", "desc": "Traccia il tuo percorso verso la libertà finanziaria" }
+        "score": {
+          "title": "Punteggio di salute finanziaria",
+          "desc": "Il tuo punteggio finanziario mensile, dal risparmio alla stabilità"
+        },
+        "tips": {
+          "title": "Consigli personalizzati",
+          "desc": "Un consiglio su misura ogni mese per migliorare il punteggio"
+        },
+        "retire": {
+          "title": "Pianificatore pensione",
+          "desc": "Traccia il tuo percorso verso la libertà finanziaria"
+        }
       },
       "pro": {
         "label": "Passa a Pro",
         "headline": "Sblocca più potenza",
         "subtitle": "Funzionalità avanzate per chi vuole il quadro completo.",
-        "forecast": { "title": "Previsioni finanziarie", "desc": "Prevedi le spese future dalla tua cronologia" },
-        "currency": { "title": "Multi-valuta", "desc": "Perfetto per viaggi e spese internazionali" },
-        "scan": { "title": "Scansione scontrini", "desc": "Scatta una foto, l'IA compila automaticamente" },
-        "repeat": { "title": "Transazioni ricorrenti", "desc": "Automatizza bollette e entrate ricorrenti" }
+        "forecast": {
+          "title": "Previsioni finanziarie",
+          "desc": "Prevedi le spese future dalla tua cronologia"
+        },
+        "currency": {
+          "title": "Multi-valuta",
+          "desc": "Perfetto per viaggi e spese internazionali"
+        },
+        "scan": {
+          "title": "Scansione scontrini",
+          "desc": "Scatta una foto, l'IA compila automaticamente"
+        },
+        "repeat": {
+          "title": "Transazioni ricorrenti",
+          "desc": "Automatizza bollette e entrate ricorrenti"
+        }
       },
       "more": {
         "headline": "E molto altro ancora…",
@@ -399,34 +594,73 @@
         "label": "基本機能",
         "headline": "数秒で記録。予算をキープ。",
         "subtitle": "ワンタップで支出を記録。月の予算を設定し、使いすぎる前にアラートを受け取れます。",
-        "fast": { "title": "クイック入力", "desc": "金額を入力するだけ — 完了" },
-        "calc": { "title": "内蔵電卓", "desc": "レシートをその場で合計" },
-        "budget": { "title": "予算アラート", "desc": "使いすぎる前にお知らせ" }
+        "fast": {
+          "title": "クイック入力",
+          "desc": "金額を入力するだけ — 完了"
+        },
+        "calc": {
+          "title": "内蔵電卓",
+          "desc": "レシートをその場で合計"
+        },
+        "budget": {
+          "title": "予算アラート",
+          "desc": "使いすぎる前にお知らせ"
+        }
       },
       "smart": {
         "label": "スマート機能",
         "headline": "全体像を把握しよう",
         "subtitle": "美しいグラフ、スマートな提案、情報を常に表示するウィジェット。",
-        "reports": { "title": "美しいレポート", "desc": "わかりやすい支出グラフ" },
-        "suggestions": { "title": "スマート提案", "desc": "よく使う取引を2タップで追加" },
-        "widgets": { "title": "ホーム画面ウィジェット", "desc": "予算の進捗を一目で確認" }
+        "reports": {
+          "title": "美しいレポート",
+          "desc": "わかりやすい支出グラフ"
+        },
+        "suggestions": {
+          "title": "スマート提案",
+          "desc": "よく使う取引を2タップで追加"
+        },
+        "widgets": {
+          "title": "ホーム画面ウィジェット",
+          "desc": "予算の進捗を一目で確認"
+        }
       },
       "health": {
         "label": "ファイナンシャルヘルス",
         "headline": "あなたのファイナンシャルヘルスを知ろう",
         "subtitle": "貯蓄、必需品、予算、安定性にわたる毎月のスコアに加え、パーソナライズされたヒントと、経済的自由への道を描くリタイアプランナーを提供。",
-        "score": { "title": "ファイナンシャルヘルススコア", "desc": "貯蓄から安定性まで、毎月のお金のスコア" },
-        "tips": { "title": "パーソナライズされたヒント", "desc": "スコアを上げるための、毎月ぴったりのヒント" },
-        "retire": { "title": "リタイアプランナー", "desc": "経済的自由への道筋を描こう" }
+        "score": {
+          "title": "ファイナンシャルヘルススコア",
+          "desc": "貯蓄から安定性まで、毎月のお金のスコア"
+        },
+        "tips": {
+          "title": "パーソナライズされたヒント",
+          "desc": "スコアを上げるための、毎月ぴったりのヒント"
+        },
+        "retire": {
+          "title": "リタイアプランナー",
+          "desc": "経済的自由への道筋を描こう"
+        }
       },
       "pro": {
         "label": "Proにアップグレード",
         "headline": "さらなるパワーを解放",
         "subtitle": "全体像を求める方のための高度な機能。",
-        "forecast": { "title": "支出予測", "desc": "履歴から将来の支出を予測" },
-        "currency": { "title": "マルチ通貨", "desc": "旅行や海外での支出に最適" },
-        "scan": { "title": "レシートスキャン", "desc": "写真を撮ると、AIが自動入力" },
-        "repeat": { "title": "繰り返し取引", "desc": "定期的な支払いと収入を自動化" }
+        "forecast": {
+          "title": "支出予測",
+          "desc": "履歴から将来の支出を予測"
+        },
+        "currency": {
+          "title": "マルチ通貨",
+          "desc": "旅行や海外での支出に最適"
+        },
+        "scan": {
+          "title": "レシートスキャン",
+          "desc": "写真を撮ると、AIが自動入力"
+        },
+        "repeat": {
+          "title": "繰り返し取引",
+          "desc": "定期的な支払いと収入を自動化"
+        }
       },
       "more": {
         "headline": "他にもたくさん…",
@@ -475,34 +709,73 @@
         "label": "核心功能",
         "headline": "秒速记账，预算无忧。",
         "subtitle": "一键记录支出，设置月度预算，超支前即时提醒。",
-        "fast": { "title": "快速记账", "desc": "输入金额即可 — 完成" },
-        "calc": { "title": "内置计算器", "desc": "随时合计小票金额" },
-        "budget": { "title": "预算提醒", "desc": "超支前及时提醒" }
+        "fast": {
+          "title": "快速记账",
+          "desc": "输入金额即可 — 完成"
+        },
+        "calc": {
+          "title": "内置计算器",
+          "desc": "随时合计小票金额"
+        },
+        "budget": {
+          "title": "预算提醒",
+          "desc": "超支前及时提醒"
+        }
       },
       "smart": {
         "label": "智能功能",
         "headline": "全局掌控",
         "subtitle": "精美图表、智能建议和小组件，让你时刻了解财务状况。",
-        "reports": { "title": "精美报表", "desc": "清晰直观的消费图表" },
-        "suggestions": { "title": "智能建议", "desc": "两步添加常用交易" },
-        "widgets": { "title": "主屏幕小组件", "desc": "一眼查看预算进度" }
+        "reports": {
+          "title": "精美报表",
+          "desc": "清晰直观的消费图表"
+        },
+        "suggestions": {
+          "title": "智能建议",
+          "desc": "两步添加常用交易"
+        },
+        "widgets": {
+          "title": "主屏幕小组件",
+          "desc": "一眼查看预算进度"
+        }
       },
       "health": {
         "label": "财务健康",
         "headline": "了解你的财务健康",
         "subtitle": "涵盖储蓄、必要开支、预算和稳定性的每月评分 — 附带个性化建议，还有退休规划助你规划财务自由之路。",
-        "score": { "title": "财务健康评分", "desc": "从储蓄到稳定性的每月财务评分" },
-        "tips": { "title": "个性化建议", "desc": "每月量身定制的建议，助你提升评分" },
-        "retire": { "title": "退休规划", "desc": "规划你的财务自由之路" }
+        "score": {
+          "title": "财务健康评分",
+          "desc": "从储蓄到稳定性的每月财务评分"
+        },
+        "tips": {
+          "title": "个性化建议",
+          "desc": "每月量身定制的建议，助你提升评分"
+        },
+        "retire": {
+          "title": "退休规划",
+          "desc": "规划你的财务自由之路"
+        }
       },
       "pro": {
         "label": "升级 Pro",
         "headline": "解锁更多功能",
         "subtitle": "为追求全面掌控的你提供高级功能。",
-        "forecast": { "title": "财务预测", "desc": "根据历史数据预测未来支出" },
-        "currency": { "title": "多币种", "desc": "旅行和跨国消费的完美选择" },
-        "scan": { "title": "扫描小票", "desc": "拍张照，AI自动填写" },
-        "repeat": { "title": "重复交易", "desc": "自动化定期账单和收入" }
+        "forecast": {
+          "title": "财务预测",
+          "desc": "根据历史数据预测未来支出"
+        },
+        "currency": {
+          "title": "多币种",
+          "desc": "旅行和跨国消费的完美选择"
+        },
+        "scan": {
+          "title": "扫描小票",
+          "desc": "拍张照，AI自动填写"
+        },
+        "repeat": {
+          "title": "重复交易",
+          "desc": "自动化定期账单和收入"
+        }
       },
       "more": {
         "headline": "还有更多精彩…",
@@ -551,34 +824,73 @@
         "label": "核心功能",
         "headline": "秒速記帳，預算無憂。",
         "subtitle": "一鍵記錄支出，設定月度預算，超支前即時提醒。",
-        "fast": { "title": "快速記帳", "desc": "輸入金額即可 — 完成" },
-        "calc": { "title": "內建計算機", "desc": "隨時合計收據金額" },
-        "budget": { "title": "預算提醒", "desc": "超支前及時提醒" }
+        "fast": {
+          "title": "快速記帳",
+          "desc": "輸入金額即可 — 完成"
+        },
+        "calc": {
+          "title": "內建計算機",
+          "desc": "隨時合計收據金額"
+        },
+        "budget": {
+          "title": "預算提醒",
+          "desc": "超支前及時提醒"
+        }
       },
       "smart": {
         "label": "智慧功能",
         "headline": "全局掌控",
         "subtitle": "精美圖表、智慧建議和小工具，讓你時刻掌握財務狀況。",
-        "reports": { "title": "精美報表", "desc": "清晰直觀的消費圖表" },
-        "suggestions": { "title": "智慧建議", "desc": "兩步新增常用交易" },
-        "widgets": { "title": "主畫面小工具", "desc": "一眼查看預算進度" }
+        "reports": {
+          "title": "精美報表",
+          "desc": "清晰直觀的消費圖表"
+        },
+        "suggestions": {
+          "title": "智慧建議",
+          "desc": "兩步新增常用交易"
+        },
+        "widgets": {
+          "title": "主畫面小工具",
+          "desc": "一眼查看預算進度"
+        }
       },
       "health": {
         "label": "財務健康",
         "headline": "了解你的財務健康",
         "subtitle": "涵蓋儲蓄、必要開支、預算和穩定性的每月評分 — 附帶個人化建議，還有退休規劃助你規劃財務自由之路。",
-        "score": { "title": "財務健康評分", "desc": "從儲蓄到穩定性的每月財務評分" },
-        "tips": { "title": "個人化建議", "desc": "每月量身打造的建議，助你提升評分" },
-        "retire": { "title": "退休規劃", "desc": "規劃你的財務自由之路" }
+        "score": {
+          "title": "財務健康評分",
+          "desc": "從儲蓄到穩定性的每月財務評分"
+        },
+        "tips": {
+          "title": "個人化建議",
+          "desc": "每月量身打造的建議，助你提升評分"
+        },
+        "retire": {
+          "title": "退休規劃",
+          "desc": "規劃你的財務自由之路"
+        }
       },
       "pro": {
         "label": "升級 Pro",
         "headline": "解鎖更多功能",
         "subtitle": "為追求全面掌控的你提供進階功能。",
-        "forecast": { "title": "財務預測", "desc": "根據歷史資料預測未來支出" },
-        "currency": { "title": "多幣種", "desc": "旅行和跨國消費的完美選擇" },
-        "scan": { "title": "掃描收據", "desc": "拍張照，AI自動填寫" },
-        "repeat": { "title": "重複交易", "desc": "自動化定期帳單和收入" }
+        "forecast": {
+          "title": "財務預測",
+          "desc": "根據歷史資料預測未來支出"
+        },
+        "currency": {
+          "title": "多幣種",
+          "desc": "旅行和跨國消費的完美選擇"
+        },
+        "scan": {
+          "title": "掃描收據",
+          "desc": "拍張照，AI自動填寫"
+        },
+        "repeat": {
+          "title": "重複交易",
+          "desc": "自動化定期帳單和收入"
+        }
       },
       "more": {
         "headline": "還有更多精彩…",
@@ -627,34 +939,73 @@
         "label": "핵심 기능",
         "headline": "몇 초 만에 기록. 예산 유지.",
         "subtitle": "한 번의 탭으로 지출을 기록하세요. 월 예산을 설정하고 초과 전에 알림을 받으세요.",
-        "fast": { "title": "빠른 입력", "desc": "금액만 입력하면 — 끝" },
-        "calc": { "title": "내장 계산기", "desc": "이동 중에도 영수증 합산" },
-        "budget": { "title": "예산 알림", "desc": "초과하기 전에 알려드려요" }
+        "fast": {
+          "title": "빠른 입력",
+          "desc": "금액만 입력하면 — 끝"
+        },
+        "calc": {
+          "title": "내장 계산기",
+          "desc": "이동 중에도 영수증 합산"
+        },
+        "budget": {
+          "title": "예산 알림",
+          "desc": "초과하기 전에 알려드려요"
+        }
       },
       "smart": {
         "label": "스마트 기능",
         "headline": "전체 그림을 보세요",
         "subtitle": "아름다운 차트, 스마트 제안, 항상 최신 정보를 제공하는 위젯.",
-        "reports": { "title": "아름다운 리포트", "desc": "명확하고 통찰력 있는 지출 차트" },
-        "suggestions": { "title": "스마트 제안", "desc": "자주 쓰는 거래를 두 번 탭으로 추가" },
-        "widgets": { "title": "홈 화면 위젯", "desc": "예산 진행 상황을 한눈에" }
+        "reports": {
+          "title": "아름다운 리포트",
+          "desc": "명확하고 통찰력 있는 지출 차트"
+        },
+        "suggestions": {
+          "title": "스마트 제안",
+          "desc": "자주 쓰는 거래를 두 번 탭으로 추가"
+        },
+        "widgets": {
+          "title": "홈 화면 위젯",
+          "desc": "예산 진행 상황을 한눈에"
+        }
       },
       "health": {
         "label": "재무 건강",
         "headline": "나의 재무 건강을 확인하세요",
         "subtitle": "저축, 필수 지출, 예산, 안정성을 아우르는 매월 점수 — 맞춤 팁과 경제적 자유로 가는 길을 그리는 은퇴 플래너까지.",
-        "score": { "title": "재무 건강 점수", "desc": "저축부터 안정성까지, 매월 확인하는 나의 재무 점수" },
-        "tips": { "title": "맞춤 팁", "desc": "점수를 높이는 매월 맞춤 팁" },
-        "retire": { "title": "은퇴 플래너", "desc": "경제적 자유로 가는 길을 설계하세요" }
+        "score": {
+          "title": "재무 건강 점수",
+          "desc": "저축부터 안정성까지, 매월 확인하는 나의 재무 점수"
+        },
+        "tips": {
+          "title": "맞춤 팁",
+          "desc": "점수를 높이는 매월 맞춤 팁"
+        },
+        "retire": {
+          "title": "은퇴 플래너",
+          "desc": "경제적 자유로 가는 길을 설계하세요"
+        }
       },
       "pro": {
         "label": "Pro로 업그레이드",
         "headline": "더 강력한 기능 잠금해제",
         "subtitle": "전체 재무 현황을 원하는 분을 위한 고급 기능.",
-        "forecast": { "title": "재무 예측", "desc": "이력으로 미래 지출을 예측" },
-        "currency": { "title": "다중 통화", "desc": "여행 및 해외 지출에 완벽" },
-        "scan": { "title": "영수증 스캔", "desc": "사진을 찍으면 AI가 자동 입력" },
-        "repeat": { "title": "반복 거래", "desc": "정기 청구서와 수입을 자동화" }
+        "forecast": {
+          "title": "재무 예측",
+          "desc": "이력으로 미래 지출을 예측"
+        },
+        "currency": {
+          "title": "다중 통화",
+          "desc": "여행 및 해외 지출에 완벽"
+        },
+        "scan": {
+          "title": "영수증 스캔",
+          "desc": "사진을 찍으면 AI가 자동 입력"
+        },
+        "repeat": {
+          "title": "반복 거래",
+          "desc": "정기 청구서와 수입을 자동화"
+        }
       },
       "more": {
         "headline": "그리고 더 많은 기능…",
@@ -703,34 +1054,73 @@
         "label": "Основные функции",
         "headline": "Записывайте за секунды. Держите бюджет.",
         "subtitle": "Записывайте расходы одним касанием. Установите месячный бюджет и получайте предупреждения.",
-        "fast": { "title": "Быстрый ввод", "desc": "Просто введите сумму — готово" },
-        "calc": { "title": "Встроенный калькулятор", "desc": "Суммируйте чеки на ходу" },
-        "budget": { "title": "Уведомления о бюджете", "desc": "Узнайте до того, как потратите лишнее" }
+        "fast": {
+          "title": "Быстрый ввод",
+          "desc": "Просто введите сумму — готово"
+        },
+        "calc": {
+          "title": "Встроенный калькулятор",
+          "desc": "Суммируйте чеки на ходу"
+        },
+        "budget": {
+          "title": "Уведомления о бюджете",
+          "desc": "Узнайте до того, как потратите лишнее"
+        }
       },
       "smart": {
         "label": "Умные функции",
         "headline": "Увидьте полную картину",
         "subtitle": "Красивые графики, умные подсказки и виджеты для вашего удобства.",
-        "reports": { "title": "Красивые отчёты", "desc": "Понятные графики расходов" },
-        "suggestions": { "title": "Умные подсказки", "desc": "Добавляйте частые операции в два касания" },
-        "widgets": { "title": "Виджеты на главный экран", "desc": "Прогресс бюджета с первого взгляда" }
+        "reports": {
+          "title": "Красивые отчёты",
+          "desc": "Понятные графики расходов"
+        },
+        "suggestions": {
+          "title": "Умные подсказки",
+          "desc": "Добавляйте частые операции в два касания"
+        },
+        "widgets": {
+          "title": "Виджеты на главный экран",
+          "desc": "Прогресс бюджета с первого взгляда"
+        }
       },
       "health": {
         "label": "Финансовое здоровье",
         "headline": "Узнайте своё финансовое здоровье",
         "subtitle": "Ежемесячный показатель по накоплениям, обязательным расходам, бюджету и стабильности — с персональным советом и планировщиком пенсии, который поможет построить путь к финансовой свободе.",
-        "score": { "title": "Показатель финансового здоровья", "desc": "Ваш ежемесячный финансовый рейтинг — от накоплений до стабильности" },
-        "tips": { "title": "Персональные советы", "desc": "Индивидуальный совет каждый месяц для повышения показателя" },
-        "retire": { "title": "Планировщик пенсии", "desc": "Постройте свой путь к финансовой свободе" }
+        "score": {
+          "title": "Показатель финансового здоровья",
+          "desc": "Ваш ежемесячный финансовый рейтинг — от накоплений до стабильности"
+        },
+        "tips": {
+          "title": "Персональные советы",
+          "desc": "Индивидуальный совет каждый месяц для повышения показателя"
+        },
+        "retire": {
+          "title": "Планировщик пенсии",
+          "desc": "Постройте свой путь к финансовой свободе"
+        }
       },
       "pro": {
         "label": "Перейти на Pro",
         "headline": "Разблокируйте больше возможностей",
         "subtitle": "Продвинутые функции для тех, кто хочет полную картину.",
-        "forecast": { "title": "Финансовый прогноз", "desc": "Предсказывайте расходы на основе истории" },
-        "currency": { "title": "Мультивалюта", "desc": "Идеально для путешествий и зарубежных расходов" },
-        "scan": { "title": "Сканирование чеков", "desc": "Сделайте фото — ИИ заполнит автоматически" },
-        "repeat": { "title": "Повторяющиеся операции", "desc": "Автоматизируйте регулярные счета и доходы" }
+        "forecast": {
+          "title": "Финансовый прогноз",
+          "desc": "Предсказывайте расходы на основе истории"
+        },
+        "currency": {
+          "title": "Мультивалюта",
+          "desc": "Идеально для путешествий и зарубежных расходов"
+        },
+        "scan": {
+          "title": "Сканирование чеков",
+          "desc": "Сделайте фото — ИИ заполнит автоматически"
+        },
+        "repeat": {
+          "title": "Повторяющиеся операции",
+          "desc": "Автоматизируйте регулярные счета и доходы"
+        }
       },
       "more": {
         "headline": "И ещё многое другое…",
@@ -757,6 +1147,236 @@
     "footer": {
       "privacy": "Политика конфиденциальности",
       "copyright": "© 2026 Coins. Все права защищены."
+    }
+  },
+  "ar": {
+    "meta": {
+      "title": "Coins - متتبع مصاريف بسيط",
+      "description": "تتبّع مصاريفك في 30 ثانية فقط يوميًا. تطبيق جميل وبسيط وذكي لتتبع المصاريف على iPhone وiPad وMac."
+    },
+    "hero": {
+      "title": "Coins",
+      "cta": "حمِّل من App Store",
+      "headline": "ابنِ عادتك المالية",
+      "subtitle2": "ثوانٍ قليلة في اليوم تكفي.",
+      "platforms": "متوفر الآن على iPhone وiPad وMac.",
+      "pillar.fast": "سريع",
+      "pillar.private": "خصوصي",
+      "pillar.smart": "ذكي"
+    },
+    "sections": {
+      "core": {
+        "label": "التجربة الأساسية",
+        "headline": "سجّل في ثوانٍ. التزم بميزانيتك.",
+        "subtitle": "سجّل المصاريف بلمسة واحدة. حدّد ميزانية شهرية واحصل على تنبيهات قبل تجاوزها.",
+        "fast": {
+          "title": "إدخال سريع",
+          "desc": "أدخل المبلغ فقط — وانتهيت"
+        },
+        "calc": {
+          "title": "آلة حاسبة مدمجة",
+          "desc": "اجمع الفواتير أثناء الإدخال"
+        },
+        "budget": {
+          "title": "تنبيهات الميزانية",
+          "desc": "اعرف قبل أن تتجاوز ميزانيتك"
+        }
+      },
+      "smart": {
+        "label": "ميزات ذكية",
+        "headline": "شاهد الصورة الكاملة",
+        "subtitle": "رسوم بيانية جميلة واقتراحات ذكية وودجات تُبقيك على اطلاع.",
+        "reports": {
+          "title": "تقارير جميلة",
+          "desc": "رسوم بيانية واضحة وثرية للمصاريف"
+        },
+        "suggestions": {
+          "title": "اقتراحات ذكية",
+          "desc": "أضف المعاملات المتكررة بلمستين"
+        },
+        "widgets": {
+          "title": "ودجات الشاشة الرئيسية",
+          "desc": "تقدّم الميزانية في لمحة"
+        }
+      },
+      "health": {
+        "label": "الصحة المالية",
+        "headline": "اعرف صحتك المالية",
+        "subtitle": "تقييم شهري يشمل الادخار والأساسيات والميزانية والاستقرار — مع نصيحة مخصصة ومخطِّط تقاعد يرسم طريقك نحو الحرية المالية.",
+        "score": {
+          "title": "مؤشر الصحة المالية",
+          "desc": "تقييمك المالي الشهري، من الادخار إلى الاستقرار"
+        },
+        "tips": {
+          "title": "نصائح مخصصة",
+          "desc": "نصيحة مخصصة كل شهر لرفع تقييمك"
+        },
+        "retire": {
+          "title": "مخطِّط التقاعد",
+          "desc": "ارسم طريقك نحو الحرية المالية"
+        }
+      },
+      "pro": {
+        "label": "النسخة الاحترافية",
+        "headline": "أطلق المزيد من الإمكانات",
+        "subtitle": "ميزات متقدمة لمن يريد الصورة الكاملة.",
+        "forecast": {
+          "title": "توقعات مالية",
+          "desc": "توقّع مصاريفك المستقبلية من سجلّك"
+        },
+        "currency": {
+          "title": "عملات متعددة",
+          "desc": "مثالي للسفر والمصاريف الدولية"
+        },
+        "scan": {
+          "title": "مسح الفواتير",
+          "desc": "التقط صورة ودَع الذكاء الاصطناعي يملأ البيانات"
+        },
+        "repeat": {
+          "title": "معاملات متكررة",
+          "desc": "أتمِت الفواتير والدخل المتكرر"
+        }
+      },
+      "more": {
+        "headline": "والكثير غير ذلك...",
+        "subtitle": "متوفر الآن على iPhone وiPad وMac — متزامن دائمًا عبر iCloud، وخصوصي دائمًا.",
+        "shortcuts": "اختصارات iOS",
+        "icloud": "مزامنة iCloud",
+        "privacy": "الخصوصية أولًا",
+        "categories": "فئات مخصصة",
+        "themes": "خلفيات متنوعة",
+        "recurring": "معاملات متكررة",
+        "search": "بحث ذكي",
+        "batch": "عمليات دفعية",
+        "mac": "تطبيق Mac",
+        "ipad": "محسَّن لـ iPad",
+        "fiscalYear": "ميزانيات السنة المالية",
+        "budgetExclusions": "استثناءات الميزانية",
+        "shareImage": "مشاركة كصورة",
+        "essentialCategories": "الفئات الأساسية"
+      },
+      "reviews": {
+        "headline": "محبوب من الآلاف"
+      }
+    },
+    "footer": {
+      "privacy": "سياسة الخصوصية",
+      "copyright": "© 2026 Coins. جميع الحقوق محفوظة."
+    }
+  },
+  "pt-BR": {
+    "meta": {
+      "title": "Coins - Controle de Gastos Simples",
+      "description": "Registre seus gastos em apenas 30 segundos por dia. Controle de despesas bonito, simples e inteligente para iPhone, iPad e Mac."
+    },
+    "hero": {
+      "title": "Coins",
+      "cta": "Baixar na App Store",
+      "headline": "Crie o Hábito de Cuidar do Seu Dinheiro",
+      "subtitle2": "Alguns segundos por dia é tudo o que você precisa.",
+      "platforms": "Agora no iPhone, iPad e Mac.",
+      "pillar.fast": "Rápido",
+      "pillar.private": "Privado",
+      "pillar.smart": "Inteligente"
+    },
+    "sections": {
+      "core": {
+        "label": "Experiência Principal",
+        "headline": "Registre em Segundos. Fique no Orçamento.",
+        "subtitle": "Registre gastos com um único toque. Defina um orçamento mensal e receba alertas antes de estourar.",
+        "fast": {
+          "title": "Entrada Rápida",
+          "desc": "Digite o valor — pronto"
+        },
+        "calc": {
+          "title": "Calculadora Integrada",
+          "desc": "Some as notas na hora"
+        },
+        "budget": {
+          "title": "Alertas de Orçamento",
+          "desc": "Saiba antes de gastar demais"
+        }
+      },
+      "smart": {
+        "label": "Recursos Inteligentes",
+        "headline": "Veja o Panorama Completo",
+        "subtitle": "Gráficos bonitos, sugestões inteligentes e widgets que mantêm você informado.",
+        "reports": {
+          "title": "Relatórios Bonitos",
+          "desc": "Gráficos de gastos claros e reveladores"
+        },
+        "suggestions": {
+          "title": "Sugestões Inteligentes",
+          "desc": "Adicione transações frequentes em dois toques"
+        },
+        "widgets": {
+          "title": "Widgets na Tela de Início",
+          "desc": "Progresso do orçamento num relance"
+        }
+      },
+      "health": {
+        "label": "Saúde Financeira",
+        "headline": "Conheça Sua Saúde Financeira",
+        "subtitle": "Uma pontuação mensal de poupança, essenciais, orçamento e estabilidade — com uma dica personalizada e um Planejador de Aposentadoria para traçar seu caminho até a liberdade financeira.",
+        "score": {
+          "title": "Pontuação de Saúde Financeira",
+          "desc": "Sua nota mensal, da poupança à estabilidade"
+        },
+        "tips": {
+          "title": "Dicas Personalizadas",
+          "desc": "Uma dica sob medida por mês para melhorar sua pontuação"
+        },
+        "retire": {
+          "title": "Planejador de Aposentadoria",
+          "desc": "Trace seu caminho até a liberdade financeira"
+        }
+      },
+      "pro": {
+        "label": "Seja Pro",
+        "headline": "Desbloqueie Mais Recursos",
+        "subtitle": "Recursos avançados para quem quer o panorama completo.",
+        "forecast": {
+          "title": "Previsão Financeira",
+          "desc": "Preveja gastos futuros com base no seu histórico"
+        },
+        "currency": {
+          "title": "Multimoeda",
+          "desc": "Perfeito para viagens e gastos internacionais"
+        },
+        "scan": {
+          "title": "Escaneamento de Notas",
+          "desc": "Tire uma foto e deixe a IA preencher"
+        },
+        "repeat": {
+          "title": "Transações Recorrentes",
+          "desc": "Automatize contas e receitas recorrentes"
+        }
+      },
+      "more": {
+        "headline": "E Muito Mais...",
+        "subtitle": "Agora no iPhone, iPad e Mac — sempre sincronizado via iCloud e sempre privado.",
+        "shortcuts": "Atalhos do iOS",
+        "icloud": "Sincronização iCloud",
+        "privacy": "Privacidade em Primeiro Lugar",
+        "categories": "Categorias Personalizadas",
+        "themes": "Temas de Fundo",
+        "recurring": "Transações Recorrentes",
+        "search": "Busca Inteligente",
+        "batch": "Operações em Lote",
+        "mac": "App para Mac",
+        "ipad": "Otimizado para iPad",
+        "fiscalYear": "Orçamentos por Ano Fiscal",
+        "budgetExclusions": "Exclusões de Orçamento",
+        "shareImage": "Compartilhar como Imagem",
+        "essentialCategories": "Categorias Essenciais"
+      },
+      "reviews": {
+        "headline": "Amado por Milhares"
+      }
+    },
+    "footer": {
+      "privacy": "Política de Privacidade",
+      "copyright": "© 2026 Coins. Todos os direitos reservados."
     }
   }
 }
